@@ -5,5 +5,5 @@
 ## Usage
 
 ```
-import { QuietoTokens } from '@quieto/design-tokens';
+import { QuietoDesignTokens } from '@quieto/design-tokens';
 ```
