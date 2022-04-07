@@ -9,7 +9,7 @@ const parsedConfig = JSON.parse(configFile);
 
 const { sizing, typography, colors } = parsedConfig;
 
-const tokens = {
+const QuietoDesignTokens = {
   spaces: generateSizing(sizing),
   typography: {
     ...typography,
@@ -21,6 +21,6 @@ const tokens = {
   },
 };
 
-writeTokensToJSON(tokens);
+writeTokensToJSON(QuietoDesignTokens);
 
-export default tokens;
+export default QuietoDesignTokens;
