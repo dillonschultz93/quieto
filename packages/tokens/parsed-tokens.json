@@ -1,0 +1,930 @@
+{
+  "scale": {
+    "byTwo": {
+      "100": {
+        "value": 2,
+        "description": "",
+        "type": "other"
+      },
+      "200": {
+        "value": 4,
+        "description": "",
+        "type": "other"
+      },
+      "300": {
+        "value": 6,
+        "description": "",
+        "type": "other"
+      },
+      "400": {
+        "value": 8,
+        "description": "",
+        "type": "other"
+      },
+      "500": {
+        "value": 10,
+        "description": "",
+        "type": "other"
+      },
+      "600": {
+        "value": 12,
+        "description": "",
+        "type": "other"
+      },
+      "700": {
+        "value": 14,
+        "description": "",
+        "type": "other"
+      },
+      "800": {
+        "value": 16,
+        "description": "",
+        "type": "other"
+      },
+      "900": {
+        "value": 18,
+        "description": "",
+        "type": "other"
+      },
+      "1000": {
+        "value": 20,
+        "description": "",
+        "type": "other"
+      },
+      "1100": {
+        "value": 22,
+        "description": "",
+        "type": "other"
+      },
+      "1200": {
+        "value": 24,
+        "description": "",
+        "type": "other"
+      },
+      "1300": {
+        "value": 26,
+        "description": "",
+        "type": "other"
+      },
+      "1400": {
+        "value": 28,
+        "description": "",
+        "type": "other"
+      },
+      "1500": {
+        "value": 30,
+        "description": "",
+        "type": "other"
+      },
+      "1600": {
+        "value": 32,
+        "description": "",
+        "type": "other"
+      },
+      "1700": {
+        "value": 34,
+        "description": "",
+        "type": "other"
+      },
+      "1800": {
+        "value": 36,
+        "description": "",
+        "type": "other"
+      },
+      "1900": {
+        "value": 38,
+        "description": "",
+        "type": "other"
+      },
+      "2000": {
+        "value": 40,
+        "description": "",
+        "type": "other"
+      }
+    },
+    "bySixteen": {
+      "100": {
+        "value": 32,
+        "description": "",
+        "type": "other"
+      },
+      "200": {
+        "value": 48,
+        "description": "",
+        "type": "other"
+      },
+      "300": {
+        "value": 64,
+        "description": "",
+        "type": "other"
+      },
+      "400": {
+        "value": 80,
+        "description": "",
+        "type": "other"
+      },
+      "500": {
+        "value": 96,
+        "description": "",
+        "type": "other"
+      },
+      "600": {
+        "value": 112,
+        "description": "",
+        "type": "other"
+      },
+      "700": {
+        "value": 128,
+        "description": "",
+        "type": "other"
+      },
+      "800": {
+        "value": 144,
+        "description": "",
+        "type": "other"
+      },
+      "900": {
+        "value": 160,
+        "description": "",
+        "type": "other"
+      },
+      "1000": {
+        "value": 176,
+        "description": "",
+        "type": "other"
+      },
+      "1100": {
+        "value": 192,
+        "description": "",
+        "type": "other"
+      },
+      "1200": {
+        "value": 208,
+        "description": "",
+        "type": "other"
+      },
+      "1300": {
+        "value": 224,
+        "description": "",
+        "type": "other"
+      },
+      "1400": {
+        "value": 240,
+        "description": "",
+        "type": "other"
+      },
+      "1500": {
+        "value": 256,
+        "description": "",
+        "type": "other"
+      },
+      "1600": {
+        "value": 272,
+        "description": "",
+        "type": "other"
+      },
+      "1700": {
+        "value": 288,
+        "description": "",
+        "type": "other"
+      },
+      "1800": {
+        "value": 304,
+        "description": "",
+        "type": "other"
+      },
+      "1900": {
+        "value": 320,
+        "description": "",
+        "type": "other"
+      },
+      "2000": {
+        "value": 336,
+        "description": "",
+        "type": "other"
+      },
+      "2100": {
+        "value": 352,
+        "description": "",
+        "type": "other"
+      },
+      "2200": {
+        "value": 368,
+        "description": "",
+        "type": "other"
+      },
+      "2300": {
+        "value": 384,
+        "description": "",
+        "type": "other"
+      },
+      "2400": {
+        "value": 400,
+        "description": "",
+        "type": "other"
+      },
+      "2500": {
+        "value": 416,
+        "description": "",
+        "type": "other"
+      },
+      "2600": {
+        "value": 432,
+        "description": "",
+        "type": "other"
+      },
+      "2700": {
+        "value": 448,
+        "description": "",
+        "type": "other"
+      },
+      "2800": {
+        "value": 464,
+        "description": "",
+        "type": "other"
+      },
+      "2900": {
+        "value": 480,
+        "description": "",
+        "type": "other"
+      },
+      "3000": {
+        "value": 496,
+        "description": "",
+        "type": "other"
+      },
+      "3100": {
+        "value": 512,
+        "description": "",
+        "type": "other"
+      },
+      "3200": {
+        "value": 528,
+        "description": "",
+        "type": "other"
+      },
+      "3300": {
+        "value": 544,
+        "description": "",
+        "type": "other"
+      },
+      "3400": {
+        "value": 560,
+        "description": "",
+        "type": "other"
+      },
+      "3500": {
+        "value": 576,
+        "description": "",
+        "type": "other"
+      },
+      "3600": {
+        "value": 592,
+        "description": "",
+        "type": "other"
+      },
+      "3700": {
+        "value": 608,
+        "description": "",
+        "type": "other"
+      },
+      "3800": {
+        "value": 624,
+        "description": "",
+        "type": "other"
+      },
+      "3900": {
+        "value": 640,
+        "description": "",
+        "type": "other"
+      },
+      "4000": {
+        "value": 656,
+        "description": "",
+        "type": "other"
+      },
+      "4100": {
+        "value": 672,
+        "description": "",
+        "type": "other"
+      },
+      "4200": {
+        "value": 688,
+        "description": "",
+        "type": "other"
+      },
+      "4300": {
+        "value": 704,
+        "description": "",
+        "type": "other"
+      },
+      "4400": {
+        "value": 720,
+        "description": "",
+        "type": "other"
+      },
+      "4500": {
+        "value": 736,
+        "description": "",
+        "type": "other"
+      },
+      "4600": {
+        "value": 752,
+        "description": "",
+        "type": "other"
+      },
+      "4700": {
+        "value": 768,
+        "description": "",
+        "type": "other"
+      },
+      "4800": {
+        "value": 784,
+        "description": "",
+        "type": "other"
+      },
+      "4900": {
+        "value": 800,
+        "description": "",
+        "type": "other"
+      },
+      "5000": {
+        "value": 816,
+        "description": "",
+        "type": "other"
+      },
+      "5100": {
+        "value": 832,
+        "description": "",
+        "type": "other"
+      },
+      "5200": {
+        "value": 848,
+        "description": "",
+        "type": "other"
+      },
+      "5300": {
+        "value": 864,
+        "description": "",
+        "type": "other"
+      },
+      "5400": {
+        "value": 880,
+        "description": "",
+        "type": "other"
+      },
+      "5500": {
+        "value": 896,
+        "description": "",
+        "type": "other"
+      },
+      "5600": {
+        "value": 912,
+        "description": "",
+        "type": "other"
+      },
+      "5700": {
+        "value": 928,
+        "description": "",
+        "type": "other"
+      },
+      "5800": {
+        "value": 944,
+        "description": "",
+        "type": "other"
+      },
+      "5900": {
+        "value": 960,
+        "description": "",
+        "type": "other"
+      },
+      "6000": {
+        "value": 976,
+        "description": "",
+        "type": "other"
+      },
+      "6100": {
+        "value": 992,
+        "description": "",
+        "type": "other"
+      },
+      "6200": {
+        "value": 1008,
+        "description": "",
+        "type": "other"
+      },
+      "6300": {
+        "value": 1024,
+        "description": "",
+        "type": "other"
+      }
+    }
+  },
+  "typography": {
+    "families": {
+      "sans": {
+        "value": "Outfit",
+        "description": "Used for the body text.",
+        "type": "fontFamilies"
+      },
+      "mono": {
+        "value": "Fira Code",
+        "description": "Used for the code snippets.",
+        "type": "fontFamilies"
+      }
+    },
+    "weights": {
+      "300": {
+        "value": 300,
+        "description": "Light",
+        "type": "fontWeights"
+      },
+      "400": {
+        "value": 400,
+        "description": "Regular",
+        "type": "fontWeights"
+      },
+      "700": {
+        "value": 700,
+        "description": "Bold",
+        "type": "fontWeights"
+      }
+    },
+    "lineHeights": {
+      "sm": {
+        "value": 1.2,
+        "description": "",
+        "type": "lineHeights"
+      },
+      "md": {
+        "value": 1.5,
+        "description": "",
+        "type": "lineHeights"
+      },
+      "lg": {
+        "value": 1.75,
+        "description": "",
+        "type": "lineHeights"
+      }
+    }
+  },
+  "colors": {
+    "red": {
+      "100": {
+        "value": "#f9d6d4",
+        "description": "",
+        "type": "color"
+      },
+      "200": {
+        "value": "#f2ada8",
+        "description": "",
+        "type": "color"
+      },
+      "300": {
+        "value": "#eb837c",
+        "description": "",
+        "type": "color"
+      },
+      "400": {
+        "value": "#e55a50",
+        "description": "",
+        "type": "color"
+      },
+      "500": {
+        "value": "#de3024",
+        "description": "",
+        "type": "color"
+      },
+      "600": {
+        "value": "#b1261d",
+        "description": "",
+        "type": "color"
+      },
+      "700": {
+        "value": "#851d16",
+        "description": "",
+        "type": "color"
+      },
+      "800": {
+        "value": "#58130e",
+        "description": "",
+        "type": "color"
+      },
+      "900": {
+        "value": "#2c0907",
+        "description": "",
+        "type": "color"
+      }
+    },
+    "orange": {
+      "100": {
+        "value": "#ffe8d6",
+        "description": "",
+        "type": "color"
+      },
+      "200": {
+        "value": "#ffd1ac",
+        "description": "",
+        "type": "color"
+      },
+      "300": {
+        "value": "#ffb982",
+        "description": "",
+        "type": "color"
+      },
+      "400": {
+        "value": "#ffa258",
+        "description": "",
+        "type": "color"
+      },
+      "500": {
+        "value": "#ff8a2e",
+        "description": "",
+        "type": "color"
+      },
+      "600": {
+        "value": "#cc6e25",
+        "description": "",
+        "type": "color"
+      },
+      "700": {
+        "value": "#98531c",
+        "description": "",
+        "type": "color"
+      },
+      "800": {
+        "value": "#653712",
+        "description": "",
+        "type": "color"
+      },
+      "900": {
+        "value": "#321b09",
+        "description": "",
+        "type": "color"
+      }
+    },
+    "green": {
+      "100": {
+        "value": "#e0f9dd",
+        "description": "",
+        "type": "color"
+      },
+      "200": {
+        "value": "#c0f3ba",
+        "description": "",
+        "type": "color"
+      },
+      "300": {
+        "value": "#a1ec98",
+        "description": "",
+        "type": "color"
+      },
+      "400": {
+        "value": "#81e675",
+        "description": "",
+        "type": "color"
+      },
+      "500": {
+        "value": "#61e052",
+        "description": "",
+        "type": "color"
+      },
+      "600": {
+        "value": "#4eb342",
+        "description": "",
+        "type": "color"
+      },
+      "700": {
+        "value": "#3a8631",
+        "description": "",
+        "type": "color"
+      },
+      "800": {
+        "value": "#275921",
+        "description": "",
+        "type": "color"
+      },
+      "900": {
+        "value": "#132c10",
+        "description": "",
+        "type": "color"
+      }
+    },
+    "indigo": {
+      "100": {
+        "value": "#dddbfa",
+        "description": "",
+        "type": "color"
+      },
+      "200": {
+        "value": "#bbb5f6",
+        "description": "",
+        "type": "color"
+      },
+      "300": {
+        "value": "#9990f1",
+        "description": "",
+        "type": "color"
+      },
+      "400": {
+        "value": "#766aed",
+        "description": "",
+        "type": "color"
+      },
+      "500": {
+        "value": "#5445e8",
+        "description": "",
+        "type": "color"
+      },
+      "600": {
+        "value": "#4337b9",
+        "description": "",
+        "type": "color"
+      },
+      "700": {
+        "value": "#32298b",
+        "description": "",
+        "type": "color"
+      },
+      "800": {
+        "value": "#211b5c",
+        "description": "",
+        "type": "color"
+      },
+      "900": {
+        "value": "#100e2d",
+        "description": "",
+        "type": "color"
+      }
+    },
+    "gray": {
+      "100": {
+        "value": "#e9e9e9",
+        "description": "",
+        "type": "color"
+      },
+      "200": {
+        "value": "#d2d3d3",
+        "description": "",
+        "type": "color"
+      },
+      "300": {
+        "value": "#bbbcbd",
+        "description": "",
+        "type": "color"
+      },
+      "400": {
+        "value": "#a5a6a6",
+        "description": "",
+        "type": "color"
+      },
+      "500": {
+        "value": "#8e8f90",
+        "description": "",
+        "type": "color"
+      },
+      "600": {
+        "value": "#717273",
+        "description": "",
+        "type": "color"
+      },
+      "700": {
+        "value": "#555656",
+        "description": "",
+        "type": "color"
+      },
+      "800": {
+        "value": "#383939",
+        "description": "",
+        "type": "color"
+      },
+      "900": {
+        "value": "#1c1c1c",
+        "description": "",
+        "type": "color"
+      }
+    },
+    "white": {
+      "value": "#ffffff",
+      "description": "",
+      "type": "color"
+    },
+    "black": {
+      "value": "#000000",
+      "description": "",
+      "type": "color"
+    }
+  },
+  "spaces": {
+    "100": {
+      "value": 4,
+      "type": "spacing"
+    },
+    "200": {
+      "value": 8,
+      "type": "spacing"
+    },
+    "300": {
+      "value": 12,
+      "type": "spacing"
+    },
+    "400": {
+      "value": 16,
+      "type": "spacing"
+    },
+    "500": {
+      "value": 20,
+      "type": "spacing"
+    },
+    "600": {
+      "value": 24,
+      "type": "spacing"
+    },
+    "700": {
+      "value": 32,
+      "type": "spacing"
+    },
+    "800": {
+      "value": 40,
+      "type": "spacing"
+    }
+  },
+  "corner": {
+    "xs": {
+      "value": 2,
+      "type": "borderRadius"
+    },
+    "sm": {
+      "value": 4,
+      "type": "borderRadius"
+    },
+    "md": {
+      "value": 8,
+      "type": "borderRadius"
+    },
+    "lg": {
+      "value": 16,
+      "type": "borderRadius"
+    },
+    "xl": {
+      "value": 24,
+      "type": "borderRadius"
+    },
+    "full": {
+      "value": "100%",
+      "type": "borderRadius"
+    }
+  },
+  "sizes": {
+    "none": {
+      "value": 0,
+      "type": "sizing"
+    },
+    "nano": {
+      "100": {
+        "value": 1,
+        "type": "sizing"
+      },
+      "200": {
+        "value": 2,
+        "type": "sizing"
+      },
+      "300": {
+        "value": 3,
+        "type": "sizing"
+      },
+      "400": {
+        "value": 4,
+        "type": "sizing"
+      }
+    },
+    "micro": {
+      "100": {
+        "value": 2,
+        "type": "sizing"
+      },
+      "200": {
+        "value": 4,
+        "type": "sizing"
+      },
+      "300": {
+        "value": 6,
+        "type": "sizing"
+      },
+      "400": {
+        "value": 8,
+        "type": "sizing"
+      },
+      "500": {
+        "value": 10,
+        "type": "sizing"
+      },
+      "600": {
+        "value": 12,
+        "type": "sizing"
+      },
+      "700": {
+        "value": 14,
+        "type": "sizing"
+      },
+      "800": {
+        "value": 16,
+        "type": "sizing"
+      },
+      "900": {
+        "value": 18,
+        "type": "sizing"
+      },
+      "1000": {
+        "value": 20,
+        "type": "sizing"
+      },
+      "1100": {
+        "value": 22,
+        "type": "sizing"
+      },
+      "1200": {
+        "value": 24,
+        "type": "sizing"
+      },
+      "1300": {
+        "value": 26,
+        "type": "sizing"
+      },
+      "1400": {
+        "value": 28,
+        "type": "sizing"
+      },
+      "1500": {
+        "value": 30,
+        "type": "sizing"
+      },
+      "1600": {
+        "value": 32,
+        "type": "sizing"
+      },
+      "1700": {
+        "value": 34,
+        "type": "sizing"
+      },
+      "1800": {
+        "value": 36,
+        "type": "sizing"
+      },
+      "1900": {
+        "value": 38,
+        "type": "sizing"
+      },
+      "2000": {
+        "value": 40,
+        "type": "sizing"
+      }
+    },
+    "macro": {
+      "100": {
+        "value": 32,
+        "type": "sizing"
+      },
+      "200": {
+        "value": 48,
+        "type": "sizing"
+      },
+      "300": {
+        "value": 64,
+        "type": "sizing"
+      },
+      "400": {
+        "value": 128,
+        "type": "sizing"
+      },
+      "500": {
+        "value": 208,
+        "type": "sizing"
+      },
+      "600": {
+        "value": 256,
+        "type": "sizing"
+      },
+      "700": {
+        "value": 432,
+        "type": "sizing"
+      },
+      "800": {
+        "value": 464,
+        "type": "sizing"
+      },
+      "900": {
+        "value": 512,
+        "type": "sizing"
+      },
+      "1000": {
+        "value": 768,
+        "type": "sizing"
+      },
+      "1100": {
+        "value": 1024,
+        "type": "sizing"
+      }
+    }
+  }
+}

@@ -14,10 +14,11 @@
     "lib"
   ],
   "scripts": {
-    "build": "tsc && node ./lib/index.js",
+    "build": "tsc && token-transformer tokens.json parsed-tokens.json && node ./lib/index.js",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
+    "token-transformer": "^0.0.20",
     "values.js": "^2.1.1"
   }
 }
