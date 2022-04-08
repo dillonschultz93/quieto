@@ -8,6 +8,4 @@ const QuietoDesignTokens = {
   ...parsedConfig,
 };
 
-console.log(JSON.stringify(QuietoDesignTokens, null, 2));
-
 export default QuietoDesignTokens;
