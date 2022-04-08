@@ -18,7 +18,6 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "token-transformer": "^0.0.20",
-    "values.js": "^2.1.1"
+    "token-transformer": "^0.0.20"
   }
 }
