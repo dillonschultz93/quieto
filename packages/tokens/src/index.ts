@@ -1,11 +1,11 @@
 import fs from 'fs';
 import path from 'path';
 
-const configFile = fs.readFileSync(path.join(__dirname, '../parsed-tokens.json'), 'utf8');
-const parsedConfig = JSON.parse(configFile);
+const tokenFile = fs.readFileSync(path.join(__dirname, 'parsed-tokens.json'), 'utf8');
+const parsedTokens = JSON.parse(tokenFile);
 
 const QuietoDesignTokens = {
-  ...parsedConfig,
+  ...parsedTokens,
 };
 
 export default QuietoDesignTokens;
