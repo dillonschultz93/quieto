@@ -1,7 +1,7 @@
 {
   "name": "@quieto/design-tokens",
   "version": "0.0.1-alpha.3",
-  "description": "> TODO: description",
+  "description": "Quieto Design Tokens",
   "author": "Dillon Schultz <dillonschultz93@gmail.com>",
   "homepage": "",
   "license": "ISC",
@@ -17,7 +17,8 @@
     "access": "public"
   },
   "scripts": {
-    "build:tokens": "tsc && token-transformer ./src/tokens.json ./lib/parsed-tokens.json",
+    "cloneAssets": "cp -r ./assets ./lib/assets",
+    "build:tokens": "tsc && token-transformer ./src/tokens.json ./lib/parsed-tokens.json && npm run cloneAssets",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
