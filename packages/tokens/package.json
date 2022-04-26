@@ -17,7 +17,7 @@
     "access": "public"
   },
   "scripts": {
-    "cloneAssets": "cp -r ./assets ./lib/assets",
+    "cloneAssets": "cp -r ./assets ./lib",
     "build:tokens": "tsc && token-transformer ./src/tokens.json ./lib/parsed-tokens.json && npm run cloneAssets",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
