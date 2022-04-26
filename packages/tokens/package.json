@@ -14,7 +14,7 @@
     "lib"
   ],
   "scripts": {
-    "build": "tsc && token-transformer tokens.json ./lib/parsed-tokens.json && node ./lib/index.js",
+    "build": "tsc && token-transformer ./src/tokens.json ./lib/parsed-tokens.json && node ./lib/index.js",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
