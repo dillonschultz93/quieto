@@ -1,6 +1,9 @@
 {
   "name": "quieto",
   "private": true,
+  "scripts": {
+    "publish": "lerna run build:tokens && lerna publish"
+  },
   "devDependencies": {
     "@types/lodash": "^4.14.181",
     "@types/node": "^17.0.23",
