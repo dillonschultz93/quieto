@@ -19,5 +19,6 @@
   },
   "dependencies": {
     "token-transformer": "^0.0.20"
-  }
+  },
+  "gitHead": "67aedb804cdb433387f43e415dc49525bc54ce7a"
 }

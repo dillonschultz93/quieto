@@ -1,6 +1,6 @@
 {
   "name": "quieto",
-  "private": true,
+  "private": false,
   "scripts": {
     "publish": "lerna run build:tokens && lerna publish"
   },
