@@ -6,6 +6,18 @@ Quito Design Tokens is a collection of tokens that are used for the implementati
 
 ## Usage
 
+### Getting the value from the global object
+
 ```
 import { QuietoDesignTokens } from '@quieto/design-tokens';
+
+
+```
+
+### Getting the value from a named export
+
+```
+import { ColorsRed100 } from '@quieto/design-tokens/js';
+
+
 ```
