@@ -1,4 +1,4 @@
-![Quieto Design Tokens version 0.0.0](./lib/assets/images/README.png)
+![Quieto Design Tokens version 0.0.1-alpha.6](./lib/assets/images/README.png)
 
 # `Quieto Design Tokens`
 
