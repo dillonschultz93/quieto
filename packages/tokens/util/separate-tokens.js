@@ -4,7 +4,7 @@ const path = require('path');
 
 // Separates the parsed tokens into separate json files. This is help when running them through style dictionary.
 function separateTokens() {
-  const tokenFile = fs.readFileSync(path.join(__dirname, '../tmp/parsed-tokens.json'), 'utf8');
+  const tokenFile = fs.readFileSync(path.join(__dirname, '../src/parsed-tokens.json'), 'utf8');
   const parsedTokens = JSON.parse(tokenFile);
   // Loop through the parsed tokens.
   Object.entries(parsedTokens).forEach(([key, value]) => {

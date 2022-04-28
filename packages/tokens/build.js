@@ -51,15 +51,6 @@ StyleDictionary.registerFormat({
 });
 // =============================================================================
 
-function moveRawTokens() {
-  // Build all platforms.
-  StyleDictionary.buildAllPlatforms();
-
-  // Put raw tokens into the lib directory.
-  fs.readdirSync(path.join(__dirname, 'tmp/')).forEach(file => {
-    fs.copyFileSync(path.join(__dirname, 'tmp/', file), path.join(__dirname, 'lib/', file));
-  });
-}
-
 separateTokens();
-moveRawTokens();
+
+StyleDictionary.buildAllPlatforms();
