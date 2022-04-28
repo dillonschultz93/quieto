@@ -6,6 +6,11 @@
   "homepage": "",
   "license": "ISC",
   "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./js": "./lib/js/index.js",
+    "./css": "./lib/css/_variables.css"
+  },
   "directories": {
     "lib": "lib",
     "test": "__tests__"
