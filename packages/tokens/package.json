@@ -23,7 +23,7 @@
   },
   "scripts": {
     "cloneAssets": "cp -r ./assets ./lib",
-    "build:tokens": "token-transformer ./src/tokens.json ./src/parsed-tokens.json && node build.js && tsc && npm run cloneAssets",
+    "build:tokens": "token-transformer ./src/tokens.json ./tmp/parsed-tokens.json && node build.js && tsc && npm run cloneAssets && rm -rf tmp/",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
