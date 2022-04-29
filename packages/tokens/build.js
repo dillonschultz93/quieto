@@ -37,6 +37,16 @@ const StyleDictionary = require('style-dictionary').extend({
           "format": "css/variables"
         }
       ]
+    },
+    "json": {
+      "transformGroup": "web",
+      "buildPath": "src/",
+      "files": [
+        {
+          "destination": "transformed-tokens.json",
+          "format": "json/nested"
+        }
+      ]
     }
   }
 });
