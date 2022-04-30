@@ -1,0 +1,19 @@
+{
+  "tracking": {
+    "tight": {
+      "value": "-1%",
+      "type": "letterSpacing",
+      "description": "Tight letter spacing"
+    },
+    "loose": {
+      "value": "2%",
+      "type": "letterSpacing",
+      "description": "Loose letter spacing"
+    },
+    "default": {
+      "value": "0%",
+      "type": "letterSpacing",
+      "description": "Default letter spacing"
+    }
+  }
+}

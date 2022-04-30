@@ -1,0 +1,11 @@
+{
+  "gradients": {
+    "black-to-transparent": {
+      "180": {
+        "value": "linear-gradient(180deg, #ffffff 0%, #000000cc 100%)",
+        "type": "color",
+        "description": "Black to transparent white: bottom to top"
+      }
+    }
+  }
+}
