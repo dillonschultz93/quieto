@@ -300,17 +300,32 @@
   },
   "misc": {
     "corner": {
-      "xs": 2,
-      "sm": 4,
-      "md": 8,
-      "lg": 16,
-      "xl": 24,
+      "xs": {
+        "px": 2,
+        "rem": 0.111
+      },
+      "sm": {
+        "px": 4,
+        "rem": 0.222
+      },
+      "md": {
+        "px": 8,
+        "rem": 0.444
+      },
+      "lg": {
+        "px": 16,
+        "rem": 0.889
+      },
+      "xl": {
+        "px": 24,
+        "rem": 1.333
+      },
       "full": "100%"
     },
     "borderWidth": {
-      "sm": 1,
-      "md": 2,
-      "lg": 4
+      "sm": "1px",
+      "md": "2px",
+      "lg": "4px"
     },
     "opacity": {
       "10": 0.1,
@@ -346,7 +361,7 @@
   "typography": {
     "families": {
       "sans": "Outfit",
-      "mono": "Fira Code"
+      "mono": "FiraCode"
     },
     "lineHeights": {
       "sm": 1.2,
@@ -399,25 +414,40 @@
         "rem": 1.25
       }
     },
-    "baseline": 24,
+    "baseline": {
+      "px": 24,
+      "rem": 1.333
+    },
     "leading": {
-      "sm": 12,
-      "lg": 48,
-      "xl": 72,
-      "md": 24
+      "sm": {
+        "px": 12,
+        "rem": 0.667
+      },
+      "lg": {
+        "px": 48,
+        "rem": 2.667
+      },
+      "xl": {
+        "px": 72,
+        "rem": 4
+      },
+      "md": {
+        "px": 24,
+        "rem": 1.333
+      }
     },
     "fontWeights": {
       "300": {
-        "figma": "Light",
-        "css": 300
+        "named": "Light",
+        "indexed": 300
       },
       "400": {
-        "figma": "Regular",
-        "css": 400
+        "named": "Regular",
+        "indexed": 400
       },
       "700": {
-        "figma": "Bold",
-        "css": 700
+        "named": "Bold",
+        "indexed": 700
       }
     }
   }
