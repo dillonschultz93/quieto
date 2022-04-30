@@ -1,0 +1,240 @@
+{
+  "typography": {
+    "families": {
+      "sans": {
+        "value": "Outfit",
+        "description": "Used for the body text.",
+        "type": "fontFamilies"
+      },
+      "mono": {
+        "value": "Fira Code",
+        "description": "Used for the code snippets.",
+        "type": "fontFamilies"
+      }
+    },
+    "lineHeights": {
+      "sm": {
+        "value": 1.2,
+        "description": "Tight spacing between lines",
+        "type": "lineHeights"
+      },
+      "md": {
+        "value": 1.5,
+        "description": "Default spacing between lines",
+        "type": "lineHeights"
+      },
+      "lg": {
+        "value": 1.75,
+        "description": "Loose spacing between lines",
+        "type": "lineHeights"
+      }
+    },
+    "case": {
+      "upper": {
+        "value": "uppercase",
+        "description": "Uppercase text",
+        "type": "textCase"
+      },
+      "lower": {
+        "value": "lowercase",
+        "description": "Lowercase text",
+        "type": "textCase"
+      },
+      "cap": {
+        "value": "capitalize",
+        "description": "Capitalize text",
+        "type": "textCase"
+      }
+    },
+    "decoration": {
+      "underline": {
+        "value": "underline",
+        "type": "textDecoration",
+        "description": "Underline text"
+      },
+      "strike": {
+        "value": "line-through",
+        "type": "textDecoration",
+        "description": "Strike through text"
+      }
+    },
+    "tracking": {
+      "tight": {
+        "value": "-1%",
+        "type": "letterSpacing",
+        "description": "Tight letter spacing"
+      },
+      "loose": {
+        "value": "2%",
+        "type": "letterSpacing",
+        "description": "Loose letter spacing"
+      },
+      "default": {
+        "value": "0%",
+        "type": "letterSpacing",
+        "description": "Default letter spacing"
+      }
+    },
+    "fontScale": {
+      "value": 1.25,
+      "type": "other",
+      "description": "Used to create a modular type scale"
+    },
+    "fontSize": {
+      "base": {
+        "value": 18,
+        "type": "fontSizes",
+        "description": "Base font size"
+      },
+      "xs": {
+        "px": {
+          "value": 11.52,
+          "type": "fontSizes",
+          "description": "Extra small font size in pixels"
+        },
+        "rem": {
+          "value": 0.64,
+          "type": "fontSizes",
+          "description": "Extra small font size in rem"
+        }
+      },
+      "lg": {
+        "px": {
+          "value": 28.125,
+          "type": "fontSizes",
+          "description": "Heading level three font size in pixels"
+        },
+        "rem": {
+          "value": 1.563,
+          "type": "fontSizes",
+          "description": "Heading level three font size in rem"
+        }
+      },
+      "xl": {
+        "px": {
+          "value": 35.156,
+          "type": "fontSizes",
+          "description": "Heading level two font size in pixels"
+        },
+        "rem": {
+          "value": 1.953,
+          "type": "fontSizes",
+          "description": "Heading level two font size in rem"
+        }
+      },
+      "xxl": {
+        "px": {
+          "value": 43.945,
+          "type": "fontSizes",
+          "description": "Heading level one font size in pixels"
+        },
+        "rem": {
+          "value": 2.441,
+          "type": "fontSizes",
+          "description": "Heading level one font size in rem"
+        }
+      },
+      "xxxl": {
+        "px": {
+          "value": 54.932,
+          "type": "fontSizes",
+          "description": "Hero/Jumbo font size in pixels"
+        },
+        "rem": {
+          "value": 3.052,
+          "type": "fontSizes",
+          "description": "Hero/Jumbo font size in rem"
+        }
+      },
+      "sm": {
+        "px": {
+          "value": 14.4,
+          "type": "fontSizes",
+          "description": "Small font size in pixels"
+        },
+        "rem": {
+          "value": 0.8,
+          "type": "fontSizes",
+          "description": "Small font size in rem"
+        }
+      },
+      "md": {
+        "px": {
+          "value": 22.5,
+          "type": "fontSizes",
+          "description": "Heading level four font size in pixels"
+        },
+        "rem": {
+          "value": 1.25,
+          "type": "fontSizes",
+          "description": "Heading level four font size in rem"
+        }
+      }
+    },
+    "baseline": {
+      "value": 24,
+      "type": "other",
+      "description": "Used to create a vertical rhythm"
+    },
+    "leading": {
+      "sm": {
+        "value": 12,
+        "type": "paragraphSpacing",
+        "description": "Small paragraph spacing"
+      },
+      "lg": {
+        "value": 48,
+        "type": "paragraphSpacing",
+        "description": "Large paragraph spacing"
+      },
+      "xl": {
+        "value": 72,
+        "type": "paragraphSpacing",
+        "description": "Extra large paragraph spacing"
+      },
+      "md": {
+        "value": 24,
+        "type": "paragraphSpacing",
+        "description": "Default paragraph spacing"
+      }
+    },
+    "fontWeights": {
+      "300": {
+        "figma": {
+          "value": "Light",
+          "type": "fontWeights",
+          "description": "Light font weight"
+        },
+        "css": {
+          "value": 300,
+          "type": "fontWeights",
+          "description": "Light font weight"
+        }
+      },
+      "400": {
+        "figma": {
+          "value": "Regular",
+          "type": "fontWeights",
+          "description": "Regular font weight"
+        },
+        "css": {
+          "value": 400,
+          "type": "fontWeights",
+          "description": "Regular font weight"
+        }
+      },
+      "700": {
+        "figma": {
+          "value": "Bold",
+          "type": "fontWeights",
+          "description": "Bold font weight"
+        },
+        "css": {
+          "value": 700,
+          "type": "fontWeights",
+          "description": "Bold font weight"
+        }
+      }
+    }
+  }
+}

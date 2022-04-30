@@ -12,14 +12,12 @@ function separateTokens() {
     // Check if the directory exists. If not, create it.
     fs.existsSync(path.join(__dirname, `../src/${key}/`)) ? console.log(`${key}/ already exists`) : fs.mkdirSync(path.join(__dirname, `../src/${key}/`), { recursive: true });
     
-    Object.entries(value).forEach(([k, v]) => {
-      // Write the content of the tokens files.
-      const content = `{
-  "${k}": ${JSON.stringify(v, null, 2)}
+    // Write the content of the tokens files.
+    const content = `{
+  "${key}": ${JSON.stringify(value, null, 2)}
 }`
-      // Write the separate tokens to the file.
-      fs.writeFileSync(path.join(__dirname, `../src/${key}/${k}.tokens.json`), content, 'utf8');
-    });
+    // Write the separate tokens to the file.
+    fs.writeFileSync(path.join(__dirname, `../src/${key}/${key}.tokens.json`), content, 'utf8');
   });
 }
 

@@ -85,6 +85,56 @@
       "black-to-transparent": {
         "180": "linear-gradient(180deg, #ffffff 0%, #000000cc 100%)"
       }
+    },
+    "surface": {
+      "light": {
+        "100": "#ffffff",
+        "200": "#e9e9e9",
+        "300": "#d2d3d3",
+        "400": "#bbbcbd"
+      },
+      "dark": {
+        "100": "#000000",
+        "200": "#1c1c1c",
+        "300": "#383939",
+        "400": "#555656"
+      }
+    },
+    "border": {
+      "light": {
+        "100": "#e9e9e9",
+        "300": "#bbbcbd",
+        "400": "#a5a6a6",
+        "500": "#8e8f90",
+        "700": "#555656",
+        "contrast": "#000000"
+      },
+      "dark": {
+        "100": "#1c1c1c",
+        "300": "#555656",
+        "400": "#717273",
+        "500": "#8e8f90",
+        "700": "#bbbcbd",
+        "contrast": "#ffffff"
+      }
+    },
+    "text": {
+      "light": {
+        "primary": "#1c1c1c",
+        "secondary": "#717273",
+        "tertiary": "#a5a6a6",
+        "link": "#4337b9",
+        "error": "#de3024",
+        "reverse": "#ffffff"
+      },
+      "dark": {
+        "primary": "#ffffff",
+        "secondary": "#a5a6a6",
+        "tertiary": "#717273",
+        "link": "#9990f1",
+        "error": "#e55a50",
+        "reverse": "#1c1c1c"
+      }
     }
   },
   "dimension": {
@@ -286,6 +336,11 @@
       "fr": "fr",
       "%": "%",
       "deg": "deg"
+    },
+    "elevation": {
+      "300": "0px 0px 40px #00000012, 0px 0px 12.1px #0000000d, 0px 0px 5px #0000000a, 0px 0px 1.8px #00000005",
+      "500": "0px 10px 40px #00000012, 0px 4.2px 16.7px #0000000d, 0px 2.2px 8.9px #0000000a, 0px 1.3px 5px #0000000a, 0px 0.7px 2.7px #00000008, 0px 0.3px 1.1px #00000005",
+      "700": "0px 20px 40px #00000012, 0px 10px 20px #0000000d, 0px 6px 12.1px #0000000d, 0px 3.9px 7.7px #0000000a, 0px 2.5px 5px #0000000a, 0px 1.6px 3.2px #00000008, 0px 0.9px 1.8px #00000005, 0px 0.4px 0.8px #00000005"
     }
   },
   "typography": {
