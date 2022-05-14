@@ -1,4 +1,4 @@
-import tokens from './transformed-tokens.json';
+import tokens from './tokens.json';
 
 export const QuietoDesignTokens = {
   ...tokens,

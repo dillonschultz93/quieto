@@ -2,11 +2,19 @@
 const fs = require('fs');
 const path = require('path');
 const _ = require('lodash');
-const separateTokens = require('./util/separate-tokens');
+const { transform } = require('@divriots/style-dictionary-to-figma');
+const stripTokenset = require('./util/strip-tokenset');
 
 // Set up style dictionary ====================================================
 const StyleDictionary = require('style-dictionary').extend({
   "source": ["src/**/*.tokens.json"],
+  "format": {
+    figmaTokensPluginJson: ({ dictionary }) => {
+      const transformedTokens = transform(dictionary.tokens);
+
+      return JSON.stringify(transformedTokens, null, 2);
+    }
+  },
   "platforms": {
     "js": {
       "transformGroup": "js",
@@ -39,15 +47,19 @@ const StyleDictionary = require('style-dictionary').extend({
       ]
     },
     "json": {
-      "transformGroup": "web",
+      "transformGroup": "js",
       "buildPath": "src/",
       "files": [
         {
-          "destination": "transformed-tokens.json",
+          "destination": "../tmp/transformed-tokens.json",
           "format": "json/nested"
+        },
+        {
+          "destination": "figma-tokens.json",
+          "format": "figmaTokensPluginJson"
         }
       ]
-    }
+    },
   }
 });
 
@@ -61,6 +73,10 @@ StyleDictionary.registerFormat({
 });
 // =============================================================================
 
-separateTokens();
-
 StyleDictionary.buildAllPlatforms();
+
+// Strip the `tokenset` property from the transformed tokens
+const transformedTokens = require('./tmp/transformed-tokens.json');
+const strippedTokens = stripTokenset(transformedTokens);
+
+fs.writeFileSync('./src/tokens.json', JSON.stringify(strippedTokens, null, 2));

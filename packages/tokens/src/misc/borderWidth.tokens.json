@@ -1,0 +1,20 @@
+{
+  "borderWidth": {
+    "tokenset": "global",
+    "sm": {
+      "value": "1px",
+      "type": "borderWidth",
+      "description": "Border width"
+    },
+    "md": {
+      "value": "2px",
+      "type": "borderWidth",
+      "description": "Border width"
+    },
+    "lg": {
+      "value": "4px",
+      "type": "borderWidth",
+      "description": "Border width"
+    }
+  }
+}
