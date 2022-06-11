@@ -3,14 +3,38 @@
     "tokenset": "global",
     "families": {
       "sans": {
-        "value": "Outfit",
-        "description": "Used for the body text.",
-        "type": "fontFamilies"
+        "light": {
+          "value": "Outfit-Light",
+          "description": "Light weight body text",
+          "type": "fontFamilies"
+        },
+        "regular": {
+          "value": "Outfit-Regular",
+          "description": "Regular weight body text",
+          "type": "fontFamilies"
+        },
+        "bold": {
+          "value": "Outfit-Bold",
+          "description": "Bold weight body text",
+          "type": "fontFamilies"
+        }
       },
       "mono": {
-        "value": "FiraCode",
-        "description": "Used for the code snippets.",
-        "type": "fontFamilies"
+        "light": {
+          "value": "FiraCode-Light",
+          "description": "Used for the code snippets.",
+          "type": "fontFamilies"
+        },
+        "regular": {
+          "value": "FiraCode-Regular",
+          "description": "Used for the code snippets.",
+          "type": "fontFamilies"
+        },
+        "bold": {
+          "value": "FiraCode-Bold",
+          "description": "Used for the code snippets.",
+          "type": "fontFamilies"
+        }
       }
     },
     "lineHeights": {
@@ -83,90 +107,90 @@
     },
     "fontSize": {
       "base": {
-        "value": 18,
+        "value": "18px",
         "type": "fontSizes",
         "description": "Base font size"
       },
       "xs": {
         "px": {
-          "value": 11.52,
+          "value": "11.52px",
           "type": "fontSizes",
           "description": "Extra small font size in pixels"
         },
         "rem": {
-          "value": 0.64,
+          "value": "0.64rem",
           "type": "fontSizes",
           "description": "Extra small font size in rem"
         }
       },
       "lg": {
         "px": {
-          "value": 28.125,
+          "value": "28.125px",
           "type": "fontSizes",
           "description": "Heading level three font size in pixels"
         },
         "rem": {
-          "value": 1.563,
+          "value": "1.563rem",
           "type": "fontSizes",
           "description": "Heading level three font size in rem"
         }
       },
       "xl": {
         "px": {
-          "value": 35.156,
+          "value": "35.156px",
           "type": "fontSizes",
           "description": "Heading level two font size in pixels"
         },
         "rem": {
-          "value": 1.953,
+          "value": "1.953rem",
           "type": "fontSizes",
           "description": "Heading level two font size in rem"
         }
       },
       "xxl": {
         "px": {
-          "value": 43.945,
+          "value": "43.945px",
           "type": "fontSizes",
           "description": "Heading level one font size in pixels"
         },
         "rem": {
-          "value": 2.441,
+          "value": "2.441rem",
           "type": "fontSizes",
           "description": "Heading level one font size in rem"
         }
       },
       "xxxl": {
         "px": {
-          "value": 54.932,
+          "value": "54.932px",
           "type": "fontSizes",
           "description": "Hero/Jumbo font size in pixels"
         },
         "rem": {
-          "value": 3.052,
+          "value": "3.052rem",
           "type": "fontSizes",
           "description": "Hero/Jumbo font size in rem"
         }
       },
       "sm": {
         "px": {
-          "value": 14.4,
+          "value": "14.4px",
           "type": "fontSizes",
           "description": "Small font size in pixels"
         },
         "rem": {
-          "value": 0.8,
+          "value": "0.8rem",
           "type": "fontSizes",
           "description": "Small font size in rem"
         }
       },
       "md": {
         "px": {
-          "value": 22.5,
+          "value": "22.5px",
           "type": "fontSizes",
           "description": "Heading level four font size in pixels"
         },
         "rem": {
-          "value": 1.25,
+          "value": "1.25rem",
           "type": "fontSizes",
           "description": "Heading level four font size in rem"
         }
@@ -174,12 +198,12 @@
     },
     "baseline": {
       "px": {
-        "value": 24,
+        "value": "24px",
         "type": "other",
         "description": "Vertical rhythm in pixels"
       },
       "rem": {
-        "value": 1.333,
+        "value": "1.333rem",
         "type": "other",
         "description": "Vertical rhythm in rems"
       }
