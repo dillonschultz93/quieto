@@ -3,4 +3,5 @@ lerna-debug.log
 npm-debug.log
 packages/*/lib
 packages/*/tmp
+packages/tokens/src/tokens.json
 .vscode/*
