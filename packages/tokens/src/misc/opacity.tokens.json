@@ -1,6 +1,6 @@
 {
   "opacity": {
-    "tokenset": "global",
+    "tokenset": "core",
     "10": {
       "value": 0.1,
       "type": "opacity",

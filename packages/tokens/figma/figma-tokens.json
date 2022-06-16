@@ -1,5 +1,319 @@
 {
-  "global": {
+  "core": {
+    "border": {
+      "light": {
+        "100": {
+          "value": "{colors.gray.200}",
+          "type": "color",
+          "description": "Lightest border",
+          "filePath": "src/colors/border.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "{colors.gray.200}",
+            "type": "color",
+            "description": "Lightest border"
+          },
+          "attributes": {
+            "category": "border",
+            "type": "light",
+            "item": "100"
+          },
+          "path": {
+            "0": "border",
+            "1": "light",
+            "2": "100"
+          }
+        },
+        "200": {
+          "value": "{colors.gray.300}",
+          "type": "color",
+          "description": "-",
+          "filePath": "src/colors/border.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "{colors.gray.300}",
+            "type": "color",
+            "description": "-"
+          },
+          "attributes": {
+            "category": "border",
+            "type": "light",
+            "item": "200"
+          },
+          "path": {
+            "0": "border",
+            "1": "light",
+            "2": "200"
+          }
+        },
+        "300": {
+          "value": "{colors.gray.400}",
+          "type": "color",
+          "description": "-",
+          "filePath": "src/colors/border.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "{colors.gray.400}",
+            "type": "color",
+            "description": "-"
+          },
+          "attributes": {
+            "category": "border",
+            "type": "light",
+            "item": "300"
+          },
+          "path": {
+            "0": "border",
+            "1": "light",
+            "2": "300"
+          }
+        },
+        "400": {
+          "value": "{colors.gray.500}",
+          "type": "color",
+          "description": "-",
+          "filePath": "src/colors/border.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "{colors.gray.500}",
+            "type": "color",
+            "description": "-"
+          },
+          "attributes": {
+            "category": "border",
+            "type": "light",
+            "item": "400"
+          },
+          "path": {
+            "0": "border",
+            "1": "light",
+            "2": "400"
+          }
+        },
+        "500": {
+          "value": "{colors.gray.600}",
+          "type": "color",
+          "description": "-",
+          "filePath": "src/colors/border.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "{colors.gray.600}",
+            "type": "color",
+            "description": "-"
+          },
+          "attributes": {
+            "category": "border",
+            "type": "light",
+            "item": "500"
+          },
+          "path": {
+            "0": "border",
+            "1": "light",
+            "2": "500"
+          }
+        },
+        "contrast": {
+          "value": "{colors.gray.900}",
+          "type": "color",
+          "description": "Inverted border",
+          "filePath": "src/colors/border.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "{colors.gray.900}",
+            "type": "color",
+            "description": "Inverted border"
+          },
+          "attributes": {
+            "category": "border",
+            "type": "light",
+            "item": "contrast"
+          },
+          "path": {
+            "0": "border",
+            "1": "light",
+            "2": "contrast"
+          }
+        },
+        "inverse": {
+          "value": "{colors.white}",
+          "type": "color",
+          "description": "Inverted border",
+          "filePath": "src/colors/border.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "{colors.white}",
+            "type": "color",
+            "description": "Inverted border"
+          },
+          "attributes": {
+            "category": "border",
+            "type": "light",
+            "item": "inverse"
+          },
+          "path": {
+            "0": "border",
+            "1": "light",
+            "2": "inverse"
+          }
+        }
+      },
+      "dark": {
+        "100": {
+          "value": "{colors.gray.700}",
+          "type": "color",
+          "description": "Lightest border",
+          "filePath": "src/colors/border.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "{colors.gray.700}",
+            "type": "color",
+            "description": "Lightest border"
+          },
+          "attributes": {
+            "category": "border",
+            "type": "dark",
+            "item": "100"
+          },
+          "path": {
+            "0": "border",
+            "1": "dark",
+            "2": "100"
+          }
+        },
+        "200": {
+          "value": "{colors.gray.600}",
+          "type": "color",
+          "description": "-",
+          "filePath": "src/colors/border.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "{colors.gray.600}",
+            "type": "color",
+            "description": "-"
+          },
+          "attributes": {
+            "category": "border",
+            "type": "dark",
+            "item": "200"
+          },
+          "path": {
+            "0": "border",
+            "1": "dark",
+            "2": "200"
+          }
+        },
+        "300": {
+          "value": "{colors.gray.500}",
+          "type": "color",
+          "description": "-",
+          "filePath": "src/colors/border.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "{colors.gray.500}",
+            "type": "color",
+            "description": "-"
+          },
+          "attributes": {
+            "category": "border",
+            "type": "dark",
+            "item": "300"
+          },
+          "path": {
+            "0": "border",
+            "1": "dark",
+            "2": "300"
+          }
+        },
+        "400": {
+          "value": "{colors.gray.400}",
+          "type": "color",
+          "description": "-",
+          "filePath": "src/colors/border.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "{colors.gray.400}",
+            "type": "color",
+            "description": "-"
+          },
+          "attributes": {
+            "category": "border",
+            "type": "dark",
+            "item": "400"
+          },
+          "path": {
+            "0": "border",
+            "1": "dark",
+            "2": "400"
+          }
+        },
+        "500": {
+          "value": "{colors.gray.300}",
+          "type": "color",
+          "description": "-",
+          "filePath": "src/colors/border.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "{colors.gray.300}",
+            "type": "color",
+            "description": "-"
+          },
+          "attributes": {
+            "category": "border",
+            "type": "dark",
+            "item": "500"
+          },
+          "path": {
+            "0": "border",
+            "1": "dark",
+            "2": "500"
+          }
+        },
+        "contrast": {
+          "value": "{colors.gray.900}",
+          "type": "color",
+          "description": "Inverted border",
+          "filePath": "src/colors/border.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "{colors.gray.900}",
+            "type": "color",
+            "description": "Inverted border"
+          },
+          "attributes": {
+            "category": "border",
+            "type": "dark",
+            "item": "contrast"
+          },
+          "path": {
+            "0": "border",
+            "1": "dark",
+            "2": "contrast"
+          }
+        },
+        "inverse": {
+          "value": "{colors.white}",
+          "type": "color",
+          "description": "Inverted border",
+          "filePath": "src/colors/border.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "{colors.white}",
+            "type": "color",
+            "description": "Inverted border"
+          },
+          "attributes": {
+            "category": "border",
+            "type": "dark",
+            "item": "inverse"
+          },
+          "path": {
+            "0": "border",
+            "1": "dark",
+            "2": "inverse"
+          }
+        }
+      }
+    },
     "colors": {
       "gray": {
         "100": {
@@ -2440,1304 +2754,884 @@
           "0": "colors",
           "1": "black"
         }
-      },
-      "transparency": {
-        "white": {
-          "10": {
-            "value": "#ffffff1a",
-            "type": "color",
-            "description": "10% opacity",
-            "filePath": "src/colors/colors.tokens.json",
-            "isSource": true,
-            "original": {
-              "value": "#ffffff1a",
-              "type": "color",
-              "description": "10% opacity"
-            },
-            "attributes": {
-              "category": "colors",
-              "type": "transparency",
-              "item": "white",
-              "subitem": "10"
-            },
-            "path": {
-              "0": "colors",
-              "1": "transparency",
-              "2": "white",
-              "3": "10"
-            }
-          },
-          "20": {
-            "value": "#ffffff33",
-            "type": "color",
-            "description": "20% opacity",
-            "filePath": "src/colors/colors.tokens.json",
-            "isSource": true,
-            "original": {
-              "value": "#ffffff33",
-              "type": "color",
-              "description": "20% opacity"
-            },
-            "attributes": {
-              "category": "colors",
-              "type": "transparency",
-              "item": "white",
-              "subitem": "20"
-            },
-            "path": {
-              "0": "colors",
-              "1": "transparency",
-              "2": "white",
-              "3": "20"
-            }
-          },
-          "30": {
-            "value": "#ffffff4d",
-            "type": "color",
-            "description": "30% opacity",
-            "filePath": "src/colors/colors.tokens.json",
-            "isSource": true,
-            "original": {
-              "value": "#ffffff4d",
-              "type": "color",
-              "description": "30% opacity"
-            },
-            "attributes": {
-              "category": "colors",
-              "type": "transparency",
-              "item": "white",
-              "subitem": "30"
-            },
-            "path": {
-              "0": "colors",
-              "1": "transparency",
-              "2": "white",
-              "3": "30"
-            }
-          },
-          "40": {
-            "value": "#ffffff66",
-            "type": "color",
-            "description": "40% opacity",
-            "filePath": "src/colors/colors.tokens.json",
-            "isSource": true,
-            "original": {
-              "value": "#ffffff66",
-              "type": "color",
-              "description": "40% opacity"
-            },
-            "attributes": {
-              "category": "colors",
-              "type": "transparency",
-              "item": "white",
-              "subitem": "40"
-            },
-            "path": {
-              "0": "colors",
-              "1": "transparency",
-              "2": "white",
-              "3": "40"
-            }
-          },
-          "50": {
-            "value": "#ffffff80",
-            "type": "color",
-            "description": "50% opacity",
-            "filePath": "src/colors/colors.tokens.json",
-            "isSource": true,
-            "original": {
-              "value": "#ffffff80",
-              "type": "color",
-              "description": "50% opacity"
-            },
-            "attributes": {
-              "category": "colors",
-              "type": "transparency",
-              "item": "white",
-              "subitem": "50"
-            },
-            "path": {
-              "0": "colors",
-              "1": "transparency",
-              "2": "white",
-              "3": "50"
-            }
-          },
-          "60": {
-            "value": "#ffffff99",
-            "type": "color",
-            "description": "60% opacity",
-            "filePath": "src/colors/colors.tokens.json",
-            "isSource": true,
-            "original": {
-              "value": "#ffffff99",
-              "type": "color",
-              "description": "60% opacity"
-            },
-            "attributes": {
-              "category": "colors",
-              "type": "transparency",
-              "item": "white",
-              "subitem": "60"
-            },
-            "path": {
-              "0": "colors",
-              "1": "transparency",
-              "2": "white",
-              "3": "60"
-            }
-          },
-          "70": {
-            "value": "#ffffffb3",
-            "type": "color",
-            "description": "70% opacity",
-            "filePath": "src/colors/colors.tokens.json",
-            "isSource": true,
-            "original": {
-              "value": "#ffffffb3",
-              "type": "color",
-              "description": "70% opacity"
-            },
-            "attributes": {
-              "category": "colors",
-              "type": "transparency",
-              "item": "white",
-              "subitem": "70"
-            },
-            "path": {
-              "0": "colors",
-              "1": "transparency",
-              "2": "white",
-              "3": "70"
-            }
-          },
-          "80": {
-            "value": "#ffffffcc",
-            "type": "color",
-            "description": "80% opacity",
-            "filePath": "src/colors/colors.tokens.json",
-            "isSource": true,
-            "original": {
-              "value": "#ffffffcc",
-              "type": "color",
-              "description": "80% opacity"
-            },
-            "attributes": {
-              "category": "colors",
-              "type": "transparency",
-              "item": "white",
-              "subitem": "80"
-            },
-            "path": {
-              "0": "colors",
-              "1": "transparency",
-              "2": "white",
-              "3": "80"
-            }
-          },
-          "90": {
-            "value": "#ffffffe6",
-            "type": "color",
-            "description": "90% opacity",
-            "filePath": "src/colors/colors.tokens.json",
-            "isSource": true,
-            "original": {
-              "value": "#ffffffe6",
-              "type": "color",
-              "description": "90% opacity"
-            },
-            "attributes": {
-              "category": "colors",
-              "type": "transparency",
-              "item": "white",
-              "subitem": "90"
-            },
-            "path": {
-              "0": "colors",
-              "1": "transparency",
-              "2": "white",
-              "3": "90"
-            }
-          }
-        },
-        "black": {
-          "10": {
-            "value": "#0000001a",
-            "type": "color",
-            "description": "10% opacity",
-            "filePath": "src/colors/colors.tokens.json",
-            "isSource": true,
-            "original": {
-              "value": "#0000001a",
-              "type": "color",
-              "description": "10% opacity"
-            },
-            "attributes": {
-              "category": "colors",
-              "type": "transparency",
-              "item": "black",
-              "subitem": "10"
-            },
-            "path": {
-              "0": "colors",
-              "1": "transparency",
-              "2": "black",
-              "3": "10"
-            }
-          },
-          "20": {
-            "value": "#00000033",
-            "type": "color",
-            "description": "20% opacity",
-            "filePath": "src/colors/colors.tokens.json",
-            "isSource": true,
-            "original": {
-              "value": "#00000033",
-              "type": "color",
-              "description": "20% opacity"
-            },
-            "attributes": {
-              "category": "colors",
-              "type": "transparency",
-              "item": "black",
-              "subitem": "20"
-            },
-            "path": {
-              "0": "colors",
-              "1": "transparency",
-              "2": "black",
-              "3": "20"
-            }
-          },
-          "30": {
-            "value": "#0000004d",
-            "type": "color",
-            "description": "30% opacity",
-            "filePath": "src/colors/colors.tokens.json",
-            "isSource": true,
-            "original": {
-              "value": "#0000004d",
-              "type": "color",
-              "description": "30% opacity"
-            },
-            "attributes": {
-              "category": "colors",
-              "type": "transparency",
-              "item": "black",
-              "subitem": "30"
-            },
-            "path": {
-              "0": "colors",
-              "1": "transparency",
-              "2": "black",
-              "3": "30"
-            }
-          },
-          "40": {
-            "value": "#00000066",
-            "type": "color",
-            "description": "40% opacity",
-            "filePath": "src/colors/colors.tokens.json",
-            "isSource": true,
-            "original": {
-              "value": "#00000066",
-              "type": "color",
-              "description": "40% opacity"
-            },
-            "attributes": {
-              "category": "colors",
-              "type": "transparency",
-              "item": "black",
-              "subitem": "40"
-            },
-            "path": {
-              "0": "colors",
-              "1": "transparency",
-              "2": "black",
-              "3": "40"
-            }
-          },
-          "50": {
-            "value": "#00000080",
-            "type": "color",
-            "description": "50% opacity",
-            "filePath": "src/colors/colors.tokens.json",
-            "isSource": true,
-            "original": {
-              "value": "#00000080",
-              "type": "color",
-              "description": "50% opacity"
-            },
-            "attributes": {
-              "category": "colors",
-              "type": "transparency",
-              "item": "black",
-              "subitem": "50"
-            },
-            "path": {
-              "0": "colors",
-              "1": "transparency",
-              "2": "black",
-              "3": "50"
-            }
-          },
-          "60": {
-            "value": "#00000099",
-            "type": "color",
-            "description": "60% opacity",
-            "filePath": "src/colors/colors.tokens.json",
-            "isSource": true,
-            "original": {
-              "value": "#00000099",
-              "type": "color",
-              "description": "60% opacity"
-            },
-            "attributes": {
-              "category": "colors",
-              "type": "transparency",
-              "item": "black",
-              "subitem": "60"
-            },
-            "path": {
-              "0": "colors",
-              "1": "transparency",
-              "2": "black",
-              "3": "60"
-            }
-          },
-          "70": {
-            "value": "#000000b3",
-            "type": "color",
-            "description": "70% opacity",
-            "filePath": "src/colors/colors.tokens.json",
-            "isSource": true,
-            "original": {
-              "value": "#000000b3",
-              "type": "color",
-              "description": "70% opacity"
-            },
-            "attributes": {
-              "category": "colors",
-              "type": "transparency",
-              "item": "black",
-              "subitem": "70"
-            },
-            "path": {
-              "0": "colors",
-              "1": "transparency",
-              "2": "black",
-              "3": "70"
-            }
-          },
-          "80": {
-            "value": "#000000cc",
-            "type": "color",
-            "description": "80% opacity",
-            "filePath": "src/colors/colors.tokens.json",
-            "isSource": true,
-            "original": {
-              "value": "#000000cc",
-              "type": "color",
-              "description": "80% opacity"
-            },
-            "attributes": {
-              "category": "colors",
-              "type": "transparency",
-              "item": "black",
-              "subitem": "80"
-            },
-            "path": {
-              "0": "colors",
-              "1": "transparency",
-              "2": "black",
-              "3": "80"
-            }
-          },
-          "90": {
-            "value": "#000000e6",
-            "type": "color",
-            "description": "90% opacity",
-            "filePath": "src/colors/colors.tokens.json",
-            "isSource": true,
-            "original": {
-              "value": "#000000e6",
-              "type": "color",
-              "description": "90% opacity"
-            },
-            "attributes": {
-              "category": "colors",
-              "type": "transparency",
-              "item": "black",
-              "subitem": "90"
-            },
-            "path": {
-              "0": "colors",
-              "1": "transparency",
-              "2": "black",
-              "3": "90"
-            }
-          }
-        }
-      },
-      "gradients": {
-        "black-to-transparent": {
-          "180": {
+      }
+    },
+    "gradients": {
+      "black-to-transparent": {
+        "180": {
+          "value": "linear-gradient(180deg, #ffffff 0%, #000000cc 100%)",
+          "type": "color",
+          "description": "Black to transparent white: bottom to top",
+          "filePath": "src/colors/gradients.tokens.json",
+          "isSource": true,
+          "original": {
             "value": "linear-gradient(180deg, #ffffff 0%, #000000cc 100%)",
             "type": "color",
-            "description": "Black to transparent white: bottom to top",
-            "filePath": "src/colors/colors.tokens.json",
-            "isSource": true,
-            "original": {
-              "value": "linear-gradient(180deg, #ffffff 0%, #000000cc 100%)",
-              "type": "color",
-              "description": "Black to transparent white: bottom to top"
-            },
-            "attributes": {
-              "category": "colors",
-              "type": "gradients",
-              "item": "black-to-transparent",
-              "subitem": "180"
-            },
-            "path": {
-              "0": "colors",
-              "1": "gradients",
-              "2": "black-to-transparent",
-              "3": "180"
-            }
+            "description": "Black to transparent white: bottom to top"
+          },
+          "attributes": {
+            "category": "gradients",
+            "type": "black-to-transparent",
+            "item": "180"
+          },
+          "path": {
+            "0": "gradients",
+            "1": "black-to-transparent",
+            "2": "180"
+          }
+        }
+      }
+    },
+    "surface": {
+      "light": {
+        "100": {
+          "value": "{colors.white}",
+          "type": "color",
+          "description": "Lightest surface",
+          "filePath": "src/colors/surface.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "{colors.white}",
+            "type": "color",
+            "description": "Lightest surface"
+          },
+          "attributes": {
+            "category": "surface",
+            "type": "light",
+            "item": "100"
+          },
+          "path": {
+            "0": "surface",
+            "1": "light",
+            "2": "100"
+          }
+        },
+        "200": {
+          "value": "{colors.gray.100}",
+          "type": "color",
+          "description": "-",
+          "filePath": "src/colors/surface.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "{colors.gray.100}",
+            "type": "color",
+            "description": "-"
+          },
+          "attributes": {
+            "category": "surface",
+            "type": "light",
+            "item": "200"
+          },
+          "path": {
+            "0": "surface",
+            "1": "light",
+            "2": "200"
+          }
+        },
+        "300": {
+          "value": "{colors.gray.200}",
+          "type": "color",
+          "description": "-",
+          "filePath": "src/colors/surface.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "{colors.gray.200}",
+            "type": "color",
+            "description": "-"
+          },
+          "attributes": {
+            "category": "surface",
+            "type": "light",
+            "item": "300"
+          },
+          "path": {
+            "0": "surface",
+            "1": "light",
+            "2": "300"
+          }
+        },
+        "400": {
+          "value": "{colors.gray.300}",
+          "type": "color",
+          "description": "-",
+          "filePath": "src/colors/surface.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "{colors.gray.300}",
+            "type": "color",
+            "description": "-"
+          },
+          "attributes": {
+            "category": "surface",
+            "type": "light",
+            "item": "400"
+          },
+          "path": {
+            "0": "surface",
+            "1": "light",
+            "2": "400"
           }
         }
       },
-      "surface": {
-        "light": {
-          "100": {
-            "value": "{colors.white}",
-            "type": "color",
-            "description": "Lightest surface",
-            "filePath": "src/colors/colors.tokens.json",
-            "isSource": true,
-            "original": {
-              "value": "{colors.white}",
-              "type": "color",
-              "description": "Lightest surface"
-            },
-            "attributes": {
-              "category": "colors",
-              "type": "surface",
-              "item": "light",
-              "subitem": "100"
-            },
-            "path": {
-              "0": "colors",
-              "1": "surface",
-              "2": "light",
-              "3": "100"
-            }
-          },
-          "200": {
-            "value": "{colors.gray.100}",
-            "type": "color",
-            "description": "-",
-            "filePath": "src/colors/colors.tokens.json",
-            "isSource": true,
-            "original": {
-              "value": "{colors.gray.100}",
-              "type": "color",
-              "description": "-"
-            },
-            "attributes": {
-              "category": "colors",
-              "type": "surface",
-              "item": "light",
-              "subitem": "200"
-            },
-            "path": {
-              "0": "colors",
-              "1": "surface",
-              "2": "light",
-              "3": "200"
-            }
-          },
-          "300": {
-            "value": "{colors.gray.200}",
-            "type": "color",
-            "description": "-",
-            "filePath": "src/colors/colors.tokens.json",
-            "isSource": true,
-            "original": {
-              "value": "{colors.gray.200}",
-              "type": "color",
-              "description": "-"
-            },
-            "attributes": {
-              "category": "colors",
-              "type": "surface",
-              "item": "light",
-              "subitem": "300"
-            },
-            "path": {
-              "0": "colors",
-              "1": "surface",
-              "2": "light",
-              "3": "300"
-            }
-          },
-          "400": {
-            "value": "{colors.gray.300}",
-            "type": "color",
-            "description": "-",
-            "filePath": "src/colors/colors.tokens.json",
-            "isSource": true,
-            "original": {
-              "value": "{colors.gray.300}",
-              "type": "color",
-              "description": "-"
-            },
-            "attributes": {
-              "category": "colors",
-              "type": "surface",
-              "item": "light",
-              "subitem": "400"
-            },
-            "path": {
-              "0": "colors",
-              "1": "surface",
-              "2": "light",
-              "3": "400"
-            }
-          }
-        },
-        "dark": {
-          "100": {
+      "dark": {
+        "100": {
+          "value": "{colors.black}",
+          "type": "color",
+          "description": "Lightest surface",
+          "filePath": "src/colors/surface.tokens.json",
+          "isSource": true,
+          "original": {
             "value": "{colors.black}",
             "type": "color",
-            "description": "Lightest surface",
-            "filePath": "src/colors/colors.tokens.json",
-            "isSource": true,
-            "original": {
-              "value": "{colors.black}",
-              "type": "color",
-              "description": "Lightest surface"
-            },
-            "attributes": {
-              "category": "colors",
-              "type": "surface",
-              "item": "dark",
-              "subitem": "100"
-            },
-            "path": {
-              "0": "colors",
-              "1": "surface",
-              "2": "dark",
-              "3": "100"
-            }
+            "description": "Lightest surface"
           },
-          "200": {
+          "attributes": {
+            "category": "surface",
+            "type": "dark",
+            "item": "100"
+          },
+          "path": {
+            "0": "surface",
+            "1": "dark",
+            "2": "100"
+          }
+        },
+        "200": {
+          "value": "{colors.gray.900}",
+          "type": "color",
+          "description": "-",
+          "filePath": "src/colors/surface.tokens.json",
+          "isSource": true,
+          "original": {
             "value": "{colors.gray.900}",
             "type": "color",
-            "description": "-",
-            "filePath": "src/colors/colors.tokens.json",
-            "isSource": true,
-            "original": {
-              "value": "{colors.gray.900}",
-              "type": "color",
-              "description": "-"
-            },
-            "attributes": {
-              "category": "colors",
-              "type": "surface",
-              "item": "dark",
-              "subitem": "200"
-            },
-            "path": {
-              "0": "colors",
-              "1": "surface",
-              "2": "dark",
-              "3": "200"
-            }
+            "description": "-"
           },
-          "300": {
+          "attributes": {
+            "category": "surface",
+            "type": "dark",
+            "item": "200"
+          },
+          "path": {
+            "0": "surface",
+            "1": "dark",
+            "2": "200"
+          }
+        },
+        "300": {
+          "value": "{colors.gray.800}",
+          "type": "color",
+          "description": "-",
+          "filePath": "src/colors/surface.tokens.json",
+          "isSource": true,
+          "original": {
             "value": "{colors.gray.800}",
             "type": "color",
-            "description": "-",
-            "filePath": "src/colors/colors.tokens.json",
-            "isSource": true,
-            "original": {
-              "value": "{colors.gray.800}",
-              "type": "color",
-              "description": "-"
-            },
-            "attributes": {
-              "category": "colors",
-              "type": "surface",
-              "item": "dark",
-              "subitem": "300"
-            },
-            "path": {
-              "0": "colors",
-              "1": "surface",
-              "2": "dark",
-              "3": "300"
-            }
+            "description": "-"
           },
-          "400": {
-            "value": "{colors.gray.700}",
-            "type": "color",
-            "description": "-",
-            "filePath": "src/colors/colors.tokens.json",
-            "isSource": true,
-            "original": {
-              "value": "{colors.gray.700}",
-              "type": "color",
-              "description": "-"
-            },
-            "attributes": {
-              "category": "colors",
-              "type": "surface",
-              "item": "dark",
-              "subitem": "400"
-            },
-            "path": {
-              "0": "colors",
-              "1": "surface",
-              "2": "dark",
-              "3": "400"
-            }
-          }
-        }
-      },
-      "border": {
-        "light": {
-          "100": {
-            "value": "{colors.gray.200}",
-            "type": "color",
-            "description": "Lightest border",
-            "filePath": "src/colors/colors.tokens.json",
-            "isSource": true,
-            "original": {
-              "value": "{colors.gray.200}",
-              "type": "color",
-              "description": "Lightest border"
-            },
-            "attributes": {
-              "category": "colors",
-              "type": "border",
-              "item": "light",
-              "subitem": "100"
-            },
-            "path": {
-              "0": "colors",
-              "1": "border",
-              "2": "light",
-              "3": "100"
-            }
+          "attributes": {
+            "category": "surface",
+            "type": "dark",
+            "item": "300"
           },
-          "200": {
-            "value": "{colors.gray.300}",
-            "type": "color",
-            "description": "-",
-            "filePath": "src/colors/colors.tokens.json",
-            "isSource": true,
-            "original": {
-              "value": "{colors.gray.300}",
-              "type": "color",
-              "description": "-"
-            },
-            "attributes": {
-              "category": "colors",
-              "type": "border",
-              "item": "light",
-              "subitem": "200"
-            },
-            "path": {
-              "0": "colors",
-              "1": "border",
-              "2": "light",
-              "3": "200"
-            }
-          },
-          "300": {
-            "value": "{colors.gray.400}",
-            "type": "color",
-            "description": "-",
-            "filePath": "src/colors/colors.tokens.json",
-            "isSource": true,
-            "original": {
-              "value": "{colors.gray.400}",
-              "type": "color",
-              "description": "-"
-            },
-            "attributes": {
-              "category": "colors",
-              "type": "border",
-              "item": "light",
-              "subitem": "300"
-            },
-            "path": {
-              "0": "colors",
-              "1": "border",
-              "2": "light",
-              "3": "300"
-            }
-          },
-          "400": {
-            "value": "{colors.gray.500}",
-            "type": "color",
-            "description": "-",
-            "filePath": "src/colors/colors.tokens.json",
-            "isSource": true,
-            "original": {
-              "value": "{colors.gray.500}",
-              "type": "color",
-              "description": "-"
-            },
-            "attributes": {
-              "category": "colors",
-              "type": "border",
-              "item": "light",
-              "subitem": "400"
-            },
-            "path": {
-              "0": "colors",
-              "1": "border",
-              "2": "light",
-              "3": "400"
-            }
-          },
-          "500": {
-            "value": "{colors.gray.600}",
-            "type": "color",
-            "description": "-",
-            "filePath": "src/colors/colors.tokens.json",
-            "isSource": true,
-            "original": {
-              "value": "{colors.gray.600}",
-              "type": "color",
-              "description": "-"
-            },
-            "attributes": {
-              "category": "colors",
-              "type": "border",
-              "item": "light",
-              "subitem": "500"
-            },
-            "path": {
-              "0": "colors",
-              "1": "border",
-              "2": "light",
-              "3": "500"
-            }
-          },
-          "contrast": {
-            "value": "{colors.gray.900}",
-            "type": "color",
-            "description": "Inverted border",
-            "filePath": "src/colors/colors.tokens.json",
-            "isSource": true,
-            "original": {
-              "value": "{colors.gray.900}",
-              "type": "color",
-              "description": "Inverted border"
-            },
-            "attributes": {
-              "category": "colors",
-              "type": "border",
-              "item": "light",
-              "subitem": "contrast"
-            },
-            "path": {
-              "0": "colors",
-              "1": "border",
-              "2": "light",
-              "3": "contrast"
-            }
-          },
-          "inverse": {
-            "value": "{colors.white}",
-            "type": "color",
-            "description": "Inverted border",
-            "filePath": "src/colors/colors.tokens.json",
-            "isSource": true,
-            "original": {
-              "value": "{colors.white}",
-              "type": "color",
-              "description": "Inverted border"
-            },
-            "attributes": {
-              "category": "colors",
-              "type": "border",
-              "item": "light",
-              "subitem": "inverse"
-            },
-            "path": {
-              "0": "colors",
-              "1": "border",
-              "2": "light",
-              "3": "inverse"
-            }
+          "path": {
+            "0": "surface",
+            "1": "dark",
+            "2": "300"
           }
         },
-        "dark": {
-          "100": {
+        "400": {
+          "value": "{colors.gray.700}",
+          "type": "color",
+          "description": "-",
+          "filePath": "src/colors/surface.tokens.json",
+          "isSource": true,
+          "original": {
             "value": "{colors.gray.700}",
             "type": "color",
-            "description": "Lightest border",
-            "filePath": "src/colors/colors.tokens.json",
-            "isSource": true,
-            "original": {
-              "value": "{colors.gray.700}",
-              "type": "color",
-              "description": "Lightest border"
-            },
-            "attributes": {
-              "category": "colors",
-              "type": "border",
-              "item": "dark",
-              "subitem": "100"
-            },
-            "path": {
-              "0": "colors",
-              "1": "border",
-              "2": "dark",
-              "3": "100"
-            }
+            "description": "-"
           },
-          "200": {
-            "value": "{colors.gray.600}",
-            "type": "color",
-            "description": "-",
-            "filePath": "src/colors/colors.tokens.json",
-            "isSource": true,
-            "original": {
-              "value": "{colors.gray.600}",
-              "type": "color",
-              "description": "-"
-            },
-            "attributes": {
-              "category": "colors",
-              "type": "border",
-              "item": "dark",
-              "subitem": "200"
-            },
-            "path": {
-              "0": "colors",
-              "1": "border",
-              "2": "dark",
-              "3": "200"
-            }
+          "attributes": {
+            "category": "surface",
+            "type": "dark",
+            "item": "400"
           },
-          "300": {
-            "value": "{colors.gray.500}",
-            "type": "color",
-            "description": "-",
-            "filePath": "src/colors/colors.tokens.json",
-            "isSource": true,
-            "original": {
-              "value": "{colors.gray.500}",
-              "type": "color",
-              "description": "-"
-            },
-            "attributes": {
-              "category": "colors",
-              "type": "border",
-              "item": "dark",
-              "subitem": "300"
-            },
-            "path": {
-              "0": "colors",
-              "1": "border",
-              "2": "dark",
-              "3": "300"
-            }
-          },
-          "400": {
-            "value": "{colors.gray.400}",
-            "type": "color",
-            "description": "-",
-            "filePath": "src/colors/colors.tokens.json",
-            "isSource": true,
-            "original": {
-              "value": "{colors.gray.400}",
-              "type": "color",
-              "description": "-"
-            },
-            "attributes": {
-              "category": "colors",
-              "type": "border",
-              "item": "dark",
-              "subitem": "400"
-            },
-            "path": {
-              "0": "colors",
-              "1": "border",
-              "2": "dark",
-              "3": "400"
-            }
-          },
-          "500": {
-            "value": "{colors.gray.300}",
-            "type": "color",
-            "description": "-",
-            "filePath": "src/colors/colors.tokens.json",
-            "isSource": true,
-            "original": {
-              "value": "{colors.gray.300}",
-              "type": "color",
-              "description": "-"
-            },
-            "attributes": {
-              "category": "colors",
-              "type": "border",
-              "item": "dark",
-              "subitem": "500"
-            },
-            "path": {
-              "0": "colors",
-              "1": "border",
-              "2": "dark",
-              "3": "500"
-            }
-          },
-          "contrast": {
-            "value": "{colors.gray.900}",
-            "type": "color",
-            "description": "Inverted border",
-            "filePath": "src/colors/colors.tokens.json",
-            "isSource": true,
-            "original": {
-              "value": "{colors.gray.900}",
-              "type": "color",
-              "description": "Inverted border"
-            },
-            "attributes": {
-              "category": "colors",
-              "type": "border",
-              "item": "dark",
-              "subitem": "contrast"
-            },
-            "path": {
-              "0": "colors",
-              "1": "border",
-              "2": "dark",
-              "3": "contrast"
-            }
-          },
-          "inverse": {
-            "value": "{colors.white}",
-            "type": "color",
-            "description": "Inverted border",
-            "filePath": "src/colors/colors.tokens.json",
-            "isSource": true,
-            "original": {
-              "value": "{colors.white}",
-              "type": "color",
-              "description": "Inverted border"
-            },
-            "attributes": {
-              "category": "colors",
-              "type": "border",
-              "item": "dark",
-              "subitem": "inverse"
-            },
-            "path": {
-              "0": "colors",
-              "1": "border",
-              "2": "dark",
-              "3": "inverse"
-            }
+          "path": {
+            "0": "surface",
+            "1": "dark",
+            "2": "400"
           }
         }
-      },
-      "text": {
-        "light": {
-          "primary": {
+      }
+    },
+    "textColor": {
+      "light": {
+        "primary": {
+          "value": "{colors.gray.900}",
+          "type": "color",
+          "description": "Primary text color",
+          "filePath": "src/colors/text-color.tokens.json",
+          "isSource": true,
+          "original": {
             "value": "{colors.gray.900}",
             "type": "color",
-            "description": "Primary text color",
-            "filePath": "src/colors/colors.tokens.json",
-            "isSource": true,
-            "original": {
-              "value": "{colors.gray.900}",
-              "type": "color",
-              "description": "Primary text color"
-            },
-            "attributes": {
-              "category": "colors",
-              "type": "text",
-              "item": "light",
-              "subitem": "primary"
-            },
-            "path": {
-              "0": "colors",
-              "1": "text",
-              "2": "light",
-              "3": "primary"
-            }
+            "description": "Primary text color"
           },
-          "secondary": {
+          "attributes": {
+            "category": "textColor",
+            "type": "light",
+            "item": "primary"
+          },
+          "path": {
+            "0": "textColor",
+            "1": "light",
+            "2": "primary"
+          }
+        },
+        "secondary": {
+          "value": "{colors.gray.700}",
+          "type": "color",
+          "description": "Secondary text color",
+          "filePath": "src/colors/text-color.tokens.json",
+          "isSource": true,
+          "original": {
             "value": "{colors.gray.700}",
             "type": "color",
-            "description": "Secondary text color",
-            "filePath": "src/colors/colors.tokens.json",
-            "isSource": true,
-            "original": {
-              "value": "{colors.gray.700}",
-              "type": "color",
-              "description": "Secondary text color"
-            },
-            "attributes": {
-              "category": "colors",
-              "type": "text",
-              "item": "light",
-              "subitem": "secondary"
-            },
-            "path": {
-              "0": "colors",
-              "1": "text",
-              "2": "light",
-              "3": "secondary"
-            }
+            "description": "Secondary text color"
           },
-          "dim": {
+          "attributes": {
+            "category": "textColor",
+            "type": "light",
+            "item": "secondary"
+          },
+          "path": {
+            "0": "textColor",
+            "1": "light",
+            "2": "secondary"
+          }
+        },
+        "dim": {
+          "value": "{colors.gray.400}",
+          "type": "color",
+          "description": "Dim text color",
+          "filePath": "src/colors/text-color.tokens.json",
+          "isSource": true,
+          "original": {
             "value": "{colors.gray.400}",
             "type": "color",
-            "description": "Dim text color",
-            "filePath": "src/colors/colors.tokens.json",
-            "isSource": true,
-            "original": {
-              "value": "{colors.gray.400}",
-              "type": "color",
-              "description": "Dim text color"
-            },
-            "attributes": {
-              "category": "colors",
-              "type": "text",
-              "item": "light",
-              "subitem": "dim"
-            },
-            "path": {
-              "0": "colors",
-              "1": "text",
-              "2": "light",
-              "3": "dim"
-            }
+            "description": "Dim text color"
           },
-          "link": {
+          "attributes": {
+            "category": "textColor",
+            "type": "light",
+            "item": "dim"
+          },
+          "path": {
+            "0": "textColor",
+            "1": "light",
+            "2": "dim"
+          }
+        },
+        "link": {
+          "value": "{colors.blue.500}",
+          "type": "color",
+          "description": "Link text color",
+          "filePath": "src/colors/text-color.tokens.json",
+          "isSource": true,
+          "original": {
             "value": "{colors.blue.500}",
             "type": "color",
-            "description": "Link text color",
-            "filePath": "src/colors/colors.tokens.json",
-            "isSource": true,
-            "original": {
-              "value": "{colors.blue.500}",
-              "type": "color",
-              "description": "Link text color"
-            },
-            "attributes": {
-              "category": "colors",
-              "type": "text",
-              "item": "light",
-              "subitem": "link"
-            },
-            "path": {
-              "0": "colors",
-              "1": "text",
-              "2": "light",
-              "3": "link"
-            }
+            "description": "Link text color"
           },
-          "error": {
-            "value": "{colors.red.500}",
-            "type": "color",
-            "description": "Error text color",
-            "filePath": "src/colors/colors.tokens.json",
-            "isSource": true,
-            "original": {
-              "value": "{colors.red.500}",
-              "type": "color",
-              "description": "Error text color"
-            },
-            "attributes": {
-              "category": "colors",
-              "type": "text",
-              "item": "light",
-              "subitem": "error"
-            },
-            "path": {
-              "0": "colors",
-              "1": "text",
-              "2": "light",
-              "3": "error"
-            }
+          "attributes": {
+            "category": "textColor",
+            "type": "light",
+            "item": "link"
           },
-          "reverse": {
-            "value": "{colors.gray.100}",
-            "type": "color",
-            "description": "Reverse text color",
-            "filePath": "src/colors/colors.tokens.json",
-            "isSource": true,
-            "original": {
-              "value": "{colors.gray.100}",
-              "type": "color",
-              "description": "Reverse text color"
-            },
-            "attributes": {
-              "category": "colors",
-              "type": "text",
-              "item": "light",
-              "subitem": "reverse"
-            },
-            "path": {
-              "0": "colors",
-              "1": "text",
-              "2": "light",
-              "3": "reverse"
-            }
+          "path": {
+            "0": "textColor",
+            "1": "light",
+            "2": "link"
           }
         },
-        "dark": {
-          "primary": {
+        "error": {
+          "value": "{colors.red.500}",
+          "type": "color",
+          "description": "Error text color",
+          "filePath": "src/colors/text-color.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "{colors.red.500}",
+            "type": "color",
+            "description": "Error text color"
+          },
+          "attributes": {
+            "category": "textColor",
+            "type": "light",
+            "item": "error"
+          },
+          "path": {
+            "0": "textColor",
+            "1": "light",
+            "2": "error"
+          }
+        },
+        "reverse": {
+          "value": "{colors.gray.100}",
+          "type": "color",
+          "description": "Reverse text color",
+          "filePath": "src/colors/text-color.tokens.json",
+          "isSource": true,
+          "original": {
             "value": "{colors.gray.100}",
             "type": "color",
-            "description": "Primary text color",
-            "filePath": "src/colors/colors.tokens.json",
-            "isSource": true,
-            "original": {
-              "value": "{colors.gray.100}",
-              "type": "color",
-              "description": "Primary text color"
-            },
-            "attributes": {
-              "category": "colors",
-              "type": "text",
-              "item": "dark",
-              "subitem": "primary"
-            },
-            "path": {
-              "0": "colors",
-              "1": "text",
-              "2": "dark",
-              "3": "primary"
-            }
+            "description": "Reverse text color"
           },
-          "secondary": {
+          "attributes": {
+            "category": "textColor",
+            "type": "light",
+            "item": "reverse"
+          },
+          "path": {
+            "0": "textColor",
+            "1": "light",
+            "2": "reverse"
+          }
+        }
+      },
+      "dark": {
+        "primary": {
+          "value": "{colors.gray.100}",
+          "type": "color",
+          "description": "Primary text color",
+          "filePath": "src/colors/text-color.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "{colors.gray.100}",
+            "type": "color",
+            "description": "Primary text color"
+          },
+          "attributes": {
+            "category": "textColor",
+            "type": "dark",
+            "item": "primary"
+          },
+          "path": {
+            "0": "textColor",
+            "1": "dark",
+            "2": "primary"
+          }
+        },
+        "secondary": {
+          "value": "{colors.gray.300}",
+          "type": "color",
+          "description": "Secondary text color",
+          "filePath": "src/colors/text-color.tokens.json",
+          "isSource": true,
+          "original": {
             "value": "{colors.gray.300}",
             "type": "color",
-            "description": "Secondary text color",
-            "filePath": "src/colors/colors.tokens.json",
-            "isSource": true,
-            "original": {
-              "value": "{colors.gray.300}",
-              "type": "color",
-              "description": "Secondary text color"
-            },
-            "attributes": {
-              "category": "colors",
-              "type": "text",
-              "item": "dark",
-              "subitem": "secondary"
-            },
-            "path": {
-              "0": "colors",
-              "1": "text",
-              "2": "dark",
-              "3": "secondary"
-            }
+            "description": "Secondary text color"
           },
-          "dim": {
+          "attributes": {
+            "category": "textColor",
+            "type": "dark",
+            "item": "secondary"
+          },
+          "path": {
+            "0": "textColor",
+            "1": "dark",
+            "2": "secondary"
+          }
+        },
+        "dim": {
+          "value": "{colors.gray.700}",
+          "type": "color",
+          "description": "Dim text color",
+          "filePath": "src/colors/text-color.tokens.json",
+          "isSource": true,
+          "original": {
             "value": "{colors.gray.700}",
             "type": "color",
-            "description": "Dim text color",
-            "filePath": "src/colors/colors.tokens.json",
-            "isSource": true,
-            "original": {
-              "value": "{colors.gray.700}",
-              "type": "color",
-              "description": "Dim text color"
-            },
-            "attributes": {
-              "category": "colors",
-              "type": "text",
-              "item": "dark",
-              "subitem": "dim"
-            },
-            "path": {
-              "0": "colors",
-              "1": "text",
-              "2": "dark",
-              "3": "dim"
-            }
+            "description": "Dim text color"
           },
-          "link": {
+          "attributes": {
+            "category": "textColor",
+            "type": "dark",
+            "item": "dim"
+          },
+          "path": {
+            "0": "textColor",
+            "1": "dark",
+            "2": "dim"
+          }
+        },
+        "link": {
+          "value": "{colors.blue.400}",
+          "type": "color",
+          "description": "Link text color",
+          "filePath": "src/colors/text-color.tokens.json",
+          "isSource": true,
+          "original": {
             "value": "{colors.blue.400}",
             "type": "color",
-            "description": "Link text color",
-            "filePath": "src/colors/colors.tokens.json",
-            "isSource": true,
-            "original": {
-              "value": "{colors.blue.400}",
-              "type": "color",
-              "description": "Link text color"
-            },
-            "attributes": {
-              "category": "colors",
-              "type": "text",
-              "item": "dark",
-              "subitem": "link"
-            },
-            "path": {
-              "0": "colors",
-              "1": "text",
-              "2": "dark",
-              "3": "link"
-            }
+            "description": "Link text color"
           },
-          "error": {
+          "attributes": {
+            "category": "textColor",
+            "type": "dark",
+            "item": "link"
+          },
+          "path": {
+            "0": "textColor",
+            "1": "dark",
+            "2": "link"
+          }
+        },
+        "error": {
+          "value": "{colors.red.400}",
+          "type": "color",
+          "description": "Error text color",
+          "filePath": "src/colors/text-color.tokens.json",
+          "isSource": true,
+          "original": {
             "value": "{colors.red.400}",
             "type": "color",
-            "description": "Error text color",
-            "filePath": "src/colors/colors.tokens.json",
-            "isSource": true,
-            "original": {
-              "value": "{colors.red.400}",
-              "type": "color",
-              "description": "Error text color"
-            },
-            "attributes": {
-              "category": "colors",
-              "type": "text",
-              "item": "dark",
-              "subitem": "error"
-            },
-            "path": {
-              "0": "colors",
-              "1": "text",
-              "2": "dark",
-              "3": "error"
-            }
+            "description": "Error text color"
           },
-          "reverse": {
+          "attributes": {
+            "category": "textColor",
+            "type": "dark",
+            "item": "error"
+          },
+          "path": {
+            "0": "textColor",
+            "1": "dark",
+            "2": "error"
+          }
+        },
+        "reverse": {
+          "value": "{colors.gray.900}",
+          "type": "color",
+          "description": "Reverse text color",
+          "filePath": "src/colors/text-color.tokens.json",
+          "isSource": true,
+          "original": {
             "value": "{colors.gray.900}",
             "type": "color",
-            "description": "Reverse text color",
-            "filePath": "src/colors/colors.tokens.json",
-            "isSource": true,
-            "original": {
-              "value": "{colors.gray.900}",
-              "type": "color",
-              "description": "Reverse text color"
-            },
-            "attributes": {
-              "category": "colors",
-              "type": "text",
-              "item": "dark",
-              "subitem": "reverse"
-            },
-            "path": {
-              "0": "colors",
-              "1": "text",
-              "2": "dark",
-              "3": "reverse"
-            }
+            "description": "Reverse text color"
+          },
+          "attributes": {
+            "category": "textColor",
+            "type": "dark",
+            "item": "reverse"
+          },
+          "path": {
+            "0": "textColor",
+            "1": "dark",
+            "2": "reverse"
+          }
+        }
+      }
+    },
+    "transparency": {
+      "white": {
+        "10": {
+          "value": "#ffffff1a",
+          "type": "color",
+          "description": "10% opacity",
+          "filePath": "src/colors/transparency.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "#ffffff1a",
+            "type": "color",
+            "description": "10% opacity"
+          },
+          "attributes": {
+            "category": "transparency",
+            "type": "white",
+            "item": "10"
+          },
+          "path": {
+            "0": "transparency",
+            "1": "white",
+            "2": "10"
+          }
+        },
+        "20": {
+          "value": "#ffffff33",
+          "type": "color",
+          "description": "20% opacity",
+          "filePath": "src/colors/transparency.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "#ffffff33",
+            "type": "color",
+            "description": "20% opacity"
+          },
+          "attributes": {
+            "category": "transparency",
+            "type": "white",
+            "item": "20"
+          },
+          "path": {
+            "0": "transparency",
+            "1": "white",
+            "2": "20"
+          }
+        },
+        "30": {
+          "value": "#ffffff4d",
+          "type": "color",
+          "description": "30% opacity",
+          "filePath": "src/colors/transparency.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "#ffffff4d",
+            "type": "color",
+            "description": "30% opacity"
+          },
+          "attributes": {
+            "category": "transparency",
+            "type": "white",
+            "item": "30"
+          },
+          "path": {
+            "0": "transparency",
+            "1": "white",
+            "2": "30"
+          }
+        },
+        "40": {
+          "value": "#ffffff66",
+          "type": "color",
+          "description": "40% opacity",
+          "filePath": "src/colors/transparency.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "#ffffff66",
+            "type": "color",
+            "description": "40% opacity"
+          },
+          "attributes": {
+            "category": "transparency",
+            "type": "white",
+            "item": "40"
+          },
+          "path": {
+            "0": "transparency",
+            "1": "white",
+            "2": "40"
+          }
+        },
+        "50": {
+          "value": "#ffffff80",
+          "type": "color",
+          "description": "50% opacity",
+          "filePath": "src/colors/transparency.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "#ffffff80",
+            "type": "color",
+            "description": "50% opacity"
+          },
+          "attributes": {
+            "category": "transparency",
+            "type": "white",
+            "item": "50"
+          },
+          "path": {
+            "0": "transparency",
+            "1": "white",
+            "2": "50"
+          }
+        },
+        "60": {
+          "value": "#ffffff99",
+          "type": "color",
+          "description": "60% opacity",
+          "filePath": "src/colors/transparency.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "#ffffff99",
+            "type": "color",
+            "description": "60% opacity"
+          },
+          "attributes": {
+            "category": "transparency",
+            "type": "white",
+            "item": "60"
+          },
+          "path": {
+            "0": "transparency",
+            "1": "white",
+            "2": "60"
+          }
+        },
+        "70": {
+          "value": "#ffffffb3",
+          "type": "color",
+          "description": "70% opacity",
+          "filePath": "src/colors/transparency.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "#ffffffb3",
+            "type": "color",
+            "description": "70% opacity"
+          },
+          "attributes": {
+            "category": "transparency",
+            "type": "white",
+            "item": "70"
+          },
+          "path": {
+            "0": "transparency",
+            "1": "white",
+            "2": "70"
+          }
+        },
+        "80": {
+          "value": "#ffffffcc",
+          "type": "color",
+          "description": "80% opacity",
+          "filePath": "src/colors/transparency.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "#ffffffcc",
+            "type": "color",
+            "description": "80% opacity"
+          },
+          "attributes": {
+            "category": "transparency",
+            "type": "white",
+            "item": "80"
+          },
+          "path": {
+            "0": "transparency",
+            "1": "white",
+            "2": "80"
+          }
+        },
+        "90": {
+          "value": "#ffffffe6",
+          "type": "color",
+          "description": "90% opacity",
+          "filePath": "src/colors/transparency.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "#ffffffe6",
+            "type": "color",
+            "description": "90% opacity"
+          },
+          "attributes": {
+            "category": "transparency",
+            "type": "white",
+            "item": "90"
+          },
+          "path": {
+            "0": "transparency",
+            "1": "white",
+            "2": "90"
+          }
+        }
+      },
+      "black": {
+        "10": {
+          "value": "#0000001a",
+          "type": "color",
+          "description": "10% opacity",
+          "filePath": "src/colors/transparency.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "#0000001a",
+            "type": "color",
+            "description": "10% opacity"
+          },
+          "attributes": {
+            "category": "transparency",
+            "type": "black",
+            "item": "10"
+          },
+          "path": {
+            "0": "transparency",
+            "1": "black",
+            "2": "10"
+          }
+        },
+        "20": {
+          "value": "#00000033",
+          "type": "color",
+          "description": "20% opacity",
+          "filePath": "src/colors/transparency.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "#00000033",
+            "type": "color",
+            "description": "20% opacity"
+          },
+          "attributes": {
+            "category": "transparency",
+            "type": "black",
+            "item": "20"
+          },
+          "path": {
+            "0": "transparency",
+            "1": "black",
+            "2": "20"
+          }
+        },
+        "30": {
+          "value": "#0000004d",
+          "type": "color",
+          "description": "30% opacity",
+          "filePath": "src/colors/transparency.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "#0000004d",
+            "type": "color",
+            "description": "30% opacity"
+          },
+          "attributes": {
+            "category": "transparency",
+            "type": "black",
+            "item": "30"
+          },
+          "path": {
+            "0": "transparency",
+            "1": "black",
+            "2": "30"
+          }
+        },
+        "40": {
+          "value": "#00000066",
+          "type": "color",
+          "description": "40% opacity",
+          "filePath": "src/colors/transparency.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "#00000066",
+            "type": "color",
+            "description": "40% opacity"
+          },
+          "attributes": {
+            "category": "transparency",
+            "type": "black",
+            "item": "40"
+          },
+          "path": {
+            "0": "transparency",
+            "1": "black",
+            "2": "40"
+          }
+        },
+        "50": {
+          "value": "#00000080",
+          "type": "color",
+          "description": "50% opacity",
+          "filePath": "src/colors/transparency.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "#00000080",
+            "type": "color",
+            "description": "50% opacity"
+          },
+          "attributes": {
+            "category": "transparency",
+            "type": "black",
+            "item": "50"
+          },
+          "path": {
+            "0": "transparency",
+            "1": "black",
+            "2": "50"
+          }
+        },
+        "60": {
+          "value": "#00000099",
+          "type": "color",
+          "description": "60% opacity",
+          "filePath": "src/colors/transparency.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "#00000099",
+            "type": "color",
+            "description": "60% opacity"
+          },
+          "attributes": {
+            "category": "transparency",
+            "type": "black",
+            "item": "60"
+          },
+          "path": {
+            "0": "transparency",
+            "1": "black",
+            "2": "60"
+          }
+        },
+        "70": {
+          "value": "#000000b3",
+          "type": "color",
+          "description": "70% opacity",
+          "filePath": "src/colors/transparency.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "#000000b3",
+            "type": "color",
+            "description": "70% opacity"
+          },
+          "attributes": {
+            "category": "transparency",
+            "type": "black",
+            "item": "70"
+          },
+          "path": {
+            "0": "transparency",
+            "1": "black",
+            "2": "70"
+          }
+        },
+        "80": {
+          "value": "#000000cc",
+          "type": "color",
+          "description": "80% opacity",
+          "filePath": "src/colors/transparency.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "#000000cc",
+            "type": "color",
+            "description": "80% opacity"
+          },
+          "attributes": {
+            "category": "transparency",
+            "type": "black",
+            "item": "80"
+          },
+          "path": {
+            "0": "transparency",
+            "1": "black",
+            "2": "80"
+          }
+        },
+        "90": {
+          "value": "#000000e6",
+          "type": "color",
+          "description": "90% opacity",
+          "filePath": "src/colors/transparency.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "#000000e6",
+            "type": "color",
+            "description": "90% opacity"
+          },
+          "attributes": {
+            "category": "transparency",
+            "type": "black",
+            "item": "90"
+          },
+          "path": {
+            "0": "transparency",
+            "1": "black",
+            "2": "90"
           }
         }
       }
@@ -7645,7 +7539,7 @@
       }
     },
     "typography": {
-      "families": {
+      "fontFamilies": {
         "sans": {
           "light": {
             "value": "Outfit-Light",
@@ -7660,13 +7554,13 @@
             },
             "attributes": {
               "category": "typography",
-              "type": "families",
+              "type": "fontFamilies",
               "item": "sans",
               "subitem": "light"
             },
             "path": {
               "0": "typography",
-              "1": "families",
+              "1": "fontFamilies",
               "2": "sans",
               "3": "light"
             }
@@ -7684,13 +7578,13 @@
             },
             "attributes": {
               "category": "typography",
-              "type": "families",
+              "type": "fontFamilies",
               "item": "sans",
               "subitem": "regular"
             },
             "path": {
               "0": "typography",
-              "1": "families",
+              "1": "fontFamilies",
               "2": "sans",
               "3": "regular"
             }
@@ -7708,13 +7602,13 @@
             },
             "attributes": {
               "category": "typography",
-              "type": "families",
+              "type": "fontFamilies",
               "item": "sans",
               "subitem": "bold"
             },
             "path": {
               "0": "typography",
-              "1": "families",
+              "1": "fontFamilies",
               "2": "sans",
               "3": "bold"
             }
@@ -7734,13 +7628,13 @@
             },
             "attributes": {
               "category": "typography",
-              "type": "families",
+              "type": "fontFamilies",
               "item": "mono",
               "subitem": "light"
             },
             "path": {
               "0": "typography",
-              "1": "families",
+              "1": "fontFamilies",
               "2": "mono",
               "3": "light"
             }
@@ -7758,13 +7652,13 @@
             },
             "attributes": {
               "category": "typography",
-              "type": "families",
+              "type": "fontFamilies",
               "item": "mono",
               "subitem": "regular"
             },
             "path": {
               "0": "typography",
-              "1": "families",
+              "1": "fontFamilies",
               "2": "mono",
               "3": "regular"
             }
@@ -7782,13 +7676,13 @@
             },
             "attributes": {
               "category": "typography",
-              "type": "families",
+              "type": "fontFamilies",
               "item": "mono",
               "subitem": "bold"
             },
             "path": {
               "0": "typography",
-              "1": "families",
+              "1": "fontFamilies",
               "2": "mono",
               "3": "bold"
             }

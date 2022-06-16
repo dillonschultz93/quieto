@@ -1,6 +1,6 @@
 {
   "units": {
-    "tokenset": "global",
+    "tokenset": "core",
     "px": {
       "value": "px",
       "type": "other",

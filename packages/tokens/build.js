@@ -41,7 +41,7 @@ const StyleDictionary = require('style-dictionary').extend({
       "buildPath": "lib/css/",
       "files": [
         {
-          "destination": "_variables.css",
+          "destination": "_tokens.css",
           "format": "css/variables"
         }
       ]
@@ -53,13 +53,19 @@ const StyleDictionary = require('style-dictionary').extend({
         {
           "destination": "../tmp/transformed-tokens.json",
           "format": "json/nested"
-        },
+        }
+      ]
+    },
+    "figma": {
+      "transformGroup": "js",
+      "buildPath": "figma/",
+      "files": [
         {
           "destination": "figma-tokens.json",
           "format": "figmaTokensPluginJson"
         }
       ]
-    },
+    }
   }
 });
 

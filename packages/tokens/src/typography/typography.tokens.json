@@ -1,7 +1,7 @@
 {
   "typography": {
-    "tokenset": "global",
-    "families": {
+    "tokenset": "core",
+    "fontFamilies": {
       "sans": {
         "light": {
           "value": "Outfit-Light",

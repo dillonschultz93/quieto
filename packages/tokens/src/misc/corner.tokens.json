@@ -1,6 +1,6 @@
 {
   "corner": {
-    "tokenset": "global",
+    "tokenset": "core",
     "xs": {
       "px": {
         "value": 2,
