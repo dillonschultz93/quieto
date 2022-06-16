@@ -1717,13 +1717,13 @@
       },
       "cyan": {
         "100": {
-          "value": "#0A1B23",
+          "value": "#F6FBFE",
           "description": "Lightest cyan",
           "type": "color",
           "filePath": "src/colors/colors.tokens.json",
           "isSource": true,
           "original": {
-            "value": "#0A1B23",
+            "value": "#F6FBFE",
             "description": "Lightest cyan",
             "type": "color"
           },
@@ -1739,13 +1739,13 @@
           }
         },
         "200": {
-          "value": "#194154",
+          "value": "#CAE9F8",
           "description": "",
           "type": "color",
           "filePath": "src/colors/colors.tokens.json",
           "isSource": true,
           "original": {
-            "value": "#194154",
+            "value": "#CAE9F8",
             "description": "",
             "type": "color"
           },
@@ -1761,13 +1761,13 @@
           }
         },
         "300": {
-          "value": "#286685",
+          "value": "#9DD7F3",
           "description": "",
           "type": "color",
           "filePath": "src/colors/colors.tokens.json",
           "isSource": true,
           "original": {
-            "value": "#286685",
+            "value": "#9DD7F3",
             "description": "",
             "type": "color"
           },
@@ -1783,13 +1783,13 @@
           }
         },
         "400": {
-          "value": "#368CB7",
+          "value": "#71C4EE",
           "description": "",
           "type": "color",
           "filePath": "src/colors/colors.tokens.json",
           "isSource": true,
           "original": {
-            "value": "#368CB7",
+            "value": "#71C4EE",
             "description": "",
             "type": "color"
           },
@@ -1827,13 +1827,13 @@
           }
         },
         "600": {
-          "value": "#71C4EE",
+          "value": "#368CB7",
           "description": "",
           "type": "color",
           "filePath": "src/colors/colors.tokens.json",
           "isSource": true,
           "original": {
-            "value": "#71C4EE",
+            "value": "#368CB7",
             "description": "",
             "type": "color"
           },
@@ -1849,13 +1849,13 @@
           }
         },
         "700": {
-          "value": "#9DD7F3",
+          "value": "#286685",
           "description": "",
           "type": "color",
           "filePath": "src/colors/colors.tokens.json",
           "isSource": true,
           "original": {
-            "value": "#9DD7F3",
+            "value": "#286685",
             "description": "",
             "type": "color"
           },
@@ -1871,13 +1871,13 @@
           }
         },
         "800": {
-          "value": "#CAE9F8",
+          "value": "#194154",
           "description": "",
           "type": "color",
           "filePath": "src/colors/colors.tokens.json",
           "isSource": true,
           "original": {
-            "value": "#CAE9F8",
+            "value": "#194154",
             "description": "",
             "type": "color"
           },
@@ -1893,13 +1893,13 @@
           }
         },
         "900": {
-          "value": "#F6FBFE",
+          "value": "#0A1B23",
           "description": "Darkest cyan",
           "type": "color",
           "filePath": "src/colors/colors.tokens.json",
           "isSource": true,
           "original": {
-            "value": "#F6FBFE",
+            "value": "#0A1B23",
             "description": "Darkest cyan",
             "type": "color"
           },
