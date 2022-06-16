@@ -1,6 +1,6 @@
 {
   "sizes": {
-    "tokenset": "global",
+    "tokenset": "core",
     "none": {
       "value": 0,
       "type": "sizing",

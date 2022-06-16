@@ -1,6 +1,6 @@
 {
   "scale": {
-    "tokenset": "global",
+    "tokenset": "core",
     "A": {
       "100": {
         "value": 2,
