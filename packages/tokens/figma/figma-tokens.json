@@ -2782,6 +2782,370 @@
         }
       }
     },
+    "primary": {
+      "100": {
+        "value": "{colors.indigo.100}",
+        "description": "Lightest primary color",
+        "type": "color",
+        "filePath": "src/colors/palettes/primary.tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "{colors.indigo.100}",
+          "description": "Lightest primary color",
+          "type": "color"
+        },
+        "attributes": {
+          "category": "primary",
+          "type": "100"
+        },
+        "path": {
+          "0": "primary",
+          "1": "100"
+        }
+      },
+      "200": {
+        "value": "{colors.indigo.200}",
+        "description": "",
+        "type": "color",
+        "filePath": "src/colors/palettes/primary.tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "{colors.indigo.200}",
+          "description": "",
+          "type": "color"
+        },
+        "attributes": {
+          "category": "primary",
+          "type": "200"
+        },
+        "path": {
+          "0": "primary",
+          "1": "200"
+        }
+      },
+      "300": {
+        "value": "{colors.indigo.300}",
+        "description": "",
+        "type": "color",
+        "filePath": "src/colors/palettes/primary.tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "{colors.indigo.300}",
+          "description": "",
+          "type": "color"
+        },
+        "attributes": {
+          "category": "primary",
+          "type": "300"
+        },
+        "path": {
+          "0": "primary",
+          "1": "300"
+        }
+      },
+      "400": {
+        "value": "{colors.indigo.400}",
+        "description": "",
+        "type": "color",
+        "filePath": "src/colors/palettes/primary.tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "{colors.indigo.400}",
+          "description": "",
+          "type": "color"
+        },
+        "attributes": {
+          "category": "primary",
+          "type": "400"
+        },
+        "path": {
+          "0": "primary",
+          "1": "400"
+        }
+      },
+      "500": {
+        "value": "{colors.indigo.500}",
+        "description": "Default primary color",
+        "type": "color",
+        "filePath": "src/colors/palettes/primary.tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "{colors.indigo.500}",
+          "description": "Default primary color",
+          "type": "color"
+        },
+        "attributes": {
+          "category": "primary",
+          "type": "500"
+        },
+        "path": {
+          "0": "primary",
+          "1": "500"
+        }
+      },
+      "600": {
+        "value": "{colors.indigo.600}",
+        "description": "",
+        "type": "color",
+        "filePath": "src/colors/palettes/primary.tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "{colors.indigo.600}",
+          "description": "",
+          "type": "color"
+        },
+        "attributes": {
+          "category": "primary",
+          "type": "600"
+        },
+        "path": {
+          "0": "primary",
+          "1": "600"
+        }
+      },
+      "700": {
+        "value": "{colors.indigo.700}",
+        "description": "",
+        "type": "color",
+        "filePath": "src/colors/palettes/primary.tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "{colors.indigo.700}",
+          "description": "",
+          "type": "color"
+        },
+        "attributes": {
+          "category": "primary",
+          "type": "700"
+        },
+        "path": {
+          "0": "primary",
+          "1": "700"
+        }
+      },
+      "800": {
+        "value": "{colors.indigo.800}",
+        "description": "",
+        "type": "color",
+        "filePath": "src/colors/palettes/primary.tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "{colors.indigo.800}",
+          "description": "",
+          "type": "color"
+        },
+        "attributes": {
+          "category": "primary",
+          "type": "800"
+        },
+        "path": {
+          "0": "primary",
+          "1": "800"
+        }
+      },
+      "900": {
+        "value": "{colors.indigo.900}",
+        "description": "Darkest primary color",
+        "type": "color",
+        "filePath": "src/colors/palettes/primary.tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "{colors.indigo.900}",
+          "description": "Darkest primary color",
+          "type": "color"
+        },
+        "attributes": {
+          "category": "primary",
+          "type": "900"
+        },
+        "path": {
+          "0": "primary",
+          "1": "900"
+        }
+      }
+    },
+    "secondary": {
+      "100": {
+        "value": "{colors.gray.100}",
+        "description": "Lightest secondary color",
+        "type": "color",
+        "filePath": "src/colors/palettes/secondary.tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "{colors.gray.100}",
+          "description": "Lightest secondary color",
+          "type": "color"
+        },
+        "attributes": {
+          "category": "secondary",
+          "type": "100"
+        },
+        "path": {
+          "0": "secondary",
+          "1": "100"
+        }
+      },
+      "200": {
+        "value": "{colors.gray.200}",
+        "description": "",
+        "type": "color",
+        "filePath": "src/colors/palettes/secondary.tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "{colors.gray.200}",
+          "description": "",
+          "type": "color"
+        },
+        "attributes": {
+          "category": "secondary",
+          "type": "200"
+        },
+        "path": {
+          "0": "secondary",
+          "1": "200"
+        }
+      },
+      "300": {
+        "value": "{colors.gray.300}",
+        "description": "",
+        "type": "color",
+        "filePath": "src/colors/palettes/secondary.tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "{colors.gray.300}",
+          "description": "",
+          "type": "color"
+        },
+        "attributes": {
+          "category": "secondary",
+          "type": "300"
+        },
+        "path": {
+          "0": "secondary",
+          "1": "300"
+        }
+      },
+      "400": {
+        "value": "{colors.gray.400}",
+        "description": "",
+        "type": "color",
+        "filePath": "src/colors/palettes/secondary.tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "{colors.gray.400}",
+          "description": "",
+          "type": "color"
+        },
+        "attributes": {
+          "category": "secondary",
+          "type": "400"
+        },
+        "path": {
+          "0": "secondary",
+          "1": "400"
+        }
+      },
+      "500": {
+        "value": "{colors.gray.500}",
+        "description": "Default secondary color",
+        "type": "color",
+        "filePath": "src/colors/palettes/secondary.tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "{colors.gray.500}",
+          "description": "Default secondary color",
+          "type": "color"
+        },
+        "attributes": {
+          "category": "secondary",
+          "type": "500"
+        },
+        "path": {
+          "0": "secondary",
+          "1": "500"
+        }
+      },
+      "600": {
+        "value": "{colors.gray.600}",
+        "description": "",
+        "type": "color",
+        "filePath": "src/colors/palettes/secondary.tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "{colors.gray.600}",
+          "description": "",
+          "type": "color"
+        },
+        "attributes": {
+          "category": "secondary",
+          "type": "600"
+        },
+        "path": {
+          "0": "secondary",
+          "1": "600"
+        }
+      },
+      "700": {
+        "value": "{colors.gray.700}",
+        "description": "",
+        "type": "color",
+        "filePath": "src/colors/palettes/secondary.tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "{colors.gray.700}",
+          "description": "",
+          "type": "color"
+        },
+        "attributes": {
+          "category": "secondary",
+          "type": "700"
+        },
+        "path": {
+          "0": "secondary",
+          "1": "700"
+        }
+      },
+      "800": {
+        "value": "{colors.gray.800}",
+        "description": "",
+        "type": "color",
+        "filePath": "src/colors/palettes/secondary.tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "{colors.gray.800}",
+          "description": "",
+          "type": "color"
+        },
+        "attributes": {
+          "category": "secondary",
+          "type": "800"
+        },
+        "path": {
+          "0": "secondary",
+          "1": "800"
+        }
+      },
+      "900": {
+        "value": "{colors.gray.900}",
+        "description": "Darkest secondary color",
+        "type": "color",
+        "filePath": "src/colors/palettes/secondary.tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "{colors.gray.900}",
+          "description": "Darkest secondary color",
+          "type": "color"
+        },
+        "attributes": {
+          "category": "secondary",
+          "type": "900"
+        },
+        "path": {
+          "0": "secondary",
+          "1": "900"
+        }
+      }
+    },
     "surface": {
       "light": {
         "100": {
