@@ -42,7 +42,23 @@ const StyleDictionary = require('style-dictionary').extend({
       "files": [
         {
           "destination": "_tokens.css",
-          "format": "css/variables"
+          "format": "css/variables",
+          options: {
+            outputReferences: true
+          }
+        }
+      ]
+    },
+    "scss": {
+      "transformGroup": "css",
+      "buildPath": "lib/scss/",
+      "files": [
+        {
+          "destination": "_tokens.scss",
+          "format": "scss/variables",
+          options: {
+            outputReferences: true
+          }
         }
       ]
     },
