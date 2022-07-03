@@ -1,6 +1,5 @@
 {
   "primary": {
-    "tokenset": "core",
     "100": {
       "value": "{colors.indigo.100}",
       "description": "Lightest primary color",

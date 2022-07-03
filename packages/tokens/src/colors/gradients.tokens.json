@@ -1,6 +1,5 @@
 {
   "gradients": {
-    "tokenset": "core",
     "black-to-transparent": {
       "180": {
         "value": "linear-gradient(180deg, #ffffff 0%, #000000cc 100%)",

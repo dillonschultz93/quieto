@@ -1,6 +1,5 @@
 {
   "units": {
-    "tokenset": "core",
     "px": {
       "value": "px",
       "type": "other",

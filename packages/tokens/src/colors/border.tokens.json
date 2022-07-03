@@ -1,6 +1,5 @@
 {
   "border": {
-    "tokenset": "core",
     "light": {
       "100": {
         "value": "{colors.gray.200}",

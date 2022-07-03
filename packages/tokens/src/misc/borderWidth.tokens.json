@@ -1,6 +1,5 @@
 {
   "borderWidth": {
-    "tokenset": "core",
     "sm": {
       "value": "1px",
       "type": "borderWidth",

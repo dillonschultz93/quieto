@@ -1,6 +1,5 @@
 {
   "surface": {
-    "tokenset": "core",
     "light": {
       "100": {
         "value": "{colors.white}",

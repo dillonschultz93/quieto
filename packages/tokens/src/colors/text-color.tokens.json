@@ -1,6 +1,5 @@
 {
   "textColor": {
-    "tokenset": "core",
     "light": {
       "primary": {
         "value": "{colors.gray.900}",

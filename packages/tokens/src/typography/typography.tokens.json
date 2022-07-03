@@ -1,6 +1,5 @@
 {
   "typography": {
-    "tokenset": "core",
     "fontFamilies": {
       "sans": {
         "light": {

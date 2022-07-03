@@ -1,6 +1,5 @@
 {
   "sizes": {
-    "tokenset": "core",
     "none": {
       "value": 0,
       "type": "sizing",

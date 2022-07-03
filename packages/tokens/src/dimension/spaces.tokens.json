@@ -1,6 +1,5 @@
 {
   "spaces": {
-    "tokenset": "core",
     "100": {
       "value": 4,
       "type": "spacing",

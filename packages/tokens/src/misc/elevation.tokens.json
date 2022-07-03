@@ -1,6 +1,5 @@
 {
   "elevation": {
-    "tokenset": "core",
     "300": {
       "value": "0px 0px 40px #00000012, 0px 0px 12.1px #0000000d, 0px 0px 5px #0000000a, 0px 0px 1.8px #00000005",
       "type": "boxShadow",

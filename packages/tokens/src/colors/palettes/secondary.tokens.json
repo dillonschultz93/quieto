@@ -1,6 +1,5 @@
 {
   "secondary": {
-    "tokenset": "core",
     "100": {
       "value": "{colors.gray.100}",
       "description": "Lightest secondary color",
