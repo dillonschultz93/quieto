@@ -1,0 +1,21 @@
+{
+  "dimension": {
+    "borderWidth": {
+      "sm": {
+        "value": 1,
+        "type": "borderWidth",
+        "description": "Border width"
+      },
+      "md": {
+        "value": 2,
+        "type": "borderWidth",
+        "description": "Border width"
+      },
+      "lg": {
+        "value": 4,
+        "type": "borderWidth",
+        "description": "Border width"
+      }
+    }
+  }
+}
