@@ -1,0 +1,192 @@
+{
+  "dimension": {
+    "size": {
+      "none": {
+        "value": 0,
+        "type": "sizing",
+        "description": "No size"
+      },
+      "nano": {
+        "100": {
+          "value": 1,
+          "type": "sizing",
+          "description": "Minute sizing"
+        },
+        "200": {
+          "value": 2,
+          "type": "sizing",
+          "description": "Minute sizing"
+        },
+        "300": {
+          "value": 3,
+          "type": "sizing",
+          "description": "Minute sizing"
+        },
+        "400": {
+          "value": 4,
+          "type": "sizing",
+          "description": "Minute sizing"
+        }
+      },
+      "micro": {
+        "100": {
+          "value": 2,
+          "type": "sizing",
+          "description": "Element sizing"
+        },
+        "200": {
+          "value": 4,
+          "type": "sizing",
+          "description": "Element sizing"
+        },
+        "300": {
+          "value": 6,
+          "type": "sizing",
+          "description": "Element sizing"
+        },
+        "400": {
+          "value": 8,
+          "type": "sizing",
+          "description": "Element sizing"
+        },
+        "500": {
+          "value": 10,
+          "type": "sizing",
+          "description": "Element sizing"
+        },
+        "600": {
+          "value": 12,
+          "type": "sizing",
+          "description": "Element sizing"
+        },
+        "700": {
+          "value": 14,
+          "type": "sizing",
+          "description": "Element sizing"
+        },
+        "800": {
+          "value": 16,
+          "type": "sizing",
+          "description": "Element sizing"
+        },
+        "900": {
+          "value": 18,
+          "type": "sizing",
+          "description": "Element sizing"
+        },
+        "1000": {
+          "value": 20,
+          "type": "sizing",
+          "description": "Element sizing"
+        },
+        "1100": {
+          "value": 22,
+          "type": "sizing",
+          "description": "Element sizing"
+        },
+        "1200": {
+          "value": 24,
+          "type": "sizing",
+          "description": "Element sizing"
+        },
+        "1300": {
+          "value": 32,
+          "type": "sizing",
+          "description": "Element sizing"
+        },
+        "1400": {
+          "value": 40,
+          "type": "sizing",
+          "description": "Element sizing"
+        },
+        "1500": {
+          "value": 48,
+          "type": "sizing",
+          "description": "Element sizing"
+        },
+        "1600": {
+          "value": 56,
+          "type": "sizing",
+          "description": "Element sizing"
+        },
+        "1700": {
+          "value": 64,
+          "type": "sizing",
+          "description": "Element sizing"
+        },
+        "1800": {
+          "value": 72,
+          "type": "sizing",
+          "description": "Element sizing"
+        },
+        "1900": {
+          "value": 80,
+          "type": "sizing",
+          "description": "Element sizing"
+        },
+        "2000": {
+          "value": 88,
+          "type": "sizing",
+          "description": "Element sizing"
+        }
+      },
+      "macro": {
+        "100": {
+          "value": 96,
+          "type": "sizing",
+          "description": "Large element/canvas sizing"
+        },
+        "200": {
+          "value": 104,
+          "type": "sizing",
+          "description": "Large element/canvas sizing"
+        },
+        "300": {
+          "value": 112,
+          "type": "sizing",
+          "description": "Large element/canvas sizing"
+        },
+        "400": {
+          "value": 128,
+          "type": "sizing",
+          "description": "Large element/canvas sizing"
+        },
+        "500": {
+          "value": 208,
+          "type": "sizing",
+          "description": "Large element/canvas sizing"
+        },
+        "600": {
+          "value": 256,
+          "type": "sizing",
+          "description": "Large element/canvas sizing"
+        },
+        "700": {
+          "value": 432,
+          "type": "sizing",
+          "description": "Large element/canvas sizing"
+        },
+        "800": {
+          "value": 464,
+          "type": "sizing",
+          "description": "Large element/canvas sizing"
+        },
+        "900": {
+          "value": 512,
+          "type": "sizing",
+          "description": "Large element/canvas sizing"
+        },
+        "1000": {
+          "value": 768,
+          "type": "sizing",
+          "description": "Large element/canvas sizing"
+        },
+        "1100": {
+          "value": 1024,
+          "type": "sizing",
+          "description": "Large element/canvas sizing"
+        }
+      }
+    }
+  }
+}
