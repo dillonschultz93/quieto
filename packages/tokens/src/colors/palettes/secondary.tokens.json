@@ -1,47 +1,47 @@
 {
   "secondary": {
     "100": {
-      "value": "{colors.gray.100}",
+      "value": "{color.core.gray.100}",
       "description": "Lightest secondary color",
       "type": "color"
     },
     "200": {
-      "value": "{colors.gray.200}",
+      "value": "{color.core.gray.200}",
       "description": "",
       "type": "color"
     },
     "300": {
-      "value": "{colors.gray.300}",
+      "value": "{color.core.gray.300}",
       "description": "",
       "type": "color"
     },
     "400": {
-      "value": "{colors.gray.400}",
+      "value": "{color.core.gray.400}",
       "description": "",
       "type": "color"
     },
     "500": {
-      "value": "{colors.gray.500}",
+      "value": "{color.core.gray.500}",
       "description": "Default secondary color",
       "type": "color"
     },
     "600": {
-      "value": "{colors.gray.600}",
+      "value": "{color.core.gray.600}",
       "description": "",
       "type": "color"
     },
     "700": {
-      "value": "{colors.gray.700}",
+      "value": "{color.core.gray.700}",
       "description": "",
       "type": "color"
     },
     "800": {
-      "value": "{colors.gray.800}",
+      "value": "{color.core.gray.800}",
       "description": "",
       "type": "color"
     },
     "900": {
-      "value": "{colors.gray.900}",
+      "value": "{color.core.gray.900}",
       "description": "Darkest secondary color",
       "type": "color"
     }

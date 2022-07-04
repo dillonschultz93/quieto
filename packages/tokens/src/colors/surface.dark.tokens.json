@@ -2,22 +2,22 @@
   "color": {
     "surface": {
       "100": {
-        "value": "{color.core.white}",
+        "value": "{color.core.black}",
         "type": "color",
         "description": "Lightest surface"
       },
       "200": {
-        "value": "{color.core.gray.100}",
+        "value": "{color.core.gray.900}",
         "type": "color",
         "description": "-"
       },
       "300": {
-        "value": "{color.core.gray.200}",
+        "value": "{color.core.gray.800}",
         "type": "color",
         "description": "-"
       },
       "400": {
-        "value": "{color.core.gray.300}",
+        "value": "{color.core.gray.700}",
         "type": "color",
         "description": "-"
       }
