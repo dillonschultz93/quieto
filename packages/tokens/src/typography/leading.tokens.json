@@ -1,6 +1,6 @@
 {
   "typography": {
-    "lineHeights": {
+    "leading": {
       "sm": {
         "value": 1.2,
         "description": "Tight spacing between lines",
