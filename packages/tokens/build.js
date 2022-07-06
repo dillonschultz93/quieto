@@ -1,9 +1,7 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 const fs = require('fs');
-// const path = require('path');
-// const _ = require('lodash');
 const StyleDictionary = require('style-dictionary');
-// const { transform } = require('@divriots/style-dictionary-to-figma');
+const { useRefValue } = require('@divriots/style-dictionary-to-figma');
 
 // Set up style dictionary ====================================================
 const modes = ['light', 'dark'];
@@ -11,19 +9,23 @@ const modes = ['light', 'dark'];
 // Build light mode tokens
 StyleDictionary.extend({
   transform: {
-    // Typography transforms
-    // CSS
     'fontSize/css': require('./transformers/typography/font-size-css'),
     'tracking/css': require('./transformers/typography/tracking-css'),
     'paragraphSpacing/css': require('./transformers/typography/paragraph-spacing-css'),
-    // Figma
-
-    // Dimension transforms
-    // CSS
+    'leading/figma': require('./transformers/typography/leading-figma'),
+    'tracking/figma': require('./transformers/typography/tracking-figma'),
+    'weight/figma': require('./transformers/typography/weight-figma'),
     'sizing/css': require('./transformers/dimension/size-css'),
     'spacing/css': require('./transformers/dimension/space-css'),
     'corners/css': require('./transformers/dimension/corner-css'),
     'borderWidth/css': require('./transformers/dimension/border-width-css'),
+  },
+  format: {
+    figmaTokensPlugin: ({ dictionary }) => {
+      const transformedTokens = useRefValue(dictionary.tokens);
+
+      return JSON.stringify(transformedTokens, null, 2);
+    },
   },
   source: [`src/**/!(*.${modes.join(`|*.`)}).tokens.json`],
   platforms: {
@@ -74,11 +76,35 @@ StyleDictionary.extend({
         },
       ],
     },
+    figma: {
+      transforms: [
+        'attribute/cti',
+        'name/cti/camel',
+        'tracking/figma',
+        'leading/figma',
+        'weight/figma',
+        'color/hex',
+      ],
+      buildPath: 'figma/',
+      files: [
+        {
+          destination: 'figma-tokens.json',
+          format: 'json',
+        },
+      ],
+    },
   },
 }).buildAllPlatforms();
 
 // // Build dark mode tokens
 StyleDictionary.extend({
+  format: {
+    figmaTokensPlugin: ({ dictionary }) => {
+      const transformedTokens = useRefValue(dictionary.tokens);
+
+      return JSON.stringify(transformedTokens, null, 2);
+    },
+  },
   include: [`src/**/!(*.${modes.join(`|*.`)}).tokens.json`],
   source: ['src/**/*.dark.tokens.json'],
   platforms: {
@@ -107,19 +133,22 @@ StyleDictionary.extend({
         },
       ],
     },
+    dark_figma: {
+      transformGroup: 'js',
+      buildPath: 'figma/',
+      files: [
+        {
+          destination: 'dark-figma-tokens.json',
+          format: 'json',
+        },
+      ],
+    },
   },
 }).buildAllPlatforms();
 
-// Create a custom formatter for style dictionary
-// const templateFile = fs.readFileSync(path.join(__dirname, 'templates/es6.template'), 'utf-8');
-// const typingES6Template = _.template(templateFile);
-
-// StyleDictionary.registerFormat({
-//   name: 'typings/es6',
-//   formatter: typingES6Template
-// });
 // =============================================================================
 
+// Take style-dictionary output and merge the two tokensets
 const tokens = require('./tmp/transformed-tokens.json');
 const darkTokens = require('./tmp/transformed-dark-tokens.json');
 
