@@ -22,9 +22,13 @@ StyleDictionary.extend({
   },
   format: {
     figmaTokensPlugin: ({ dictionary }) => {
-      const transformedTokens = useRefValue(dictionary.tokens);
+      const figmaFormat = {
+        "core": {
+          ...dictionary.tokens
+        }
+      };
 
-      return JSON.stringify(transformedTokens, null, 2);
+      return JSON.stringify(figmaFormat, null, 2);
     },
   },
   source: [`src/**/!(*.${modes.join(`|*.`)}).tokens.json`],
@@ -89,7 +93,7 @@ StyleDictionary.extend({
       files: [
         {
           destination: 'figma-tokens.json',
-          format: 'json',
+          format: 'figmaTokensPlugin',
         },
       ],
     },
@@ -139,7 +143,7 @@ StyleDictionary.extend({
       files: [
         {
           destination: 'dark-figma-tokens.json',
-          format: 'json',
+          format: 'figmaTokensPlugin',
         },
       ],
     },
