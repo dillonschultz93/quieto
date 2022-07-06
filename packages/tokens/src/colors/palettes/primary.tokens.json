@@ -1,50 +1,51 @@
 {
-  "primary": {
-    "tokenset": "core",
-    "100": {
-      "value": "{colors.indigo.100}",
-      "description": "Lightest primary color",
-      "type": "color"
-    },
-    "200": {
-      "value": "{colors.indigo.200}",
-      "description": "",
-      "type": "color"
-    },
-    "300": {
-      "value": "{colors.indigo.300}",
-      "description": "",
-      "type": "color"
-    },
-    "400": {
-      "value": "{colors.indigo.400}",
-      "description": "",
-      "type": "color"
-    },
-    "500": {
-      "value": "{colors.indigo.500}",
-      "description": "Default primary color",
-      "type": "color"
-    },
-    "600": {
-      "value": "{colors.indigo.600}",
-      "description": "",
-      "type": "color"
-    },
-    "700": {
-      "value": "{colors.indigo.700}",
-      "description": "",
-      "type": "color"
-    },
-    "800": {
-      "value": "{colors.indigo.800}",
-      "description": "",
-      "type": "color"
-    },
-    "900": {
-      "value": "{colors.indigo.900}",
-      "description": "Darkest primary color",
-      "type": "color"
+  "color": {
+    "primary": {
+      "100": {
+        "value": "{color.core.indigo.100}",
+        "description": "Lightest primary color",
+        "type": "color"
+      },
+      "200": {
+        "value": "{color.core.indigo.200}",
+        "description": "",
+        "type": "color"
+      },
+      "300": {
+        "value": "{color.core.indigo.300}",
+        "description": "",
+        "type": "color"
+      },
+      "400": {
+        "value": "{color.core.indigo.400}",
+        "description": "",
+        "type": "color"
+      },
+      "500": {
+        "value": "{color.core.indigo.500}",
+        "description": "Default primary color",
+        "type": "color"
+      },
+      "600": {
+        "value": "{color.core.indigo.600}",
+        "description": "",
+        "type": "color"
+      },
+      "700": {
+        "value": "{color.core.indigo.700}",
+        "description": "",
+        "type": "color"
+      },
+      "800": {
+        "value": "{color.core.indigo.800}",
+        "description": "",
+        "type": "color"
+      },
+      "900": {
+        "value": "{color.core.indigo.900}",
+        "description": "Darkest primary color",
+        "type": "color"
+      }
     }
   }
 }

@@ -1,0 +1,21 @@
+{
+  "typography": {
+    "leading": {
+      "sm": {
+        "value": 1.2,
+        "description": "Tight spacing between lines",
+        "type": "lineHeights"
+      },
+      "md": {
+        "value": 1.5,
+        "description": "Default spacing between lines",
+        "type": "lineHeights"
+      },
+      "lg": {
+        "value": 1.75,
+        "description": "Loose spacing between lines",
+        "type": "lineHeights"
+      }
+    }
+  }
+}

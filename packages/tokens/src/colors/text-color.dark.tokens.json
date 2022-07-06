@@ -2,32 +2,32 @@
   "color": {
     "textColor": {
       "primary": {
-        "value": "{color.core.gray.900}",
+        "value": "{color.core.gray.100}",
         "type": "color",
         "description": "Primary text color"
       },
       "secondary": {
-        "value": "{color.core.gray.700}",
+        "value": "{color.core.gray.300}",
         "type": "color",
         "description": "Secondary text color"
       },
       "dim": {
-        "value": "{color.core.gray.400}",
+        "value": "{color.core.gray.700}",
         "type": "color",
         "description": "Dim text color"
       },
       "link": {
-        "value": "{color.core.blue.500}",
+        "value": "{color.core.blue.400}",
         "type": "color",
         "description": "Link text color"
       },
       "error": {
-        "value": "{color.core.red.500}",
+        "value": "{color.core.red.400}",
         "type": "color",
         "description": "Error text color"
       },
       "reverse": {
-        "value": "{color.core.gray.100}",
+        "value": "{color.core.gray.900}",
         "type": "color",
         "description": "Reverse text color"
       }

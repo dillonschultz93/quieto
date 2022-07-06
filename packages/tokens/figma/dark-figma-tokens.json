@@ -2,17 +2,17 @@
   "color": {
     "border": {
       "100": {
-        "value": "#c1c7d2",
+        "value": "#414752",
         "type": "color",
         "description": "Lightest border",
-        "filePath": "src/colors/border.tokens.json",
+        "filePath": "src/colors/border.dark.tokens.json",
         "isSource": true,
         "original": {
-          "value": "{color.core.gray.200}",
+          "value": "{color.core.gray.700}",
           "type": "color",
           "description": "Lightest border"
         },
-        "name": "colorBorder100",
+        "name": "ColorBorder100",
         "attributes": {
           "category": "color",
           "type": "border",
@@ -25,17 +25,17 @@
         ]
       },
       "200": {
-        "value": "#a2acbe",
+        "value": "#575f6e",
         "type": "color",
         "description": "-",
-        "filePath": "src/colors/border.tokens.json",
+        "filePath": "src/colors/border.dark.tokens.json",
         "isSource": true,
         "original": {
-          "value": "{color.core.gray.300}",
+          "value": "{color.core.gray.600}",
           "type": "color",
           "description": "-"
         },
-        "name": "colorBorder200",
+        "name": "ColorBorder200",
         "attributes": {
           "category": "color",
           "type": "border",
@@ -48,17 +48,17 @@
         ]
       },
       "300": {
-        "value": "#8591a8",
+        "value": "#6d778a",
         "type": "color",
         "description": "-",
-        "filePath": "src/colors/border.tokens.json",
+        "filePath": "src/colors/border.dark.tokens.json",
         "isSource": true,
         "original": {
-          "value": "{color.core.gray.400}",
+          "value": "{color.core.gray.500}",
           "type": "color",
           "description": "-"
         },
-        "name": "colorBorder300",
+        "name": "ColorBorder300",
         "attributes": {
           "category": "color",
           "type": "border",
@@ -71,17 +71,17 @@
         ]
       },
       "400": {
-        "value": "#6d778a",
+        "value": "#8591a8",
         "type": "color",
         "description": "-",
-        "filePath": "src/colors/border.tokens.json",
+        "filePath": "src/colors/border.dark.tokens.json",
         "isSource": true,
         "original": {
-          "value": "{color.core.gray.500}",
+          "value": "{color.core.gray.400}",
           "type": "color",
           "description": "-"
         },
-        "name": "colorBorder400",
+        "name": "ColorBorder400",
         "attributes": {
           "category": "color",
           "type": "border",
@@ -94,17 +94,17 @@
         ]
       },
       "500": {
-        "value": "#575f6e",
+        "value": "#a2acbe",
         "type": "color",
         "description": "-",
-        "filePath": "src/colors/border.tokens.json",
+        "filePath": "src/colors/border.dark.tokens.json",
         "isSource": true,
         "original": {
-          "value": "{color.core.gray.600}",
+          "value": "{color.core.gray.300}",
           "type": "color",
           "description": "-"
         },
-        "name": "colorBorder500",
+        "name": "ColorBorder500",
         "attributes": {
           "category": "color",
           "type": "border",
@@ -120,14 +120,14 @@
         "value": "#191c20",
         "type": "color",
         "description": "Inverted border",
-        "filePath": "src/colors/border.tokens.json",
+        "filePath": "src/colors/border.dark.tokens.json",
         "isSource": true,
         "original": {
           "value": "{color.core.gray.900}",
           "type": "color",
           "description": "Inverted border"
         },
-        "name": "colorBorderContrast",
+        "name": "ColorBorderContrast",
         "attributes": {
           "category": "color",
           "type": "border",
@@ -143,14 +143,14 @@
         "value": "#ffffff",
         "type": "color",
         "description": "Inverted border",
-        "filePath": "src/colors/border.tokens.json",
+        "filePath": "src/colors/border.dark.tokens.json",
         "isSource": true,
         "original": {
           "value": "{color.core.white}",
           "type": "color",
           "description": "Inverted border"
         },
-        "name": "colorBorderInverse",
+        "name": "ColorBorderInverse",
         "attributes": {
           "category": "color",
           "type": "border",
@@ -169,12 +169,12 @@
           "value": "#e0e3e8",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#E0E3E8",
             "type": "color"
           },
-          "name": "colorCoreGray100",
+          "name": "ColorCoreGray100",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -192,12 +192,12 @@
           "value": "#c1c7d2",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#C1C7D2",
             "type": "color"
           },
-          "name": "colorCoreGray200",
+          "name": "ColorCoreGray200",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -215,12 +215,12 @@
           "value": "#a2acbe",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#A2ACBE",
             "type": "color"
           },
-          "name": "colorCoreGray300",
+          "name": "ColorCoreGray300",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -238,12 +238,12 @@
           "value": "#8591a8",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#8591A8",
             "type": "color"
           },
-          "name": "colorCoreGray400",
+          "name": "ColorCoreGray400",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -261,12 +261,12 @@
           "value": "#6d778a",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#6D778A",
             "type": "color"
           },
-          "name": "colorCoreGray500",
+          "name": "ColorCoreGray500",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -284,12 +284,12 @@
           "value": "#575f6e",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#575F6E",
             "type": "color"
           },
-          "name": "colorCoreGray600",
+          "name": "ColorCoreGray600",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -307,12 +307,12 @@
           "value": "#414752",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#414752",
             "type": "color"
           },
-          "name": "colorCoreGray700",
+          "name": "ColorCoreGray700",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -330,12 +330,12 @@
           "value": "#2c3138",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#2C3138",
             "type": "color"
           },
-          "name": "colorCoreGray800",
+          "name": "ColorCoreGray800",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -353,12 +353,12 @@
           "value": "#191c20",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#191C20",
             "type": "color"
           },
-          "name": "colorCoreGray900",
+          "name": "ColorCoreGray900",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -378,12 +378,12 @@
           "value": "#f9dcdb",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#F9DCDB",
             "type": "color"
           },
-          "name": "colorCoreRed100",
+          "name": "ColorCoreRed100",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -401,12 +401,12 @@
           "value": "#f3b8b6",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#F3B8B6",
             "type": "color"
           },
-          "name": "colorCoreRed200",
+          "name": "ColorCoreRed200",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -424,12 +424,12 @@
           "value": "#ee928e",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#EE928E",
             "type": "color"
           },
-          "name": "colorCoreRed300",
+          "name": "ColorCoreRed300",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -447,12 +447,12 @@
           "value": "#ea6861",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#EA6861",
             "type": "color"
           },
-          "name": "colorCoreRed400",
+          "name": "ColorCoreRed400",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -470,12 +470,12 @@
           "value": "#d1473e",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#D1473E",
             "type": "color"
           },
-          "name": "colorCoreRed500",
+          "name": "ColorCoreRed500",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -493,12 +493,12 @@
           "value": "#a63931",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#A63931",
             "type": "color"
           },
-          "name": "colorCoreRed600",
+          "name": "ColorCoreRed600",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -516,12 +516,12 @@
           "value": "#7d2b25",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#7D2B25",
             "type": "color"
           },
-          "name": "colorCoreRed700",
+          "name": "ColorCoreRed700",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -539,12 +539,12 @@
           "value": "#571e1a",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#571E1A",
             "type": "color"
           },
-          "name": "colorCoreRed800",
+          "name": "ColorCoreRed800",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -562,12 +562,12 @@
           "value": "#32110f",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#32110F",
             "type": "color"
           },
-          "name": "colorCoreRed900",
+          "name": "ColorCoreRed900",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -587,12 +587,12 @@
           "value": "#f6decc",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#F6DECC",
             "type": "color"
           },
-          "name": "colorCoreOrange100",
+          "name": "ColorCoreOrange100",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -610,12 +610,12 @@
           "value": "#efbd93",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#EFBD93",
             "type": "color"
           },
-          "name": "colorCoreOrange200",
+          "name": "ColorCoreOrange200",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -633,12 +633,12 @@
           "value": "#e69b45",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#E69B45",
             "type": "color"
           },
-          "name": "colorCoreOrange300",
+          "name": "ColorCoreOrange300",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -656,12 +656,12 @@
           "value": "#c3833a",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#C3833A",
             "type": "color"
           },
-          "name": "colorCoreOrange400",
+          "name": "ColorCoreOrange400",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -679,12 +679,12 @@
           "value": "#a06c30",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#A06C30",
             "type": "color"
           },
-          "name": "colorCoreOrange500",
+          "name": "ColorCoreOrange500",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -702,12 +702,12 @@
           "value": "#7f5626",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#7F5626",
             "type": "color"
           },
-          "name": "colorCoreOrange600",
+          "name": "ColorCoreOrange600",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -725,12 +725,12 @@
           "value": "#5f401c",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#5F401C",
             "type": "color"
           },
-          "name": "colorCoreOrange700",
+          "name": "ColorCoreOrange700",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -748,12 +748,12 @@
           "value": "#412c13",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#412C13",
             "type": "color"
           },
-          "name": "colorCoreOrange800",
+          "name": "ColorCoreOrange800",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -771,12 +771,12 @@
           "value": "#25190b",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#25190B",
             "type": "color"
           },
-          "name": "colorCoreOrange900",
+          "name": "ColorCoreOrange900",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -796,12 +796,12 @@
           "value": "#efe592",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#EFE592",
             "type": "color"
           },
-          "name": "colorCoreYellow100",
+          "name": "ColorCoreYellow100",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -819,12 +819,12 @@
           "value": "#d6c940",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#D6C940",
             "type": "color"
           },
-          "name": "colorCoreYellow200",
+          "name": "ColorCoreYellow200",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -842,12 +842,12 @@
           "value": "#b9ae37",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#B9AE37",
             "type": "color"
           },
-          "name": "colorCoreYellow300",
+          "name": "ColorCoreYellow300",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -865,12 +865,12 @@
           "value": "#9c932e",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#9C932E",
             "type": "color"
           },
-          "name": "colorCoreYellow400",
+          "name": "ColorCoreYellow400",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -888,12 +888,12 @@
           "value": "#817926",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#817926",
             "type": "color"
           },
-          "name": "colorCoreYellow500",
+          "name": "ColorCoreYellow500",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -911,12 +911,12 @@
           "value": "#66601e",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#66601E",
             "type": "color"
           },
-          "name": "colorCoreYellow600",
+          "name": "ColorCoreYellow600",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -934,12 +934,12 @@
           "value": "#4c4817",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#4C4817",
             "type": "color"
           },
-          "name": "colorCoreYellow700",
+          "name": "ColorCoreYellow700",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -957,12 +957,12 @@
           "value": "#343110",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#343110",
             "type": "color"
           },
-          "name": "colorCoreYellow800",
+          "name": "ColorCoreYellow800",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -980,12 +980,12 @@
           "value": "#1e1c09",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#1E1C09",
             "type": "color"
           },
-          "name": "colorCoreYellow900",
+          "name": "ColorCoreYellow900",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -1005,12 +1005,12 @@
           "value": "#c8ef98",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#C8EF98",
             "type": "color"
           },
-          "name": "colorCoreLime100",
+          "name": "ColorCoreLime100",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -1028,12 +1028,12 @@
           "value": "#9ed840",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#9ED840",
             "type": "color"
           },
-          "name": "colorCoreLime200",
+          "name": "ColorCoreLime200",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -1051,12 +1051,12 @@
           "value": "#88ba37",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#88BA37",
             "type": "color"
           },
-          "name": "colorCoreLime300",
+          "name": "ColorCoreLime300",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -1074,12 +1074,12 @@
           "value": "#739d2f",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#739D2F",
             "type": "color"
           },
-          "name": "colorCoreLime400",
+          "name": "ColorCoreLime400",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -1097,12 +1097,12 @@
           "value": "#5f8227",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#5F8227",
             "type": "color"
           },
-          "name": "colorCoreLime500",
+          "name": "ColorCoreLime500",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -1120,12 +1120,12 @@
           "value": "#4b671f",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#4B671F",
             "type": "color"
           },
-          "name": "colorCoreLime600",
+          "name": "ColorCoreLime600",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -1143,12 +1143,12 @@
           "value": "#384d17",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#384D17",
             "type": "color"
           },
-          "name": "colorCoreLime700",
+          "name": "ColorCoreLime700",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -1166,12 +1166,12 @@
           "value": "#273510",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#273510",
             "type": "color"
           },
-          "name": "colorCoreLime800",
+          "name": "ColorCoreLime800",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -1189,12 +1189,12 @@
           "value": "#161e09",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#161E09",
             "type": "color"
           },
-          "name": "colorCoreLime900",
+          "name": "ColorCoreLime900",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -1214,12 +1214,12 @@
           "value": "#aef2bf",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#AEF2BF",
             "type": "color"
           },
-          "name": "colorCoreGreen100",
+          "name": "ColorCoreGreen100",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -1237,12 +1237,12 @@
           "value": "#43e278",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#43E278",
             "type": "color"
           },
-          "name": "colorCoreGreen200",
+          "name": "ColorCoreGreen200",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -1260,12 +1260,12 @@
           "value": "#3ac367",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#3AC367",
             "type": "color"
           },
-          "name": "colorCoreGreen300",
+          "name": "ColorCoreGreen300",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -1283,12 +1283,12 @@
           "value": "#31a557",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#31A557",
             "type": "color"
           },
-          "name": "colorCoreGreen400",
+          "name": "ColorCoreGreen400",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -1306,12 +1306,12 @@
           "value": "#288848",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#288848",
             "type": "color"
           },
-          "name": "colorCoreGreen500",
+          "name": "ColorCoreGreen500",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -1329,12 +1329,12 @@
           "value": "#206c39",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#206C39",
             "type": "color"
           },
-          "name": "colorCoreGreen600",
+          "name": "ColorCoreGreen600",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -1352,12 +1352,12 @@
           "value": "#18512b",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#18512B",
             "type": "color"
           },
-          "name": "colorCoreGreen700",
+          "name": "ColorCoreGreen700",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -1375,12 +1375,12 @@
           "value": "#11381d",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#11381D",
             "type": "color"
           },
-          "name": "colorCoreGreen800",
+          "name": "ColorCoreGreen800",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -1398,12 +1398,12 @@
           "value": "#092011",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#092011",
             "type": "color"
           },
-          "name": "colorCoreGreen900",
+          "name": "ColorCoreGreen900",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -1423,12 +1423,12 @@
           "value": "#a8f1d9",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#A8F1D9",
             "type": "color"
           },
-          "name": "colorCoreTeal100",
+          "name": "ColorCoreTeal100",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -1446,12 +1446,12 @@
           "value": "#43deb5",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#43DEB5",
             "type": "color"
           },
-          "name": "colorCoreTeal200",
+          "name": "ColorCoreTeal200",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -1469,12 +1469,12 @@
           "value": "#3abf9c",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#3ABF9C",
             "type": "color"
           },
-          "name": "colorCoreTeal300",
+          "name": "ColorCoreTeal300",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -1492,12 +1492,12 @@
           "value": "#31a284",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#31A284",
             "type": "color"
           },
-          "name": "colorCoreTeal400",
+          "name": "ColorCoreTeal400",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -1515,12 +1515,12 @@
           "value": "#28856d",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#28856D",
             "type": "color"
           },
-          "name": "colorCoreTeal500",
+          "name": "ColorCoreTeal500",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -1538,12 +1538,12 @@
           "value": "#206a56",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#206A56",
             "type": "color"
           },
-          "name": "colorCoreTeal600",
+          "name": "ColorCoreTeal600",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -1561,12 +1561,12 @@
           "value": "#185041",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#185041",
             "type": "color"
           },
-          "name": "colorCoreTeal700",
+          "name": "ColorCoreTeal700",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -1584,12 +1584,12 @@
           "value": "#10372c",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#10372C",
             "type": "color"
           },
-          "name": "colorCoreTeal800",
+          "name": "ColorCoreTeal800",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -1607,12 +1607,12 @@
           "value": "#091f19",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#091F19",
             "type": "color"
           },
-          "name": "colorCoreTeal900",
+          "name": "ColorCoreTeal900",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -1632,12 +1632,12 @@
           "value": "#c4e9f5",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#C4E9F5",
             "type": "color"
           },
-          "name": "colorCoreCyan100",
+          "name": "ColorCoreCyan100",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -1655,12 +1655,12 @@
           "value": "#7ad3ec",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#7AD3EC",
             "type": "color"
           },
-          "name": "colorCoreCyan200",
+          "name": "ColorCoreCyan200",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -1678,12 +1678,12 @@
           "value": "#41b9d6",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#41B9D6",
             "type": "color"
           },
-          "name": "colorCoreCyan300",
+          "name": "ColorCoreCyan300",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -1701,12 +1701,12 @@
           "value": "#379db5",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#379DB5",
             "type": "color"
           },
-          "name": "colorCoreCyan400",
+          "name": "ColorCoreCyan400",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -1724,12 +1724,12 @@
           "value": "#2d8195",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#2D8195",
             "type": "color"
           },
-          "name": "colorCoreCyan500",
+          "name": "ColorCoreCyan500",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -1747,12 +1747,12 @@
           "value": "#246676",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#246676",
             "type": "color"
           },
-          "name": "colorCoreCyan600",
+          "name": "ColorCoreCyan600",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -1770,12 +1770,12 @@
           "value": "#1b4d59",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#1B4D59",
             "type": "color"
           },
-          "name": "colorCoreCyan700",
+          "name": "ColorCoreCyan700",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -1793,12 +1793,12 @@
           "value": "#12353d",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#12353D",
             "type": "color"
           },
-          "name": "colorCoreCyan800",
+          "name": "ColorCoreCyan800",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -1816,12 +1816,12 @@
           "value": "#0a1e23",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#0A1E23",
             "type": "color"
           },
-          "name": "colorCoreCyan900",
+          "name": "ColorCoreCyan900",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -1841,12 +1841,12 @@
           "value": "#dbe2f9",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#DBE2F9",
             "type": "color"
           },
-          "name": "colorCoreBlue100",
+          "name": "ColorCoreBlue100",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -1864,12 +1864,12 @@
           "value": "#b7c5f3",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#B7C5F3",
             "type": "color"
           },
-          "name": "colorCoreBlue200",
+          "name": "ColorCoreBlue200",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -1887,12 +1887,12 @@
           "value": "#91a9ee",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#91A9EE",
             "type": "color"
           },
-          "name": "colorCoreBlue300",
+          "name": "ColorCoreBlue300",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -1910,12 +1910,12 @@
           "value": "#688eea",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#688EEA",
             "type": "color"
           },
-          "name": "colorCoreBlue400",
+          "name": "ColorCoreBlue400",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -1933,12 +1933,12 @@
           "value": "#4173d9",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#4173D9",
             "type": "color"
           },
-          "name": "colorCoreBlue500",
+          "name": "ColorCoreBlue500",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -1956,12 +1956,12 @@
           "value": "#335bac",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#335BAC",
             "type": "color"
           },
-          "name": "colorCoreBlue600",
+          "name": "ColorCoreBlue600",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -1979,12 +1979,12 @@
           "value": "#274582",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#274582",
             "type": "color"
           },
-          "name": "colorCoreBlue700",
+          "name": "ColorCoreBlue700",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -2002,12 +2002,12 @@
           "value": "#1a2f59",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#1A2F59",
             "type": "color"
           },
-          "name": "colorCoreBlue800",
+          "name": "ColorCoreBlue800",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -2025,12 +2025,12 @@
           "value": "#0f1b33",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#0F1B33",
             "type": "color"
           },
-          "name": "colorCoreBlue900",
+          "name": "ColorCoreBlue900",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -2050,12 +2050,12 @@
           "value": "#e1e0fa",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#E1E0FA",
             "type": "color"
           },
-          "name": "colorCoreIndigo100",
+          "name": "ColorCoreIndigo100",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -2073,12 +2073,12 @@
           "value": "#c4c1f5",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#C4C1F5",
             "type": "color"
           },
-          "name": "colorCoreIndigo200",
+          "name": "ColorCoreIndigo200",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -2096,12 +2096,12 @@
           "value": "#a7a3f1",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#A7A3F1",
             "type": "color"
           },
-          "name": "colorCoreIndigo300",
+          "name": "ColorCoreIndigo300",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -2119,12 +2119,12 @@
           "value": "#8b84ed",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#8B84ED",
             "type": "color"
           },
-          "name": "colorCoreIndigo400",
+          "name": "ColorCoreIndigo400",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -2142,12 +2142,12 @@
           "value": "#6e64ea",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#6E64EA",
             "type": "color"
           },
-          "name": "colorCoreIndigo500",
+          "name": "ColorCoreIndigo500",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -2165,12 +2165,12 @@
           "value": "#5243e1",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#5243E1",
             "type": "color"
           },
-          "name": "colorCoreIndigo600",
+          "name": "ColorCoreIndigo600",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -2188,12 +2188,12 @@
           "value": "#3e33aa",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#3E33AA",
             "type": "color"
           },
-          "name": "colorCoreIndigo700",
+          "name": "ColorCoreIndigo700",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -2211,12 +2211,12 @@
           "value": "#2a2375",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#2A2375",
             "type": "color"
           },
-          "name": "colorCoreIndigo800",
+          "name": "ColorCoreIndigo800",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -2234,12 +2234,12 @@
           "value": "#191444",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#191444",
             "type": "color"
           },
-          "name": "colorCoreIndigo900",
+          "name": "ColorCoreIndigo900",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -2259,12 +2259,12 @@
           "value": "#e8def9",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#E8DEF9",
             "type": "color"
           },
-          "name": "colorCorePurple100",
+          "name": "ColorCorePurple100",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -2282,12 +2282,12 @@
           "value": "#d3bdf4",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#D3BDF4",
             "type": "color"
           },
-          "name": "colorCorePurple200",
+          "name": "ColorCorePurple200",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -2305,12 +2305,12 @@
           "value": "#be9bf0",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#BE9BF0",
             "type": "color"
           },
-          "name": "colorCorePurple300",
+          "name": "ColorCorePurple300",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -2328,12 +2328,12 @@
           "value": "#ab78ec",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#AB78EC",
             "type": "color"
           },
-          "name": "colorCorePurple400",
+          "name": "ColorCorePurple400",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -2351,12 +2351,12 @@
           "value": "#9a50e9",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#9A50E9",
             "type": "color"
           },
-          "name": "colorCorePurple500",
+          "name": "ColorCorePurple500",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -2374,12 +2374,12 @@
           "value": "#7a3fb9",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#7A3FB9",
             "type": "color"
           },
-          "name": "colorCorePurple600",
+          "name": "ColorCorePurple600",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -2397,12 +2397,12 @@
           "value": "#5c308b",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#5C308B",
             "type": "color"
           },
-          "name": "colorCorePurple700",
+          "name": "ColorCorePurple700",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -2420,12 +2420,12 @@
           "value": "#3f2160",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#3F2160",
             "type": "color"
           },
-          "name": "colorCorePurple800",
+          "name": "ColorCorePurple800",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -2443,12 +2443,12 @@
           "value": "#241337",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#241337",
             "type": "color"
           },
-          "name": "colorCorePurple900",
+          "name": "ColorCorePurple900",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -2468,12 +2468,12 @@
           "value": "#f3dde5",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#F3DDE5",
             "type": "color"
           },
-          "name": "colorCorePink100",
+          "name": "ColorCorePink100",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -2491,12 +2491,12 @@
           "value": "#e8bacc",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#E8BACC",
             "type": "color"
           },
-          "name": "colorCorePink200",
+          "name": "ColorCorePink200",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -2514,12 +2514,12 @@
           "value": "#df96b4",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#DF96B4",
             "type": "color"
           },
-          "name": "colorCorePink300",
+          "name": "ColorCorePink300",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -2537,12 +2537,12 @@
           "value": "#d66f9c",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#D66F9C",
             "type": "color"
           },
-          "name": "colorCorePink400",
+          "name": "ColorCorePink400",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -2560,12 +2560,12 @@
           "value": "#cf3e86",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#CF3E86",
             "type": "color"
           },
-          "name": "colorCorePink500",
+          "name": "ColorCorePink500",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -2583,12 +2583,12 @@
           "value": "#a5316b",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#A5316B",
             "type": "color"
           },
-          "name": "colorCorePink600",
+          "name": "ColorCorePink600",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -2606,12 +2606,12 @@
           "value": "#7c2551",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#7C2551",
             "type": "color"
           },
-          "name": "colorCorePink700",
+          "name": "ColorCorePink700",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -2629,12 +2629,12 @@
           "value": "#561a38",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#561A38",
             "type": "color"
           },
-          "name": "colorCorePink800",
+          "name": "ColorCorePink800",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -2652,12 +2652,12 @@
           "value": "#320f20",
           "type": "color",
           "filePath": "src/colors/core.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#320F20",
             "type": "color"
           },
-          "name": "colorCorePink900",
+          "name": "ColorCorePink900",
           "attributes": {
             "category": "color",
             "type": "core",
@@ -2677,13 +2677,13 @@
         "description": "White",
         "type": "color",
         "filePath": "src/colors/core.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": "#ffffff",
           "description": "White",
           "type": "color"
         },
-        "name": "colorCoreWhite",
+        "name": "ColorCoreWhite",
         "attributes": {
           "category": "color",
           "type": "core",
@@ -2700,13 +2700,13 @@
         "description": "Black",
         "type": "color",
         "filePath": "src/colors/core.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": "#000000",
           "description": "Black",
           "type": "color"
         },
-        "name": "colorCoreBlack",
+        "name": "ColorCoreBlack",
         "attributes": {
           "category": "color",
           "type": "core",
@@ -2725,13 +2725,13 @@
         "type": "boxShadow",
         "description": "Smallest elevation",
         "filePath": "src/colors/elevation.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": "0px 0px 40px #00000012, 0px 0px 12.1px #0000000d, 0px 0px 5px #0000000a, 0px 0px 1.8px #00000005",
           "type": "boxShadow",
           "description": "Smallest elevation"
         },
-        "name": "colorElevation300",
+        "name": "ColorElevation300",
         "attributes": {
           "category": "color",
           "type": "elevation",
@@ -2748,13 +2748,13 @@
         "type": "boxShadow",
         "description": "Default elevation",
         "filePath": "src/colors/elevation.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": "0px 10px 40px #00000012, 0px 4.2px 16.7px #0000000d, 0px 2.2px 8.9px #0000000a, 0px 1.3px 5px #0000000a, 0px 0.7px 2.7px #00000008, 0px 0.3px 1.1px #00000005",
           "type": "boxShadow",
           "description": "Default elevation"
         },
-        "name": "colorElevation500",
+        "name": "ColorElevation500",
         "attributes": {
           "category": "color",
           "type": "elevation",
@@ -2771,13 +2771,13 @@
         "type": "boxShadow",
         "description": "Highest elevation",
         "filePath": "src/colors/elevation.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": "0px 20px 40px #00000012, 0px 10px 20px #0000000d, 0px 6px 12.1px #0000000d, 0px 3.9px 7.7px #0000000a, 0px 2.5px 5px #0000000a, 0px 1.6px 3.2px #00000008, 0px 0.9px 1.8px #00000005, 0px 0.4px 0.8px #00000005",
           "type": "boxShadow",
           "description": "Highest elevation"
         },
-        "name": "colorElevation700",
+        "name": "ColorElevation700",
         "attributes": {
           "category": "color",
           "type": "elevation",
@@ -2796,13 +2796,13 @@
         "type": "opacity",
         "description": "10% opacity",
         "filePath": "src/colors/opacity.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": 0.1,
           "type": "opacity",
           "description": "10% opacity"
         },
-        "name": "colorOpacity10",
+        "name": "ColorOpacity10",
         "attributes": {
           "category": "color",
           "type": "opacity",
@@ -2819,13 +2819,13 @@
         "type": "opacity",
         "description": "20% opacity",
         "filePath": "src/colors/opacity.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": 0.2,
           "type": "opacity",
           "description": "20% opacity"
         },
-        "name": "colorOpacity20",
+        "name": "ColorOpacity20",
         "attributes": {
           "category": "color",
           "type": "opacity",
@@ -2842,13 +2842,13 @@
         "type": "opacity",
         "description": "30% opacity",
         "filePath": "src/colors/opacity.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": 0.3,
           "type": "opacity",
           "description": "30% opacity"
         },
-        "name": "colorOpacity30",
+        "name": "ColorOpacity30",
         "attributes": {
           "category": "color",
           "type": "opacity",
@@ -2865,13 +2865,13 @@
         "type": "opacity",
         "description": "40% opacity",
         "filePath": "src/colors/opacity.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": 0.4,
           "type": "opacity",
           "description": "40% opacity"
         },
-        "name": "colorOpacity40",
+        "name": "ColorOpacity40",
         "attributes": {
           "category": "color",
           "type": "opacity",
@@ -2888,13 +2888,13 @@
         "type": "opacity",
         "description": "50% opacity",
         "filePath": "src/colors/opacity.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": 0.5,
           "type": "opacity",
           "description": "50% opacity"
         },
-        "name": "colorOpacity50",
+        "name": "ColorOpacity50",
         "attributes": {
           "category": "color",
           "type": "opacity",
@@ -2911,13 +2911,13 @@
         "type": "opacity",
         "description": "60% opacity",
         "filePath": "src/colors/opacity.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": 0.6,
           "type": "opacity",
           "description": "60% opacity"
         },
-        "name": "colorOpacity60",
+        "name": "ColorOpacity60",
         "attributes": {
           "category": "color",
           "type": "opacity",
@@ -2934,13 +2934,13 @@
         "type": "opacity",
         "description": "70% opacity",
         "filePath": "src/colors/opacity.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": 0.7,
           "type": "opacity",
           "description": "70% opacity"
         },
-        "name": "colorOpacity70",
+        "name": "ColorOpacity70",
         "attributes": {
           "category": "color",
           "type": "opacity",
@@ -2957,13 +2957,13 @@
         "type": "opacity",
         "description": "80% opacity",
         "filePath": "src/colors/opacity.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": 0.8,
           "type": "opacity",
           "description": "80% opacity"
         },
-        "name": "colorOpacity80",
+        "name": "ColorOpacity80",
         "attributes": {
           "category": "color",
           "type": "opacity",
@@ -2980,13 +2980,13 @@
         "type": "opacity",
         "description": "90% opacity",
         "filePath": "src/colors/opacity.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": 0.9,
           "type": "opacity",
           "description": "90% opacity"
         },
-        "name": "colorOpacity90",
+        "name": "ColorOpacity90",
         "attributes": {
           "category": "color",
           "type": "opacity",
@@ -3003,13 +3003,13 @@
         "type": "opacity",
         "description": "No opacity",
         "filePath": "src/colors/opacity.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": 0,
           "type": "opacity",
           "description": "No opacity"
         },
-        "name": "colorOpacityNone",
+        "name": "ColorOpacityNone",
         "attributes": {
           "category": "color",
           "type": "opacity",
@@ -3026,13 +3026,13 @@
         "type": "opacity",
         "description": "Opaque",
         "filePath": "src/colors/opacity.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": 1,
           "type": "opacity",
           "description": "Opaque"
         },
-        "name": "colorOpacityFull",
+        "name": "ColorOpacityFull",
         "attributes": {
           "category": "color",
           "type": "opacity",
@@ -3051,13 +3051,13 @@
         "description": "Lightest primary color",
         "type": "color",
         "filePath": "src/colors/palettes/primary.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": "{color.core.indigo.100}",
           "description": "Lightest primary color",
           "type": "color"
         },
-        "name": "colorPrimary100",
+        "name": "ColorPrimary100",
         "attributes": {
           "category": "color",
           "type": "primary",
@@ -3074,13 +3074,13 @@
         "description": "",
         "type": "color",
         "filePath": "src/colors/palettes/primary.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": "{color.core.indigo.200}",
           "description": "",
           "type": "color"
         },
-        "name": "colorPrimary200",
+        "name": "ColorPrimary200",
         "attributes": {
           "category": "color",
           "type": "primary",
@@ -3097,13 +3097,13 @@
         "description": "",
         "type": "color",
         "filePath": "src/colors/palettes/primary.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": "{color.core.indigo.300}",
           "description": "",
           "type": "color"
         },
-        "name": "colorPrimary300",
+        "name": "ColorPrimary300",
         "attributes": {
           "category": "color",
           "type": "primary",
@@ -3120,13 +3120,13 @@
         "description": "",
         "type": "color",
         "filePath": "src/colors/palettes/primary.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": "{color.core.indigo.400}",
           "description": "",
           "type": "color"
         },
-        "name": "colorPrimary400",
+        "name": "ColorPrimary400",
         "attributes": {
           "category": "color",
           "type": "primary",
@@ -3143,13 +3143,13 @@
         "description": "Default primary color",
         "type": "color",
         "filePath": "src/colors/palettes/primary.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": "{color.core.indigo.500}",
           "description": "Default primary color",
           "type": "color"
         },
-        "name": "colorPrimary500",
+        "name": "ColorPrimary500",
         "attributes": {
           "category": "color",
           "type": "primary",
@@ -3166,13 +3166,13 @@
         "description": "",
         "type": "color",
         "filePath": "src/colors/palettes/primary.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": "{color.core.indigo.600}",
           "description": "",
           "type": "color"
         },
-        "name": "colorPrimary600",
+        "name": "ColorPrimary600",
         "attributes": {
           "category": "color",
           "type": "primary",
@@ -3189,13 +3189,13 @@
         "description": "",
         "type": "color",
         "filePath": "src/colors/palettes/primary.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": "{color.core.indigo.700}",
           "description": "",
           "type": "color"
         },
-        "name": "colorPrimary700",
+        "name": "ColorPrimary700",
         "attributes": {
           "category": "color",
           "type": "primary",
@@ -3212,13 +3212,13 @@
         "description": "",
         "type": "color",
         "filePath": "src/colors/palettes/primary.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": "{color.core.indigo.800}",
           "description": "",
           "type": "color"
         },
-        "name": "colorPrimary800",
+        "name": "ColorPrimary800",
         "attributes": {
           "category": "color",
           "type": "primary",
@@ -3235,13 +3235,13 @@
         "description": "Darkest primary color",
         "type": "color",
         "filePath": "src/colors/palettes/primary.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": "{color.core.indigo.900}",
           "description": "Darkest primary color",
           "type": "color"
         },
-        "name": "colorPrimary900",
+        "name": "ColorPrimary900",
         "attributes": {
           "category": "color",
           "type": "primary",
@@ -3260,13 +3260,13 @@
         "description": "Lightest secondary color",
         "type": "color",
         "filePath": "src/colors/palettes/secondary.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": "{color.core.gray.100}",
           "description": "Lightest secondary color",
           "type": "color"
         },
-        "name": "colorSecondary100",
+        "name": "ColorSecondary100",
         "attributes": {
           "category": "color",
           "type": "secondary",
@@ -3283,13 +3283,13 @@
         "description": "",
         "type": "color",
         "filePath": "src/colors/palettes/secondary.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": "{color.core.gray.200}",
           "description": "",
           "type": "color"
         },
-        "name": "colorSecondary200",
+        "name": "ColorSecondary200",
         "attributes": {
           "category": "color",
           "type": "secondary",
@@ -3306,13 +3306,13 @@
         "description": "",
         "type": "color",
         "filePath": "src/colors/palettes/secondary.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": "{color.core.gray.300}",
           "description": "",
           "type": "color"
         },
-        "name": "colorSecondary300",
+        "name": "ColorSecondary300",
         "attributes": {
           "category": "color",
           "type": "secondary",
@@ -3329,13 +3329,13 @@
         "description": "",
         "type": "color",
         "filePath": "src/colors/palettes/secondary.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": "{color.core.gray.400}",
           "description": "",
           "type": "color"
         },
-        "name": "colorSecondary400",
+        "name": "ColorSecondary400",
         "attributes": {
           "category": "color",
           "type": "secondary",
@@ -3352,13 +3352,13 @@
         "description": "Default secondary color",
         "type": "color",
         "filePath": "src/colors/palettes/secondary.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": "{color.core.gray.500}",
           "description": "Default secondary color",
           "type": "color"
         },
-        "name": "colorSecondary500",
+        "name": "ColorSecondary500",
         "attributes": {
           "category": "color",
           "type": "secondary",
@@ -3375,13 +3375,13 @@
         "description": "",
         "type": "color",
         "filePath": "src/colors/palettes/secondary.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": "{color.core.gray.600}",
           "description": "",
           "type": "color"
         },
-        "name": "colorSecondary600",
+        "name": "ColorSecondary600",
         "attributes": {
           "category": "color",
           "type": "secondary",
@@ -3398,13 +3398,13 @@
         "description": "",
         "type": "color",
         "filePath": "src/colors/palettes/secondary.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": "{color.core.gray.700}",
           "description": "",
           "type": "color"
         },
-        "name": "colorSecondary700",
+        "name": "ColorSecondary700",
         "attributes": {
           "category": "color",
           "type": "secondary",
@@ -3421,13 +3421,13 @@
         "description": "",
         "type": "color",
         "filePath": "src/colors/palettes/secondary.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": "{color.core.gray.800}",
           "description": "",
           "type": "color"
         },
-        "name": "colorSecondary800",
+        "name": "ColorSecondary800",
         "attributes": {
           "category": "color",
           "type": "secondary",
@@ -3444,13 +3444,13 @@
         "description": "Darkest secondary color",
         "type": "color",
         "filePath": "src/colors/palettes/secondary.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": "{color.core.gray.900}",
           "description": "Darkest secondary color",
           "type": "color"
         },
-        "name": "colorSecondary900",
+        "name": "ColorSecondary900",
         "attributes": {
           "category": "color",
           "type": "secondary",
@@ -3465,17 +3465,17 @@
     },
     "surface": {
       "100": {
-        "value": "#ffffff",
+        "value": "#000000",
         "type": "color",
         "description": "Lightest surface",
-        "filePath": "src/colors/surface.tokens.json",
+        "filePath": "src/colors/surface.dark.tokens.json",
         "isSource": true,
         "original": {
-          "value": "{color.core.white}",
+          "value": "{color.core.black}",
           "type": "color",
           "description": "Lightest surface"
         },
-        "name": "colorSurface100",
+        "name": "ColorSurface100",
         "attributes": {
           "category": "color",
           "type": "surface",
@@ -3488,17 +3488,17 @@
         ]
       },
       "200": {
-        "value": "#e0e3e8",
+        "value": "#191c20",
         "type": "color",
         "description": "-",
-        "filePath": "src/colors/surface.tokens.json",
+        "filePath": "src/colors/surface.dark.tokens.json",
         "isSource": true,
         "original": {
-          "value": "{color.core.gray.100}",
+          "value": "{color.core.gray.900}",
           "type": "color",
           "description": "-"
         },
-        "name": "colorSurface200",
+        "name": "ColorSurface200",
         "attributes": {
           "category": "color",
           "type": "surface",
@@ -3511,17 +3511,17 @@
         ]
       },
       "300": {
-        "value": "#c1c7d2",
+        "value": "#2c3138",
         "type": "color",
         "description": "-",
-        "filePath": "src/colors/surface.tokens.json",
+        "filePath": "src/colors/surface.dark.tokens.json",
         "isSource": true,
         "original": {
-          "value": "{color.core.gray.200}",
+          "value": "{color.core.gray.800}",
           "type": "color",
           "description": "-"
         },
-        "name": "colorSurface300",
+        "name": "ColorSurface300",
         "attributes": {
           "category": "color",
           "type": "surface",
@@ -3534,17 +3534,17 @@
         ]
       },
       "400": {
-        "value": "#a2acbe",
+        "value": "#414752",
         "type": "color",
         "description": "-",
-        "filePath": "src/colors/surface.tokens.json",
+        "filePath": "src/colors/surface.dark.tokens.json",
         "isSource": true,
         "original": {
-          "value": "{color.core.gray.300}",
+          "value": "{color.core.gray.700}",
           "type": "color",
           "description": "-"
         },
-        "name": "colorSurface400",
+        "name": "ColorSurface400",
         "attributes": {
           "category": "color",
           "type": "surface",
@@ -3559,17 +3559,17 @@
     },
     "textColor": {
       "primary": {
-        "value": "#191c20",
+        "value": "#e0e3e8",
         "type": "color",
         "description": "Primary text color",
-        "filePath": "src/colors/text-color.tokens.json",
+        "filePath": "src/colors/text-color.dark.tokens.json",
         "isSource": true,
         "original": {
-          "value": "{color.core.gray.900}",
+          "value": "{color.core.gray.100}",
           "type": "color",
           "description": "Primary text color"
         },
-        "name": "colorTextColorPrimary",
+        "name": "ColorTextColorPrimary",
         "attributes": {
           "category": "color",
           "type": "textColor",
@@ -3582,17 +3582,17 @@
         ]
       },
       "secondary": {
-        "value": "#414752",
+        "value": "#a2acbe",
         "type": "color",
         "description": "Secondary text color",
-        "filePath": "src/colors/text-color.tokens.json",
+        "filePath": "src/colors/text-color.dark.tokens.json",
         "isSource": true,
         "original": {
-          "value": "{color.core.gray.700}",
+          "value": "{color.core.gray.300}",
           "type": "color",
           "description": "Secondary text color"
         },
-        "name": "colorTextColorSecondary",
+        "name": "ColorTextColorSecondary",
         "attributes": {
           "category": "color",
           "type": "textColor",
@@ -3605,17 +3605,17 @@
         ]
       },
       "dim": {
-        "value": "#8591a8",
+        "value": "#414752",
         "type": "color",
         "description": "Dim text color",
-        "filePath": "src/colors/text-color.tokens.json",
+        "filePath": "src/colors/text-color.dark.tokens.json",
         "isSource": true,
         "original": {
-          "value": "{color.core.gray.400}",
+          "value": "{color.core.gray.700}",
           "type": "color",
           "description": "Dim text color"
         },
-        "name": "colorTextColorDim",
+        "name": "ColorTextColorDim",
         "attributes": {
           "category": "color",
           "type": "textColor",
@@ -3628,17 +3628,17 @@
         ]
       },
       "link": {
-        "value": "#4173d9",
+        "value": "#688eea",
         "type": "color",
         "description": "Link text color",
-        "filePath": "src/colors/text-color.tokens.json",
+        "filePath": "src/colors/text-color.dark.tokens.json",
         "isSource": true,
         "original": {
-          "value": "{color.core.blue.500}",
+          "value": "{color.core.blue.400}",
           "type": "color",
           "description": "Link text color"
         },
-        "name": "colorTextColorLink",
+        "name": "ColorTextColorLink",
         "attributes": {
           "category": "color",
           "type": "textColor",
@@ -3651,17 +3651,17 @@
         ]
       },
       "error": {
-        "value": "#d1473e",
+        "value": "#ea6861",
         "type": "color",
         "description": "Error text color",
-        "filePath": "src/colors/text-color.tokens.json",
+        "filePath": "src/colors/text-color.dark.tokens.json",
         "isSource": true,
         "original": {
-          "value": "{color.core.red.500}",
+          "value": "{color.core.red.400}",
           "type": "color",
           "description": "Error text color"
         },
-        "name": "colorTextColorError",
+        "name": "ColorTextColorError",
         "attributes": {
           "category": "color",
           "type": "textColor",
@@ -3674,17 +3674,17 @@
         ]
       },
       "reverse": {
-        "value": "#e0e3e8",
+        "value": "#191c20",
         "type": "color",
         "description": "Reverse text color",
-        "filePath": "src/colors/text-color.tokens.json",
+        "filePath": "src/colors/text-color.dark.tokens.json",
         "isSource": true,
         "original": {
-          "value": "{color.core.gray.100}",
+          "value": "{color.core.gray.900}",
           "type": "color",
           "description": "Reverse text color"
         },
-        "name": "colorTextColorReverse",
+        "name": "ColorTextColorReverse",
         "attributes": {
           "category": "color",
           "type": "textColor",
@@ -3704,13 +3704,13 @@
           "type": "color",
           "description": "10% opacity",
           "filePath": "src/colors/transparency.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#ffffff1a",
             "type": "color",
             "description": "10% opacity"
           },
-          "name": "colorTransparencyWhite10",
+          "name": "ColorTransparencyWhite10",
           "attributes": {
             "category": "color",
             "type": "transparency",
@@ -3729,13 +3729,13 @@
           "type": "color",
           "description": "20% opacity",
           "filePath": "src/colors/transparency.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#ffffff33",
             "type": "color",
             "description": "20% opacity"
           },
-          "name": "colorTransparencyWhite20",
+          "name": "ColorTransparencyWhite20",
           "attributes": {
             "category": "color",
             "type": "transparency",
@@ -3754,13 +3754,13 @@
           "type": "color",
           "description": "30% opacity",
           "filePath": "src/colors/transparency.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#ffffff4d",
             "type": "color",
             "description": "30% opacity"
           },
-          "name": "colorTransparencyWhite30",
+          "name": "ColorTransparencyWhite30",
           "attributes": {
             "category": "color",
             "type": "transparency",
@@ -3779,13 +3779,13 @@
           "type": "color",
           "description": "40% opacity",
           "filePath": "src/colors/transparency.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#ffffff66",
             "type": "color",
             "description": "40% opacity"
           },
-          "name": "colorTransparencyWhite40",
+          "name": "ColorTransparencyWhite40",
           "attributes": {
             "category": "color",
             "type": "transparency",
@@ -3804,13 +3804,13 @@
           "type": "color",
           "description": "50% opacity",
           "filePath": "src/colors/transparency.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#ffffff80",
             "type": "color",
             "description": "50% opacity"
           },
-          "name": "colorTransparencyWhite50",
+          "name": "ColorTransparencyWhite50",
           "attributes": {
             "category": "color",
             "type": "transparency",
@@ -3829,13 +3829,13 @@
           "type": "color",
           "description": "60% opacity",
           "filePath": "src/colors/transparency.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#ffffff99",
             "type": "color",
             "description": "60% opacity"
           },
-          "name": "colorTransparencyWhite60",
+          "name": "ColorTransparencyWhite60",
           "attributes": {
             "category": "color",
             "type": "transparency",
@@ -3854,13 +3854,13 @@
           "type": "color",
           "description": "70% opacity",
           "filePath": "src/colors/transparency.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#ffffffb3",
             "type": "color",
             "description": "70% opacity"
           },
-          "name": "colorTransparencyWhite70",
+          "name": "ColorTransparencyWhite70",
           "attributes": {
             "category": "color",
             "type": "transparency",
@@ -3879,13 +3879,13 @@
           "type": "color",
           "description": "80% opacity",
           "filePath": "src/colors/transparency.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#ffffffcc",
             "type": "color",
             "description": "80% opacity"
           },
-          "name": "colorTransparencyWhite80",
+          "name": "ColorTransparencyWhite80",
           "attributes": {
             "category": "color",
             "type": "transparency",
@@ -3904,13 +3904,13 @@
           "type": "color",
           "description": "90% opacity",
           "filePath": "src/colors/transparency.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#ffffffe6",
             "type": "color",
             "description": "90% opacity"
           },
-          "name": "colorTransparencyWhite90",
+          "name": "ColorTransparencyWhite90",
           "attributes": {
             "category": "color",
             "type": "transparency",
@@ -3931,13 +3931,13 @@
           "type": "color",
           "description": "10% opacity",
           "filePath": "src/colors/transparency.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#0000001a",
             "type": "color",
             "description": "10% opacity"
           },
-          "name": "colorTransparencyBlack10",
+          "name": "ColorTransparencyBlack10",
           "attributes": {
             "category": "color",
             "type": "transparency",
@@ -3956,13 +3956,13 @@
           "type": "color",
           "description": "20% opacity",
           "filePath": "src/colors/transparency.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#00000033",
             "type": "color",
             "description": "20% opacity"
           },
-          "name": "colorTransparencyBlack20",
+          "name": "ColorTransparencyBlack20",
           "attributes": {
             "category": "color",
             "type": "transparency",
@@ -3981,13 +3981,13 @@
           "type": "color",
           "description": "30% opacity",
           "filePath": "src/colors/transparency.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#0000004d",
             "type": "color",
             "description": "30% opacity"
           },
-          "name": "colorTransparencyBlack30",
+          "name": "ColorTransparencyBlack30",
           "attributes": {
             "category": "color",
             "type": "transparency",
@@ -4006,13 +4006,13 @@
           "type": "color",
           "description": "40% opacity",
           "filePath": "src/colors/transparency.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#00000066",
             "type": "color",
             "description": "40% opacity"
           },
-          "name": "colorTransparencyBlack40",
+          "name": "ColorTransparencyBlack40",
           "attributes": {
             "category": "color",
             "type": "transparency",
@@ -4031,13 +4031,13 @@
           "type": "color",
           "description": "50% opacity",
           "filePath": "src/colors/transparency.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#00000080",
             "type": "color",
             "description": "50% opacity"
           },
-          "name": "colorTransparencyBlack50",
+          "name": "ColorTransparencyBlack50",
           "attributes": {
             "category": "color",
             "type": "transparency",
@@ -4056,13 +4056,13 @@
           "type": "color",
           "description": "60% opacity",
           "filePath": "src/colors/transparency.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#00000099",
             "type": "color",
             "description": "60% opacity"
           },
-          "name": "colorTransparencyBlack60",
+          "name": "ColorTransparencyBlack60",
           "attributes": {
             "category": "color",
             "type": "transparency",
@@ -4081,13 +4081,13 @@
           "type": "color",
           "description": "70% opacity",
           "filePath": "src/colors/transparency.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#000000b3",
             "type": "color",
             "description": "70% opacity"
           },
-          "name": "colorTransparencyBlack70",
+          "name": "ColorTransparencyBlack70",
           "attributes": {
             "category": "color",
             "type": "transparency",
@@ -4106,13 +4106,13 @@
           "type": "color",
           "description": "80% opacity",
           "filePath": "src/colors/transparency.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#000000cc",
             "type": "color",
             "description": "80% opacity"
           },
-          "name": "colorTransparencyBlack80",
+          "name": "ColorTransparencyBlack80",
           "attributes": {
             "category": "color",
             "type": "transparency",
@@ -4131,13 +4131,13 @@
           "type": "color",
           "description": "90% opacity",
           "filePath": "src/colors/transparency.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#000000e6",
             "type": "color",
             "description": "90% opacity"
           },
-          "name": "colorTransparencyBlack90",
+          "name": "ColorTransparencyBlack90",
           "attributes": {
             "category": "color",
             "type": "transparency",
@@ -4161,13 +4161,13 @@
         "type": "borderWidth",
         "description": "Border width",
         "filePath": "src/dimension/border-width.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": 1,
           "type": "borderWidth",
           "description": "Border width"
         },
-        "name": "dimensionBorderWidthSm",
+        "name": "DimensionBorderWidthSm",
         "attributes": {
           "category": "dimension",
           "type": "borderWidth",
@@ -4184,13 +4184,13 @@
         "type": "borderWidth",
         "description": "Border width",
         "filePath": "src/dimension/border-width.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": 2,
           "type": "borderWidth",
           "description": "Border width"
         },
-        "name": "dimensionBorderWidthMd",
+        "name": "DimensionBorderWidthMd",
         "attributes": {
           "category": "dimension",
           "type": "borderWidth",
@@ -4207,13 +4207,13 @@
         "type": "borderWidth",
         "description": "Border width",
         "filePath": "src/dimension/border-width.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": 4,
           "type": "borderWidth",
           "description": "Border width"
         },
-        "name": "dimensionBorderWidthLg",
+        "name": "DimensionBorderWidthLg",
         "attributes": {
           "category": "dimension",
           "type": "borderWidth",
@@ -4232,13 +4232,13 @@
         "type": "borderRadius",
         "description": "border radius in pixels",
         "filePath": "src/dimension/corner.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": 2,
           "type": "borderRadius",
           "description": "border radius in pixels"
         },
-        "name": "dimensionCornerXs",
+        "name": "DimensionCornerXs",
         "attributes": {
           "category": "dimension",
           "type": "corner",
@@ -4255,13 +4255,13 @@
         "type": "borderRadius",
         "description": "border radius in pixels",
         "filePath": "src/dimension/corner.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": 4,
           "type": "borderRadius",
           "description": "border radius in pixels"
         },
-        "name": "dimensionCornerSm",
+        "name": "DimensionCornerSm",
         "attributes": {
           "category": "dimension",
           "type": "corner",
@@ -4278,13 +4278,13 @@
         "type": "borderRadius",
         "description": "border radius in pixels",
         "filePath": "src/dimension/corner.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": 8,
           "type": "borderRadius",
           "description": "border radius in pixels"
         },
-        "name": "dimensionCornerMd",
+        "name": "DimensionCornerMd",
         "attributes": {
           "category": "dimension",
           "type": "corner",
@@ -4301,13 +4301,13 @@
         "type": "borderRadius",
         "description": "border radius in pixels",
         "filePath": "src/dimension/corner.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": 16,
           "type": "borderRadius",
           "description": "border radius in pixels"
         },
-        "name": "dimensionCornerLg",
+        "name": "DimensionCornerLg",
         "attributes": {
           "category": "dimension",
           "type": "corner",
@@ -4324,13 +4324,13 @@
         "type": "borderRadius",
         "description": "border radius",
         "filePath": "src/dimension/corner.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": 24,
           "type": "borderRadius",
           "description": "border radius"
         },
-        "name": "dimensionCornerXl",
+        "name": "DimensionCornerXl",
         "attributes": {
           "category": "dimension",
           "type": "corner",
@@ -4347,13 +4347,13 @@
         "type": "borderRadius",
         "description": "border radius",
         "filePath": "src/dimension/corner.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": "100%",
           "type": "borderRadius",
           "description": "border radius"
         },
-        "name": "dimensionCornerFull",
+        "name": "DimensionCornerFull",
         "attributes": {
           "category": "dimension",
           "type": "corner",
@@ -4372,13 +4372,13 @@
         "type": "sizing",
         "description": "No size",
         "filePath": "src/dimension/size.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": 0,
           "type": "sizing",
           "description": "No size"
         },
-        "name": "dimensionSizeNone",
+        "name": "DimensionSizeNone",
         "attributes": {
           "category": "dimension",
           "type": "size",
@@ -4396,13 +4396,13 @@
           "type": "sizing",
           "description": "Minute sizing",
           "filePath": "src/dimension/size.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": 1,
             "type": "sizing",
             "description": "Minute sizing"
           },
-          "name": "dimensionSizeNano100",
+          "name": "DimensionSizeNano100",
           "attributes": {
             "category": "dimension",
             "type": "size",
@@ -4421,13 +4421,13 @@
           "type": "sizing",
           "description": "Minute sizing",
           "filePath": "src/dimension/size.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": 2,
             "type": "sizing",
             "description": "Minute sizing"
           },
-          "name": "dimensionSizeNano200",
+          "name": "DimensionSizeNano200",
           "attributes": {
             "category": "dimension",
             "type": "size",
@@ -4446,13 +4446,13 @@
           "type": "sizing",
           "description": "Minute sizing",
           "filePath": "src/dimension/size.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": 3,
             "type": "sizing",
             "description": "Minute sizing"
           },
-          "name": "dimensionSizeNano300",
+          "name": "DimensionSizeNano300",
           "attributes": {
             "category": "dimension",
             "type": "size",
@@ -4471,13 +4471,13 @@
           "type": "sizing",
           "description": "Minute sizing",
           "filePath": "src/dimension/size.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": 4,
             "type": "sizing",
             "description": "Minute sizing"
           },
-          "name": "dimensionSizeNano400",
+          "name": "DimensionSizeNano400",
           "attributes": {
             "category": "dimension",
             "type": "size",
@@ -4498,13 +4498,13 @@
           "type": "sizing",
           "description": "Element sizing",
           "filePath": "src/dimension/size.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": 2,
             "type": "sizing",
             "description": "Element sizing"
           },
-          "name": "dimensionSizeMicro100",
+          "name": "DimensionSizeMicro100",
           "attributes": {
             "category": "dimension",
             "type": "size",
@@ -4523,13 +4523,13 @@
           "type": "sizing",
           "description": "Element sizing",
           "filePath": "src/dimension/size.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": 4,
             "type": "sizing",
             "description": "Element sizing"
           },
-          "name": "dimensionSizeMicro200",
+          "name": "DimensionSizeMicro200",
           "attributes": {
             "category": "dimension",
             "type": "size",
@@ -4548,13 +4548,13 @@
           "type": "sizing",
           "description": "Element sizing",
           "filePath": "src/dimension/size.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": 6,
             "type": "sizing",
             "description": "Element sizing"
           },
-          "name": "dimensionSizeMicro300",
+          "name": "DimensionSizeMicro300",
           "attributes": {
             "category": "dimension",
             "type": "size",
@@ -4573,13 +4573,13 @@
           "type": "sizing",
           "description": "Element sizing",
           "filePath": "src/dimension/size.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": 8,
             "type": "sizing",
             "description": "Element sizing"
           },
-          "name": "dimensionSizeMicro400",
+          "name": "DimensionSizeMicro400",
           "attributes": {
             "category": "dimension",
             "type": "size",
@@ -4598,13 +4598,13 @@
           "type": "sizing",
           "description": "Element sizing",
           "filePath": "src/dimension/size.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": 10,
             "type": "sizing",
             "description": "Element sizing"
           },
-          "name": "dimensionSizeMicro500",
+          "name": "DimensionSizeMicro500",
           "attributes": {
             "category": "dimension",
             "type": "size",
@@ -4623,13 +4623,13 @@
           "type": "sizing",
           "description": "Element sizing",
           "filePath": "src/dimension/size.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": 12,
             "type": "sizing",
             "description": "Element sizing"
           },
-          "name": "dimensionSizeMicro600",
+          "name": "DimensionSizeMicro600",
           "attributes": {
             "category": "dimension",
             "type": "size",
@@ -4648,13 +4648,13 @@
           "type": "sizing",
           "description": "Element sizing",
           "filePath": "src/dimension/size.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": 14,
             "type": "sizing",
             "description": "Element sizing"
           },
-          "name": "dimensionSizeMicro700",
+          "name": "DimensionSizeMicro700",
           "attributes": {
             "category": "dimension",
             "type": "size",
@@ -4673,13 +4673,13 @@
           "type": "sizing",
           "description": "Element sizing",
           "filePath": "src/dimension/size.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": 16,
             "type": "sizing",
             "description": "Element sizing"
           },
-          "name": "dimensionSizeMicro800",
+          "name": "DimensionSizeMicro800",
           "attributes": {
             "category": "dimension",
             "type": "size",
@@ -4698,13 +4698,13 @@
           "type": "sizing",
           "description": "Element sizing",
           "filePath": "src/dimension/size.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": 18,
             "type": "sizing",
             "description": "Element sizing"
           },
-          "name": "dimensionSizeMicro900",
+          "name": "DimensionSizeMicro900",
           "attributes": {
             "category": "dimension",
             "type": "size",
@@ -4723,13 +4723,13 @@
           "type": "sizing",
           "description": "Element sizing",
           "filePath": "src/dimension/size.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": 20,
             "type": "sizing",
             "description": "Element sizing"
           },
-          "name": "dimensionSizeMicro1000",
+          "name": "DimensionSizeMicro1000",
           "attributes": {
             "category": "dimension",
             "type": "size",
@@ -4748,13 +4748,13 @@
           "type": "sizing",
           "description": "Element sizing",
           "filePath": "src/dimension/size.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": 22,
             "type": "sizing",
             "description": "Element sizing"
           },
-          "name": "dimensionSizeMicro1100",
+          "name": "DimensionSizeMicro1100",
           "attributes": {
             "category": "dimension",
             "type": "size",
@@ -4773,13 +4773,13 @@
           "type": "sizing",
           "description": "Element sizing",
           "filePath": "src/dimension/size.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": 24,
             "type": "sizing",
             "description": "Element sizing"
           },
-          "name": "dimensionSizeMicro1200",
+          "name": "DimensionSizeMicro1200",
           "attributes": {
             "category": "dimension",
             "type": "size",
@@ -4798,13 +4798,13 @@
           "type": "sizing",
           "description": "Element sizing",
           "filePath": "src/dimension/size.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": 32,
             "type": "sizing",
             "description": "Element sizing"
           },
-          "name": "dimensionSizeMicro1300",
+          "name": "DimensionSizeMicro1300",
           "attributes": {
             "category": "dimension",
             "type": "size",
@@ -4823,13 +4823,13 @@
           "type": "sizing",
           "description": "Element sizing",
           "filePath": "src/dimension/size.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": 40,
             "type": "sizing",
             "description": "Element sizing"
           },
-          "name": "dimensionSizeMicro1400",
+          "name": "DimensionSizeMicro1400",
           "attributes": {
             "category": "dimension",
             "type": "size",
@@ -4848,13 +4848,13 @@
           "type": "sizing",
           "description": "Element sizing",
           "filePath": "src/dimension/size.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": 48,
             "type": "sizing",
             "description": "Element sizing"
           },
-          "name": "dimensionSizeMicro1500",
+          "name": "DimensionSizeMicro1500",
           "attributes": {
             "category": "dimension",
             "type": "size",
@@ -4873,13 +4873,13 @@
           "type": "sizing",
           "description": "Element sizing",
           "filePath": "src/dimension/size.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": 56,
             "type": "sizing",
             "description": "Element sizing"
           },
-          "name": "dimensionSizeMicro1600",
+          "name": "DimensionSizeMicro1600",
           "attributes": {
             "category": "dimension",
             "type": "size",
@@ -4898,13 +4898,13 @@
           "type": "sizing",
           "description": "Element sizing",
           "filePath": "src/dimension/size.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": 64,
             "type": "sizing",
             "description": "Element sizing"
           },
-          "name": "dimensionSizeMicro1700",
+          "name": "DimensionSizeMicro1700",
           "attributes": {
             "category": "dimension",
             "type": "size",
@@ -4923,13 +4923,13 @@
           "type": "sizing",
           "description": "Element sizing",
           "filePath": "src/dimension/size.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": 72,
             "type": "sizing",
             "description": "Element sizing"
           },
-          "name": "dimensionSizeMicro1800",
+          "name": "DimensionSizeMicro1800",
           "attributes": {
             "category": "dimension",
             "type": "size",
@@ -4948,13 +4948,13 @@
           "type": "sizing",
           "description": "Element sizing",
           "filePath": "src/dimension/size.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": 80,
             "type": "sizing",
             "description": "Element sizing"
           },
-          "name": "dimensionSizeMicro1900",
+          "name": "DimensionSizeMicro1900",
           "attributes": {
             "category": "dimension",
             "type": "size",
@@ -4973,13 +4973,13 @@
           "type": "sizing",
           "description": "Element sizing",
           "filePath": "src/dimension/size.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": 88,
             "type": "sizing",
             "description": "Element sizing"
           },
-          "name": "dimensionSizeMicro2000",
+          "name": "DimensionSizeMicro2000",
           "attributes": {
             "category": "dimension",
             "type": "size",
@@ -5000,13 +5000,13 @@
           "type": "sizing",
           "description": "Large element/canvas sizing",
           "filePath": "src/dimension/size.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": 96,
             "type": "sizing",
             "description": "Large element/canvas sizing"
           },
-          "name": "dimensionSizeMacro100",
+          "name": "DimensionSizeMacro100",
           "attributes": {
             "category": "dimension",
             "type": "size",
@@ -5025,13 +5025,13 @@
           "type": "sizing",
           "description": "Large element/canvas sizing",
           "filePath": "src/dimension/size.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": 104,
             "type": "sizing",
             "description": "Large element/canvas sizing"
           },
-          "name": "dimensionSizeMacro200",
+          "name": "DimensionSizeMacro200",
           "attributes": {
             "category": "dimension",
             "type": "size",
@@ -5050,13 +5050,13 @@
           "type": "sizing",
           "description": "Large element/canvas sizing",
           "filePath": "src/dimension/size.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": 112,
             "type": "sizing",
             "description": "Large element/canvas sizing"
           },
-          "name": "dimensionSizeMacro300",
+          "name": "DimensionSizeMacro300",
           "attributes": {
             "category": "dimension",
             "type": "size",
@@ -5075,13 +5075,13 @@
           "type": "sizing",
           "description": "Large element/canvas sizing",
           "filePath": "src/dimension/size.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": 128,
             "type": "sizing",
             "description": "Large element/canvas sizing"
           },
-          "name": "dimensionSizeMacro400",
+          "name": "DimensionSizeMacro400",
           "attributes": {
             "category": "dimension",
             "type": "size",
@@ -5100,13 +5100,13 @@
           "type": "sizing",
           "description": "Large element/canvas sizing",
           "filePath": "src/dimension/size.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": 208,
             "type": "sizing",
             "description": "Large element/canvas sizing"
           },
-          "name": "dimensionSizeMacro500",
+          "name": "DimensionSizeMacro500",
           "attributes": {
             "category": "dimension",
             "type": "size",
@@ -5125,13 +5125,13 @@
           "type": "sizing",
           "description": "Large element/canvas sizing",
           "filePath": "src/dimension/size.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": 256,
             "type": "sizing",
             "description": "Large element/canvas sizing"
           },
-          "name": "dimensionSizeMacro600",
+          "name": "DimensionSizeMacro600",
           "attributes": {
             "category": "dimension",
             "type": "size",
@@ -5150,13 +5150,13 @@
           "type": "sizing",
           "description": "Large element/canvas sizing",
           "filePath": "src/dimension/size.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": 432,
             "type": "sizing",
             "description": "Large element/canvas sizing"
           },
-          "name": "dimensionSizeMacro700",
+          "name": "DimensionSizeMacro700",
           "attributes": {
             "category": "dimension",
             "type": "size",
@@ -5175,13 +5175,13 @@
           "type": "sizing",
           "description": "Large element/canvas sizing",
           "filePath": "src/dimension/size.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": 464,
             "type": "sizing",
             "description": "Large element/canvas sizing"
           },
-          "name": "dimensionSizeMacro800",
+          "name": "DimensionSizeMacro800",
           "attributes": {
             "category": "dimension",
             "type": "size",
@@ -5200,13 +5200,13 @@
           "type": "sizing",
           "description": "Large element/canvas sizing",
           "filePath": "src/dimension/size.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": 512,
             "type": "sizing",
             "description": "Large element/canvas sizing"
           },
-          "name": "dimensionSizeMacro900",
+          "name": "DimensionSizeMacro900",
           "attributes": {
             "category": "dimension",
             "type": "size",
@@ -5225,13 +5225,13 @@
           "type": "sizing",
           "description": "Large element/canvas sizing",
           "filePath": "src/dimension/size.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": 768,
             "type": "sizing",
             "description": "Large element/canvas sizing"
           },
-          "name": "dimensionSizeMacro1000",
+          "name": "DimensionSizeMacro1000",
           "attributes": {
             "category": "dimension",
             "type": "size",
@@ -5250,13 +5250,13 @@
           "type": "sizing",
           "description": "Large element/canvas sizing",
           "filePath": "src/dimension/size.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": 1024,
             "type": "sizing",
             "description": "Large element/canvas sizing"
           },
-          "name": "dimensionSizeMacro1100",
+          "name": "DimensionSizeMacro1100",
           "attributes": {
             "category": "dimension",
             "type": "size",
@@ -5278,13 +5278,13 @@
         "type": "spacing",
         "description": "Space between elements",
         "filePath": "src/dimension/space.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": 4,
           "type": "spacing",
           "description": "Space between elements"
         },
-        "name": "dimensionSpace100",
+        "name": "DimensionSpace100",
         "attributes": {
           "category": "dimension",
           "type": "space",
@@ -5301,13 +5301,13 @@
         "type": "spacing",
         "description": "Space between elements",
         "filePath": "src/dimension/space.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": 8,
           "type": "spacing",
           "description": "Space between elements"
         },
-        "name": "dimensionSpace200",
+        "name": "DimensionSpace200",
         "attributes": {
           "category": "dimension",
           "type": "space",
@@ -5324,13 +5324,13 @@
         "type": "spacing",
         "description": "Space between elements",
         "filePath": "src/dimension/space.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": 12,
           "type": "spacing",
           "description": "Space between elements"
         },
-        "name": "dimensionSpace300",
+        "name": "DimensionSpace300",
         "attributes": {
           "category": "dimension",
           "type": "space",
@@ -5347,13 +5347,13 @@
         "type": "spacing",
         "description": "Space between elements",
         "filePath": "src/dimension/space.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": 16,
           "type": "spacing",
           "description": "Space between elements"
         },
-        "name": "dimensionSpace400",
+        "name": "DimensionSpace400",
         "attributes": {
           "category": "dimension",
           "type": "space",
@@ -5370,13 +5370,13 @@
         "type": "spacing",
         "description": "Space between elements",
         "filePath": "src/dimension/space.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": 20,
           "type": "spacing",
           "description": "Space between elements"
         },
-        "name": "dimensionSpace500",
+        "name": "DimensionSpace500",
         "attributes": {
           "category": "dimension",
           "type": "space",
@@ -5393,13 +5393,13 @@
         "type": "spacing",
         "description": "Space between elements",
         "filePath": "src/dimension/space.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": 24,
           "type": "spacing",
           "description": "Space between elements"
         },
-        "name": "dimensionSpace600",
+        "name": "DimensionSpace600",
         "attributes": {
           "category": "dimension",
           "type": "space",
@@ -5416,13 +5416,13 @@
         "type": "spacing",
         "description": "Space between elements",
         "filePath": "src/dimension/space.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": 32,
           "type": "spacing",
           "description": "Space between elements"
         },
-        "name": "dimensionSpace700",
+        "name": "DimensionSpace700",
         "attributes": {
           "category": "dimension",
           "type": "space",
@@ -5439,13 +5439,13 @@
         "type": "spacing",
         "description": "Space between elements",
         "filePath": "src/dimension/space.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": 40,
           "type": "spacing",
           "description": "Space between elements"
         },
-        "name": "dimensionSpace800",
+        "name": "DimensionSpace800",
         "attributes": {
           "category": "dimension",
           "type": "space",
@@ -5466,13 +5466,13 @@
         "description": "Uppercase text",
         "type": "textCase",
         "filePath": "src/typography/case.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": "uppercase",
           "description": "Uppercase text",
           "type": "textCase"
         },
-        "name": "typographyCaseUpper",
+        "name": "TypographyCaseUpper",
         "attributes": {
           "category": "typography",
           "type": "case",
@@ -5489,13 +5489,13 @@
         "description": "Lowercase text",
         "type": "textCase",
         "filePath": "src/typography/case.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": "lowercase",
           "description": "Lowercase text",
           "type": "textCase"
         },
-        "name": "typographyCaseLower",
+        "name": "TypographyCaseLower",
         "attributes": {
           "category": "typography",
           "type": "case",
@@ -5512,13 +5512,13 @@
         "description": "Capitalize text",
         "type": "textCase",
         "filePath": "src/typography/case.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": "capitalize",
           "description": "Capitalize text",
           "type": "textCase"
         },
-        "name": "typographyCaseCap",
+        "name": "TypographyCaseCap",
         "attributes": {
           "category": "typography",
           "type": "case",
@@ -5537,13 +5537,13 @@
         "type": "textDecoration",
         "description": "Underline text",
         "filePath": "src/typography/decoration.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": "underline",
           "type": "textDecoration",
           "description": "Underline text"
         },
-        "name": "typographyDecorationUnderline",
+        "name": "TypographyDecorationUnderline",
         "attributes": {
           "category": "typography",
           "type": "decoration",
@@ -5560,13 +5560,13 @@
         "type": "textDecoration",
         "description": "Strike through text",
         "filePath": "src/typography/decoration.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": "line-through",
           "type": "textDecoration",
           "description": "Strike through text"
         },
-        "name": "typographyDecorationStrike",
+        "name": "TypographyDecorationStrike",
         "attributes": {
           "category": "typography",
           "type": "decoration",
@@ -5586,13 +5586,13 @@
           "description": "Light weight body text",
           "type": "fontFamilies",
           "filePath": "src/typography/families.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "Outfit-Light",
             "description": "Light weight body text",
             "type": "fontFamilies"
           },
-          "name": "typographyFontFamiliesSansLight",
+          "name": "TypographyFontFamiliesSansLight",
           "attributes": {
             "category": "typography",
             "type": "fontFamilies",
@@ -5611,13 +5611,13 @@
           "description": "Regular weight body text",
           "type": "fontFamilies",
           "filePath": "src/typography/families.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "Outfit-Regular",
             "description": "Regular weight body text",
             "type": "fontFamilies"
           },
-          "name": "typographyFontFamiliesSansRegular",
+          "name": "TypographyFontFamiliesSansRegular",
           "attributes": {
             "category": "typography",
             "type": "fontFamilies",
@@ -5636,13 +5636,13 @@
           "description": "Bold weight body text",
           "type": "fontFamilies",
           "filePath": "src/typography/families.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "Outfit-Bold",
             "description": "Bold weight body text",
             "type": "fontFamilies"
           },
-          "name": "typographyFontFamiliesSansBold",
+          "name": "TypographyFontFamiliesSansBold",
           "attributes": {
             "category": "typography",
             "type": "fontFamilies",
@@ -5663,13 +5663,13 @@
           "description": "Used for the code snippets.",
           "type": "fontFamilies",
           "filePath": "src/typography/families.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "FiraCode-Light",
             "description": "Used for the code snippets.",
             "type": "fontFamilies"
           },
-          "name": "typographyFontFamiliesMonoLight",
+          "name": "TypographyFontFamiliesMonoLight",
           "attributes": {
             "category": "typography",
             "type": "fontFamilies",
@@ -5688,13 +5688,13 @@
           "description": "Used for the code snippets.",
           "type": "fontFamilies",
           "filePath": "src/typography/families.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "FiraCode-Regular",
             "description": "Used for the code snippets.",
             "type": "fontFamilies"
           },
-          "name": "typographyFontFamiliesMonoRegular",
+          "name": "TypographyFontFamiliesMonoRegular",
           "attributes": {
             "category": "typography",
             "type": "fontFamilies",
@@ -5713,13 +5713,13 @@
           "description": "Used for the code snippets.",
           "type": "fontFamilies",
           "filePath": "src/typography/families.tokens.json",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "FiraCode-Bold",
             "description": "Used for the code snippets.",
             "type": "fontFamilies"
           },
-          "name": "typographyFontFamiliesMonoBold",
+          "name": "TypographyFontFamiliesMonoBold",
           "attributes": {
             "category": "typography",
             "type": "fontFamilies",
@@ -5737,17 +5737,17 @@
     },
     "leading": {
       "sm": {
-        "value": "120%",
+        "value": 1.2,
         "description": "Tight spacing between lines",
         "type": "lineHeights",
         "filePath": "src/typography/leading.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": 1.2,
           "description": "Tight spacing between lines",
           "type": "lineHeights"
         },
-        "name": "typographyLeadingSm",
+        "name": "TypographyLeadingSm",
         "attributes": {
           "category": "typography",
           "type": "leading",
@@ -5760,17 +5760,17 @@
         ]
       },
       "md": {
-        "value": "150%",
+        "value": 1.5,
         "description": "Default spacing between lines",
         "type": "lineHeights",
         "filePath": "src/typography/leading.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": 1.5,
           "description": "Default spacing between lines",
           "type": "lineHeights"
         },
-        "name": "typographyLeadingMd",
+        "name": "TypographyLeadingMd",
         "attributes": {
           "category": "typography",
           "type": "leading",
@@ -5783,17 +5783,17 @@
         ]
       },
       "lg": {
-        "value": "175%",
+        "value": 1.75,
         "description": "Loose spacing between lines",
         "type": "lineHeights",
         "filePath": "src/typography/leading.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": 1.75,
           "description": "Loose spacing between lines",
           "type": "lineHeights"
         },
-        "name": "typographyLeadingLg",
+        "name": "TypographyLeadingLg",
         "attributes": {
           "category": "typography",
           "type": "leading",
@@ -5812,13 +5812,13 @@
         "type": "paragraphSpacing",
         "description": "Small paragraph spacing",
         "filePath": "src/typography/paragraph-spacing.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": 12,
           "type": "paragraphSpacing",
           "description": "Small paragraph spacing"
         },
-        "name": "typographyParagraphSpacingSm",
+        "name": "TypographyParagraphSpacingSm",
         "attributes": {
           "category": "typography",
           "type": "paragraphSpacing",
@@ -5835,13 +5835,13 @@
         "type": "paragraphSpacing",
         "description": "Large paragraph spacing",
         "filePath": "src/typography/paragraph-spacing.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": 48,
           "type": "paragraphSpacing",
           "description": "Large paragraph spacing"
         },
-        "name": "typographyParagraphSpacingLg",
+        "name": "TypographyParagraphSpacingLg",
         "attributes": {
           "category": "typography",
           "type": "paragraphSpacing",
@@ -5858,13 +5858,13 @@
         "type": "paragraphSpacing",
         "description": "Extra large paragraph spacing",
         "filePath": "src/typography/paragraph-spacing.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": 72,
           "type": "paragraphSpacing",
           "description": "Extra large paragraph spacing"
         },
-        "name": "typographyParagraphSpacingXl",
+        "name": "TypographyParagraphSpacingXl",
         "attributes": {
           "category": "typography",
           "type": "paragraphSpacing",
@@ -5881,13 +5881,13 @@
         "type": "paragraphSpacing",
         "description": "Default paragraph spacing",
         "filePath": "src/typography/paragraph-spacing.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": 24,
           "type": "paragraphSpacing",
           "description": "Default paragraph spacing"
         },
-        "name": "typographyParagraphSpacingMd",
+        "name": "TypographyParagraphSpacingMd",
         "attributes": {
           "category": "typography",
           "type": "paragraphSpacing",
@@ -5905,13 +5905,13 @@
       "type": "other",
       "description": "Used to create a modular type scale",
       "filePath": "src/typography/scale.tokens.json",
-      "isSource": true,
+      "isSource": false,
       "original": {
         "value": 1.25,
         "type": "other",
         "description": "Used to create a modular type scale"
       },
-      "name": "typographyFontScale",
+      "name": "TypographyFontScale",
       "attributes": {
         "category": "typography",
         "type": "fontScale"
@@ -5927,13 +5927,13 @@
         "type": "fontSizes",
         "description": "Base font size",
         "filePath": "src/typography/size.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": 18,
           "type": "fontSizes",
           "description": "Base font size"
         },
-        "name": "typographySizeBase",
+        "name": "TypographySizeBase",
         "attributes": {
           "category": "typography",
           "type": "size",
@@ -5950,13 +5950,13 @@
         "type": "fontSizes",
         "description": "Extra small font size in pixels",
         "filePath": "src/typography/size.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": 11.52,
           "type": "fontSizes",
           "description": "Extra small font size in pixels"
         },
-        "name": "typographySizeXs",
+        "name": "TypographySizeXs",
         "attributes": {
           "category": "typography",
           "type": "size",
@@ -5973,13 +5973,13 @@
         "type": "fontSizes",
         "description": "Heading level three font size in pixels",
         "filePath": "src/typography/size.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": 28.125,
           "type": "fontSizes",
           "description": "Heading level three font size in pixels"
         },
-        "name": "typographySizeLg",
+        "name": "TypographySizeLg",
         "attributes": {
           "category": "typography",
           "type": "size",
@@ -5996,13 +5996,13 @@
         "type": "fontSizes",
         "description": "Heading level two font size in pixels",
         "filePath": "src/typography/size.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": 35.156,
           "type": "fontSizes",
           "description": "Heading level two font size in pixels"
         },
-        "name": "typographySizeXl",
+        "name": "TypographySizeXl",
         "attributes": {
           "category": "typography",
           "type": "size",
@@ -6019,13 +6019,13 @@
         "type": "fontSizes",
         "description": "Heading level one font size in pixels",
         "filePath": "src/typography/size.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": 43.945,
           "type": "fontSizes",
           "description": "Heading level one font size in pixels"
         },
-        "name": "typographySizeXxl",
+        "name": "TypographySizeXxl",
         "attributes": {
           "category": "typography",
           "type": "size",
@@ -6042,13 +6042,13 @@
         "type": "fontSizes",
         "description": "Hero/Jumbo font size in pixels",
         "filePath": "src/typography/size.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": 54.932,
           "type": "fontSizes",
           "description": "Hero/Jumbo font size in pixels"
         },
-        "name": "typographySizeXxxl",
+        "name": "TypographySizeXxxl",
         "attributes": {
           "category": "typography",
           "type": "size",
@@ -6065,13 +6065,13 @@
         "type": "fontSizes",
         "description": "Small font size in pixels",
         "filePath": "src/typography/size.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": 14.4,
           "type": "fontSizes",
           "description": "Small font size in pixels"
         },
-        "name": "typographySizeSm",
+        "name": "TypographySizeSm",
         "attributes": {
           "category": "typography",
           "type": "size",
@@ -6088,13 +6088,13 @@
         "type": "fontSizes",
         "description": "Heading level four font size in pixels",
         "filePath": "src/typography/size.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": 22.5,
           "type": "fontSizes",
           "description": "Heading level four font size in pixels"
         },
-        "name": "typographySizeMd",
+        "name": "TypographySizeMd",
         "attributes": {
           "category": "typography",
           "type": "size",
@@ -6109,17 +6109,17 @@
     },
     "tracking": {
       "tight": {
-        "value": "-1%",
+        "value": -0.01,
         "type": "letterSpacing",
         "description": "Tight letter spacing",
         "filePath": "src/typography/tracking.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": -0.01,
           "type": "letterSpacing",
           "description": "Tight letter spacing"
         },
-        "name": "typographyTrackingTight",
+        "name": "TypographyTrackingTight",
         "attributes": {
           "category": "typography",
           "type": "tracking",
@@ -6132,17 +6132,17 @@
         ]
       },
       "loose": {
-        "value": "2%",
+        "value": 0.02,
         "type": "letterSpacing",
         "description": "Loose letter spacing",
         "filePath": "src/typography/tracking.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": 0.02,
           "type": "letterSpacing",
           "description": "Loose letter spacing"
         },
-        "name": "typographyTrackingLoose",
+        "name": "TypographyTrackingLoose",
         "attributes": {
           "category": "typography",
           "type": "tracking",
@@ -6155,17 +6155,17 @@
         ]
       },
       "default": {
-        "value": "0%",
+        "value": 0,
         "type": "letterSpacing",
         "description": "Default letter spacing",
         "filePath": "src/typography/tracking.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": 0,
           "type": "letterSpacing",
           "description": "Default letter spacing"
         },
-        "name": "typographyTrackingDefault",
+        "name": "TypographyTrackingDefault",
         "attributes": {
           "category": "typography",
           "type": "tracking",
@@ -6180,17 +6180,17 @@
     },
     "weight": {
       "300": {
-        "value": "Light",
+        "value": 300,
         "type": "fontWeights",
         "description": "Light font weight",
         "filePath": "src/typography/weight.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": 300,
           "type": "fontWeights",
           "description": "Light font weight"
         },
-        "name": "typographyWeight300",
+        "name": "TypographyWeight300",
         "attributes": {
           "category": "typography",
           "type": "weight",
@@ -6203,17 +6203,17 @@
         ]
       },
       "400": {
-        "value": "Regular",
+        "value": 400,
         "type": "fontWeights",
         "description": "Regular font weight",
         "filePath": "src/typography/weight.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": 400,
           "type": "fontWeights",
           "description": "Regular font weight"
         },
-        "name": "typographyWeight400",
+        "name": "TypographyWeight400",
         "attributes": {
           "category": "typography",
           "type": "weight",
@@ -6226,17 +6226,17 @@
         ]
       },
       "700": {
-        "value": "Bold",
+        "value": 700,
         "type": "fontWeights",
         "description": "Bold font weight",
         "filePath": "src/typography/weight.tokens.json",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": 700,
           "type": "fontWeights",
           "description": "Bold font weight"
         },
-        "name": "typographyWeight700",
+        "name": "TypographyWeight700",
         "attributes": {
           "category": "typography",
           "type": "weight",

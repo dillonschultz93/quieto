@@ -1,0 +1,46 @@
+{
+  "typography": {
+    "size": {
+      "base": {
+        "value": 18,
+        "type": "fontSizes",
+        "description": "Base font size"
+      },
+      "xs": {
+        "value": 11.52,
+        "type": "fontSizes",
+        "description": "Extra small font size in pixels"
+      },
+      "lg": {
+        "value": 28.125,
+        "type": "fontSizes",
+        "description": "Heading level three font size in pixels"
+      },
+      "xl": {
+        "value": 35.156,
+        "type": "fontSizes",
+        "description": "Heading level two font size in pixels"
+      },
+      "xxl": {
+        "value": 43.945,
+        "type": "fontSizes",
+        "description": "Heading level one font size in pixels"
+      },
+      "xxxl": {
+        "value": 54.932,
+        "type": "fontSizes",
+        "description": "Hero/Jumbo font size in pixels"
+      },
+      "sm": {
+        "value": 14.4,
+        "type": "fontSizes",
+        "description": "Small font size in pixels"
+      },
+      "md": {
+        "value": 22.5,
+        "type": "fontSizes",
+        "description": "Heading level four font size in pixels"
+      }
+    }
+  }
+}
