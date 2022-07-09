@@ -3446,7 +3446,7 @@
       "transparency": {
         "white": {
           "10": {
-            "value": "#ffffff",
+            "value": "rgba(255, 255, 255, 0.1)",
             "type": "color",
             "description": "10% opacity",
             "filePath": "src/colors/transparency.tokens.json",
@@ -3471,7 +3471,7 @@
             ]
           },
           "20": {
-            "value": "#ffffff",
+            "value": "rgba(255, 255, 255, 0.2)",
             "type": "color",
             "description": "20% opacity",
             "filePath": "src/colors/transparency.tokens.json",
@@ -3496,7 +3496,7 @@
             ]
           },
           "30": {
-            "value": "#ffffff",
+            "value": "rgba(255, 255, 255, 0.3)",
             "type": "color",
             "description": "30% opacity",
             "filePath": "src/colors/transparency.tokens.json",
@@ -3521,7 +3521,7 @@
             ]
           },
           "40": {
-            "value": "#ffffff",
+            "value": "rgba(255, 255, 255, 0.4)",
             "type": "color",
             "description": "40% opacity",
             "filePath": "src/colors/transparency.tokens.json",
@@ -3546,7 +3546,7 @@
             ]
           },
           "50": {
-            "value": "#ffffff",
+            "value": "rgba(255, 255, 255, 0.5)",
             "type": "color",
             "description": "50% opacity",
             "filePath": "src/colors/transparency.tokens.json",
@@ -3571,7 +3571,7 @@
             ]
           },
           "60": {
-            "value": "#ffffff",
+            "value": "rgba(255, 255, 255, 0.6)",
             "type": "color",
             "description": "60% opacity",
             "filePath": "src/colors/transparency.tokens.json",
@@ -3596,7 +3596,7 @@
             ]
           },
           "70": {
-            "value": "#ffffff",
+            "value": "rgba(255, 255, 255, 0.7)",
             "type": "color",
             "description": "70% opacity",
             "filePath": "src/colors/transparency.tokens.json",
@@ -3621,7 +3621,7 @@
             ]
           },
           "80": {
-            "value": "#ffffff",
+            "value": "rgba(255, 255, 255, 0.8)",
             "type": "color",
             "description": "80% opacity",
             "filePath": "src/colors/transparency.tokens.json",
@@ -3646,7 +3646,7 @@
             ]
           },
           "90": {
-            "value": "#ffffff",
+            "value": "rgba(255, 255, 255, 0.9)",
             "type": "color",
             "description": "90% opacity",
             "filePath": "src/colors/transparency.tokens.json",
@@ -3673,7 +3673,7 @@
         },
         "black": {
           "10": {
-            "value": "#000000",
+            "value": "rgba(0, 0, 0, 0.1)",
             "type": "color",
             "description": "10% opacity",
             "filePath": "src/colors/transparency.tokens.json",
@@ -3698,7 +3698,7 @@
             ]
           },
           "20": {
-            "value": "#000000",
+            "value": "rgba(0, 0, 0, 0.2)",
             "type": "color",
             "description": "20% opacity",
             "filePath": "src/colors/transparency.tokens.json",
@@ -3723,7 +3723,7 @@
             ]
           },
           "30": {
-            "value": "#000000",
+            "value": "rgba(0, 0, 0, 0.3)",
             "type": "color",
             "description": "30% opacity",
             "filePath": "src/colors/transparency.tokens.json",
@@ -3748,7 +3748,7 @@
             ]
           },
           "40": {
-            "value": "#000000",
+            "value": "rgba(0, 0, 0, 0.4)",
             "type": "color",
             "description": "40% opacity",
             "filePath": "src/colors/transparency.tokens.json",
@@ -3773,7 +3773,7 @@
             ]
           },
           "50": {
-            "value": "#000000",
+            "value": "rgba(0, 0, 0, 0.5)",
             "type": "color",
             "description": "50% opacity",
             "filePath": "src/colors/transparency.tokens.json",
@@ -3798,7 +3798,7 @@
             ]
           },
           "60": {
-            "value": "#000000",
+            "value": "rgba(0, 0, 0, 0.6)",
             "type": "color",
             "description": "60% opacity",
             "filePath": "src/colors/transparency.tokens.json",
@@ -3823,7 +3823,7 @@
             ]
           },
           "70": {
-            "value": "#000000",
+            "value": "rgba(0, 0, 0, 0.7)",
             "type": "color",
             "description": "70% opacity",
             "filePath": "src/colors/transparency.tokens.json",
@@ -3848,7 +3848,7 @@
             ]
           },
           "80": {
-            "value": "#000000",
+            "value": "rgba(0, 0, 0, 0.8)",
             "type": "color",
             "description": "80% opacity",
             "filePath": "src/colors/transparency.tokens.json",
@@ -3873,7 +3873,7 @@
             ]
           },
           "90": {
-            "value": "#000000",
+            "value": "rgba(0, 0, 0, 0.9)",
             "type": "color",
             "description": "90% opacity",
             "filePath": "src/colors/transparency.tokens.json",
@@ -7362,7 +7362,7 @@
             "type": "color",
             "description": "Lightest border"
           },
-          "name": "ColorBorder100",
+          "name": "colorBorder100",
           "attributes": {
             "category": "color",
             "type": "border",
@@ -7385,7 +7385,7 @@
             "type": "color",
             "description": "-"
           },
-          "name": "ColorBorder200",
+          "name": "colorBorder200",
           "attributes": {
             "category": "color",
             "type": "border",
@@ -7408,7 +7408,7 @@
             "type": "color",
             "description": "-"
           },
-          "name": "ColorBorder300",
+          "name": "colorBorder300",
           "attributes": {
             "category": "color",
             "type": "border",
@@ -7431,7 +7431,7 @@
             "type": "color",
             "description": "-"
           },
-          "name": "ColorBorder400",
+          "name": "colorBorder400",
           "attributes": {
             "category": "color",
             "type": "border",
@@ -7454,7 +7454,7 @@
             "type": "color",
             "description": "-"
           },
-          "name": "ColorBorder500",
+          "name": "colorBorder500",
           "attributes": {
             "category": "color",
             "type": "border",
@@ -7477,7 +7477,7 @@
             "type": "color",
             "description": "Inverted border"
           },
-          "name": "ColorBorderContrast",
+          "name": "colorBorderContrast",
           "attributes": {
             "category": "color",
             "type": "border",
@@ -7500,7 +7500,7 @@
             "type": "color",
             "description": "Inverted border"
           },
-          "name": "ColorBorderInverse",
+          "name": "colorBorderInverse",
           "attributes": {
             "category": "color",
             "type": "border",
@@ -7525,7 +7525,7 @@
             "type": "color",
             "description": "Lightest surface"
           },
-          "name": "ColorSurface100",
+          "name": "colorSurface100",
           "attributes": {
             "category": "color",
             "type": "surface",
@@ -7548,7 +7548,7 @@
             "type": "color",
             "description": "-"
           },
-          "name": "ColorSurface200",
+          "name": "colorSurface200",
           "attributes": {
             "category": "color",
             "type": "surface",
@@ -7571,7 +7571,7 @@
             "type": "color",
             "description": "-"
           },
-          "name": "ColorSurface300",
+          "name": "colorSurface300",
           "attributes": {
             "category": "color",
             "type": "surface",
@@ -7594,7 +7594,7 @@
             "type": "color",
             "description": "-"
           },
-          "name": "ColorSurface400",
+          "name": "colorSurface400",
           "attributes": {
             "category": "color",
             "type": "surface",
@@ -7619,7 +7619,7 @@
             "type": "color",
             "description": "Primary text color"
           },
-          "name": "ColorTextColorPrimary",
+          "name": "colorTextColorPrimary",
           "attributes": {
             "category": "color",
             "type": "textColor",
@@ -7642,7 +7642,7 @@
             "type": "color",
             "description": "Secondary text color"
           },
-          "name": "ColorTextColorSecondary",
+          "name": "colorTextColorSecondary",
           "attributes": {
             "category": "color",
             "type": "textColor",
@@ -7665,7 +7665,7 @@
             "type": "color",
             "description": "Dim text color"
           },
-          "name": "ColorTextColorDim",
+          "name": "colorTextColorDim",
           "attributes": {
             "category": "color",
             "type": "textColor",
@@ -7688,7 +7688,7 @@
             "type": "color",
             "description": "Link text color"
           },
-          "name": "ColorTextColorLink",
+          "name": "colorTextColorLink",
           "attributes": {
             "category": "color",
             "type": "textColor",
@@ -7711,7 +7711,7 @@
             "type": "color",
             "description": "Error text color"
           },
-          "name": "ColorTextColorError",
+          "name": "colorTextColorError",
           "attributes": {
             "category": "color",
             "type": "textColor",
@@ -7734,7 +7734,7 @@
             "type": "color",
             "description": "Reverse text color"
           },
-          "name": "ColorTextColorReverse",
+          "name": "colorTextColorReverse",
           "attributes": {
             "category": "color",
             "type": "textColor",

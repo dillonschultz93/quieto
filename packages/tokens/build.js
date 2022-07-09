@@ -60,7 +60,7 @@ StyleDictionary.extend({
         'spacing/css',
         'corners/css',
         'borderWidth/css',
-        'color/hex',
+        'color/css',
       ],
       buildPath: 'src/',
       files: [
@@ -77,7 +77,7 @@ StyleDictionary.extend({
         'tracking/figma',
         'leading/figma',
         'weight/figma',
-        'color/hex',
+        'color/css',
       ],
       buildPath: 'src/',
       files: [
@@ -92,6 +92,18 @@ StyleDictionary.extend({
 
 // // Build dark mode tokens
 StyleDictionary.extend({
+  transform: {
+    'fontSize/css': require('./transformers/typography/font-size-css'),
+    'tracking/css': require('./transformers/typography/tracking-css'),
+    'paragraphSpacing/css': require('./transformers/typography/paragraph-spacing-css'),
+    'leading/figma': require('./transformers/typography/leading-figma'),
+    'tracking/figma': require('./transformers/typography/tracking-figma'),
+    'weight/figma': require('./transformers/typography/weight-figma'),
+    'sizing/css': require('./transformers/dimension/size-css'),
+    'spacing/css': require('./transformers/dimension/space-css'),
+    'corners/css': require('./transformers/dimension/corner-css'),
+    'borderWidth/css': require('./transformers/dimension/border-width-css'),
+  },
   include: [`src/**/!(*.${modes.join(`|*.`)}).tokens.json`],
   source: ['src/**/*.dark.tokens.json'],
   platforms: {
@@ -110,7 +122,18 @@ StyleDictionary.extend({
       ],
     },
     dark_json: {
-      transformGroup: 'js',
+      transforms: [
+        'attribute/cti',
+        'name/cti/pascal',
+        'fontSize/css',
+        'tracking/css',
+        'paragraphSpacing/css',
+        'sizing/css',
+        'spacing/css',
+        'corners/css',
+        'borderWidth/css',
+        'color/css',
+      ],
       buildPath: 'src/',
       files: [
         {
@@ -121,7 +144,14 @@ StyleDictionary.extend({
       ],
     },
     dark_figma: {
-      transformGroup: 'js',
+      transforms: [
+        'attribute/cti',
+        'name/cti/camel',
+        'tracking/figma',
+        'leading/figma',
+        'weight/figma',
+        'color/css',
+      ],
       buildPath: 'src/',
       files: [
         {
@@ -149,8 +179,11 @@ Object.entries(darkTokens).forEach(([category, categoryValue]) => {
     if (category === 'color' || category === 'component') {
       transformedTokens = {
         ...transformedTokens,
-        [category]: {},
+        [category]: {
+          ...tokens[category],
+        },
       };
+
       // Loop once more through to get the type of the token
       Object.entries(categoryValue).forEach(([type, typeValue]) => {
         if (type in tokens[category]) {
@@ -166,6 +199,8 @@ Object.entries(darkTokens).forEach(([category, categoryValue]) => {
     }
   }
 });
+
+console.log("💩", transformedTokens);
 
 // Merge figma tokens into token sets
 const figmaTokens = require('./tmp/figma-tokens.json');
