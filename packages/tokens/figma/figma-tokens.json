@@ -7347,5 +7347,406 @@
         }
       }
     }
+  },
+  "dark": {
+    "color": {
+      "border": {
+        "100": {
+          "value": "#414752",
+          "type": "color",
+          "description": "Lightest border",
+          "filePath": "src/colors/border.dark.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.core.gray.700}",
+            "type": "color",
+            "description": "Lightest border"
+          },
+          "name": "ColorBorder100",
+          "attributes": {
+            "category": "color",
+            "type": "border",
+            "item": "100"
+          },
+          "path": [
+            "color",
+            "border",
+            "100"
+          ]
+        },
+        "200": {
+          "value": "#575f6e",
+          "type": "color",
+          "description": "-",
+          "filePath": "src/colors/border.dark.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.core.gray.600}",
+            "type": "color",
+            "description": "-"
+          },
+          "name": "ColorBorder200",
+          "attributes": {
+            "category": "color",
+            "type": "border",
+            "item": "200"
+          },
+          "path": [
+            "color",
+            "border",
+            "200"
+          ]
+        },
+        "300": {
+          "value": "#6d778a",
+          "type": "color",
+          "description": "-",
+          "filePath": "src/colors/border.dark.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.core.gray.500}",
+            "type": "color",
+            "description": "-"
+          },
+          "name": "ColorBorder300",
+          "attributes": {
+            "category": "color",
+            "type": "border",
+            "item": "300"
+          },
+          "path": [
+            "color",
+            "border",
+            "300"
+          ]
+        },
+        "400": {
+          "value": "#8591a8",
+          "type": "color",
+          "description": "-",
+          "filePath": "src/colors/border.dark.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.core.gray.400}",
+            "type": "color",
+            "description": "-"
+          },
+          "name": "ColorBorder400",
+          "attributes": {
+            "category": "color",
+            "type": "border",
+            "item": "400"
+          },
+          "path": [
+            "color",
+            "border",
+            "400"
+          ]
+        },
+        "500": {
+          "value": "#a2acbe",
+          "type": "color",
+          "description": "-",
+          "filePath": "src/colors/border.dark.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.core.gray.300}",
+            "type": "color",
+            "description": "-"
+          },
+          "name": "ColorBorder500",
+          "attributes": {
+            "category": "color",
+            "type": "border",
+            "item": "500"
+          },
+          "path": [
+            "color",
+            "border",
+            "500"
+          ]
+        },
+        "contrast": {
+          "value": "#191c20",
+          "type": "color",
+          "description": "Inverted border",
+          "filePath": "src/colors/border.dark.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.core.gray.900}",
+            "type": "color",
+            "description": "Inverted border"
+          },
+          "name": "ColorBorderContrast",
+          "attributes": {
+            "category": "color",
+            "type": "border",
+            "item": "contrast"
+          },
+          "path": [
+            "color",
+            "border",
+            "contrast"
+          ]
+        },
+        "inverse": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "Inverted border",
+          "filePath": "src/colors/border.dark.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.core.white}",
+            "type": "color",
+            "description": "Inverted border"
+          },
+          "name": "ColorBorderInverse",
+          "attributes": {
+            "category": "color",
+            "type": "border",
+            "item": "inverse"
+          },
+          "path": [
+            "color",
+            "border",
+            "inverse"
+          ]
+        }
+      },
+      "surface": {
+        "100": {
+          "value": "#000000",
+          "type": "color",
+          "description": "Lightest surface",
+          "filePath": "src/colors/surface.dark.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.core.black}",
+            "type": "color",
+            "description": "Lightest surface"
+          },
+          "name": "ColorSurface100",
+          "attributes": {
+            "category": "color",
+            "type": "surface",
+            "item": "100"
+          },
+          "path": [
+            "color",
+            "surface",
+            "100"
+          ]
+        },
+        "200": {
+          "value": "#191c20",
+          "type": "color",
+          "description": "-",
+          "filePath": "src/colors/surface.dark.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.core.gray.900}",
+            "type": "color",
+            "description": "-"
+          },
+          "name": "ColorSurface200",
+          "attributes": {
+            "category": "color",
+            "type": "surface",
+            "item": "200"
+          },
+          "path": [
+            "color",
+            "surface",
+            "200"
+          ]
+        },
+        "300": {
+          "value": "#2c3138",
+          "type": "color",
+          "description": "-",
+          "filePath": "src/colors/surface.dark.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.core.gray.800}",
+            "type": "color",
+            "description": "-"
+          },
+          "name": "ColorSurface300",
+          "attributes": {
+            "category": "color",
+            "type": "surface",
+            "item": "300"
+          },
+          "path": [
+            "color",
+            "surface",
+            "300"
+          ]
+        },
+        "400": {
+          "value": "#414752",
+          "type": "color",
+          "description": "-",
+          "filePath": "src/colors/surface.dark.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.core.gray.700}",
+            "type": "color",
+            "description": "-"
+          },
+          "name": "ColorSurface400",
+          "attributes": {
+            "category": "color",
+            "type": "surface",
+            "item": "400"
+          },
+          "path": [
+            "color",
+            "surface",
+            "400"
+          ]
+        }
+      },
+      "textColor": {
+        "primary": {
+          "value": "#e0e3e8",
+          "type": "color",
+          "description": "Primary text color",
+          "filePath": "src/colors/text-color.dark.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.core.gray.100}",
+            "type": "color",
+            "description": "Primary text color"
+          },
+          "name": "ColorTextColorPrimary",
+          "attributes": {
+            "category": "color",
+            "type": "textColor",
+            "item": "primary"
+          },
+          "path": [
+            "color",
+            "textColor",
+            "primary"
+          ]
+        },
+        "secondary": {
+          "value": "#a2acbe",
+          "type": "color",
+          "description": "Secondary text color",
+          "filePath": "src/colors/text-color.dark.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.core.gray.300}",
+            "type": "color",
+            "description": "Secondary text color"
+          },
+          "name": "ColorTextColorSecondary",
+          "attributes": {
+            "category": "color",
+            "type": "textColor",
+            "item": "secondary"
+          },
+          "path": [
+            "color",
+            "textColor",
+            "secondary"
+          ]
+        },
+        "dim": {
+          "value": "#414752",
+          "type": "color",
+          "description": "Dim text color",
+          "filePath": "src/colors/text-color.dark.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.core.gray.700}",
+            "type": "color",
+            "description": "Dim text color"
+          },
+          "name": "ColorTextColorDim",
+          "attributes": {
+            "category": "color",
+            "type": "textColor",
+            "item": "dim"
+          },
+          "path": [
+            "color",
+            "textColor",
+            "dim"
+          ]
+        },
+        "link": {
+          "value": "#688eea",
+          "type": "color",
+          "description": "Link text color",
+          "filePath": "src/colors/text-color.dark.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.core.blue.400}",
+            "type": "color",
+            "description": "Link text color"
+          },
+          "name": "ColorTextColorLink",
+          "attributes": {
+            "category": "color",
+            "type": "textColor",
+            "item": "link"
+          },
+          "path": [
+            "color",
+            "textColor",
+            "link"
+          ]
+        },
+        "error": {
+          "value": "#ea6861",
+          "type": "color",
+          "description": "Error text color",
+          "filePath": "src/colors/text-color.dark.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.core.red.400}",
+            "type": "color",
+            "description": "Error text color"
+          },
+          "name": "ColorTextColorError",
+          "attributes": {
+            "category": "color",
+            "type": "textColor",
+            "item": "error"
+          },
+          "path": [
+            "color",
+            "textColor",
+            "error"
+          ]
+        },
+        "reverse": {
+          "value": "#191c20",
+          "type": "color",
+          "description": "Reverse text color",
+          "filePath": "src/colors/text-color.dark.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.core.gray.900}",
+            "type": "color",
+            "description": "Reverse text color"
+          },
+          "name": "ColorTextColorReverse",
+          "attributes": {
+            "category": "color",
+            "type": "textColor",
+            "item": "reverse"
+          },
+          "path": [
+            "color",
+            "textColor",
+            "reverse"
+          ]
+        }
+      }
+    }
   }
 }
