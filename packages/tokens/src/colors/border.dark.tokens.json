@@ -27,12 +27,12 @@
         "description": "-"
       },
       "contrast": {
-        "value": "{color.core.gray.900}",
+        "value": "{color.core.gray.100}",
         "type": "color",
         "description": "Inverted border"
       },
       "inverse": {
-        "value": "{color.core.white}",
+        "value": "{color.core.black}",
         "type": "color",
         "description": "Inverted border"
       }
