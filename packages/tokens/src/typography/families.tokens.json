@@ -2,38 +2,14 @@
   "typography": {
     "fontFamilies": {
       "sans": {
-        "light": {
-          "value": "Outfit-Light",
-          "description": "Light weight body text",
-          "type": "fontFamilies"
-        },
-        "regular": {
-          "value": "Outfit-Regular",
-          "description": "Regular weight body text",
-          "type": "fontFamilies"
-        },
-        "bold": {
-          "value": "Outfit-Bold",
-          "description": "Bold weight body text",
-          "type": "fontFamilies"
-        }
+        "value": "Outfit",
+        "type": "fontFamilies",
+        "description": "Body text font family"
       },
       "mono": {
-        "light": {
-          "value": "FiraCode-Light",
-          "description": "Used for the code snippets.",
-          "type": "fontFamilies"
-        },
-        "regular": {
-          "value": "FiraCode-Regular",
-          "description": "Used for the code snippets.",
-          "type": "fontFamilies"
-        },
-        "bold": {
-          "value": "FiraCode-Bold",
-          "description": "Used for the code snippets.",
-          "type": "fontFamilies"
-        }
+        "value": "FiraCode",
+        "type": "fontFamilies",
+        "description": "Code snippet text font family"
       }
     }
   }

@@ -5327,158 +5327,50 @@
       },
       "fontFamilies": {
         "sans": {
-          "light": {
-            "value": "Outfit-Light",
-            "description": "Light weight body text",
+          "value": "Outfit",
+          "type": "fontFamilies",
+          "description": "Body text font family",
+          "filePath": "src/typography/families.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "Outfit",
             "type": "fontFamilies",
-            "filePath": "src/typography/families.tokens.json",
-            "isSource": true,
-            "original": {
-              "value": "Outfit-Light",
-              "description": "Light weight body text",
-              "type": "fontFamilies"
-            },
-            "name": "typographyFontFamiliesSansLight",
-            "attributes": {
-              "category": "typography",
-              "type": "fontFamilies",
-              "item": "sans",
-              "subitem": "light"
-            },
-            "path": [
-              "typography",
-              "fontFamilies",
-              "sans",
-              "light"
-            ]
+            "description": "Body text font family"
           },
-          "regular": {
-            "value": "Outfit-Regular",
-            "description": "Regular weight body text",
+          "name": "typographyFontFamiliesSans",
+          "attributes": {
+            "category": "typography",
             "type": "fontFamilies",
-            "filePath": "src/typography/families.tokens.json",
-            "isSource": true,
-            "original": {
-              "value": "Outfit-Regular",
-              "description": "Regular weight body text",
-              "type": "fontFamilies"
-            },
-            "name": "typographyFontFamiliesSansRegular",
-            "attributes": {
-              "category": "typography",
-              "type": "fontFamilies",
-              "item": "sans",
-              "subitem": "regular"
-            },
-            "path": [
-              "typography",
-              "fontFamilies",
-              "sans",
-              "regular"
-            ]
+            "item": "sans"
           },
-          "bold": {
-            "value": "Outfit-Bold",
-            "description": "Bold weight body text",
-            "type": "fontFamilies",
-            "filePath": "src/typography/families.tokens.json",
-            "isSource": true,
-            "original": {
-              "value": "Outfit-Bold",
-              "description": "Bold weight body text",
-              "type": "fontFamilies"
-            },
-            "name": "typographyFontFamiliesSansBold",
-            "attributes": {
-              "category": "typography",
-              "type": "fontFamilies",
-              "item": "sans",
-              "subitem": "bold"
-            },
-            "path": [
-              "typography",
-              "fontFamilies",
-              "sans",
-              "bold"
-            ]
-          }
+          "path": [
+            "typography",
+            "fontFamilies",
+            "sans"
+          ]
         },
         "mono": {
-          "light": {
-            "value": "FiraCode-Light",
-            "description": "Used for the code snippets.",
+          "value": "FiraCode",
+          "type": "fontFamilies",
+          "description": "Code snippet text font family",
+          "filePath": "src/typography/families.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "FiraCode",
             "type": "fontFamilies",
-            "filePath": "src/typography/families.tokens.json",
-            "isSource": true,
-            "original": {
-              "value": "FiraCode-Light",
-              "description": "Used for the code snippets.",
-              "type": "fontFamilies"
-            },
-            "name": "typographyFontFamiliesMonoLight",
-            "attributes": {
-              "category": "typography",
-              "type": "fontFamilies",
-              "item": "mono",
-              "subitem": "light"
-            },
-            "path": [
-              "typography",
-              "fontFamilies",
-              "mono",
-              "light"
-            ]
+            "description": "Code snippet text font family"
           },
-          "regular": {
-            "value": "FiraCode-Regular",
-            "description": "Used for the code snippets.",
+          "name": "typographyFontFamiliesMono",
+          "attributes": {
+            "category": "typography",
             "type": "fontFamilies",
-            "filePath": "src/typography/families.tokens.json",
-            "isSource": true,
-            "original": {
-              "value": "FiraCode-Regular",
-              "description": "Used for the code snippets.",
-              "type": "fontFamilies"
-            },
-            "name": "typographyFontFamiliesMonoRegular",
-            "attributes": {
-              "category": "typography",
-              "type": "fontFamilies",
-              "item": "mono",
-              "subitem": "regular"
-            },
-            "path": [
-              "typography",
-              "fontFamilies",
-              "mono",
-              "regular"
-            ]
+            "item": "mono"
           },
-          "bold": {
-            "value": "FiraCode-Bold",
-            "description": "Used for the code snippets.",
-            "type": "fontFamilies",
-            "filePath": "src/typography/families.tokens.json",
-            "isSource": true,
-            "original": {
-              "value": "FiraCode-Bold",
-              "description": "Used for the code snippets.",
-              "type": "fontFamilies"
-            },
-            "name": "typographyFontFamiliesMonoBold",
-            "attributes": {
-              "category": "typography",
-              "type": "fontFamilies",
-              "item": "mono",
-              "subitem": "bold"
-            },
-            "path": [
-              "typography",
-              "fontFamilies",
-              "mono",
-              "bold"
-            ]
-          }
+          "path": [
+            "typography",
+            "fontFamilies",
+            "mono"
+          ]
         }
       },
       "leading": {
@@ -5851,6 +5743,246 @@
             "size",
             "md"
           ]
+        }
+      },
+      "headings": {
+        "h0": {
+          "light": {
+            "value": {
+              "fontFamily": "Outfit",
+              "fontWeight": "Light",
+              "lineHeight": "120%",
+              "fontSize": 54.932,
+              "letterSpacing": "-1%",
+              "paragraphSpacing": 12
+            },
+            "description": "Largest heading style in a light weight",
+            "type": "typography",
+            "filePath": "src/typography/styles/headings/h0.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": {
+                "fontFamily": "{typography.fontFamilies.sans}",
+                "fontWeight": "{typography.weight.300}",
+                "lineHeight": "{typography.leading.sm}",
+                "fontSize": "{typography.size.xxxl}",
+                "letterSpacing": "{typography.tracking.tight}",
+                "paragraphSpacing": "{typography.paragraphSpacing.sm}"
+              },
+              "description": "Largest heading style in a light weight",
+              "type": "typography"
+            },
+            "name": "typographyHeadingsH0Light",
+            "attributes": {
+              "category": "typography",
+              "type": "headings",
+              "item": "h0",
+              "subitem": "light"
+            },
+            "path": [
+              "typography",
+              "headings",
+              "h0",
+              "light"
+            ]
+          },
+          "regular": {
+            "value": {
+              "fontFamily": "Outfit",
+              "fontWeight": "Regular",
+              "lineHeight": "120%",
+              "fontSize": 54.932,
+              "letterSpacing": "-1%",
+              "paragraphSpacing": 12
+            },
+            "description": "Largest heading style in a regular weight",
+            "type": "typography",
+            "filePath": "src/typography/styles/headings/h0.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": {
+                "fontFamily": "{typography.fontFamilies.sans}",
+                "fontWeight": "{typography.weight.400}",
+                "lineHeight": "{typography.leading.sm}",
+                "fontSize": "{typography.size.xxxl}",
+                "letterSpacing": "{typography.tracking.tight}",
+                "paragraphSpacing": "{typography.paragraphSpacing.sm}"
+              },
+              "description": "Largest heading style in a regular weight",
+              "type": "typography"
+            },
+            "name": "typographyHeadingsH0Regular",
+            "attributes": {
+              "category": "typography",
+              "type": "headings",
+              "item": "h0",
+              "subitem": "regular"
+            },
+            "path": [
+              "typography",
+              "headings",
+              "h0",
+              "regular"
+            ]
+          },
+          "bold": {
+            "value": {
+              "fontFamily": "Outfit",
+              "fontWeight": "Bold",
+              "lineHeight": "120%",
+              "fontSize": 54.932,
+              "letterSpacing": "-1%",
+              "paragraphSpacing": 12
+            },
+            "description": "Largest heading style in a bold weight",
+            "type": "typography",
+            "filePath": "src/typography/styles/headings/h0.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": {
+                "fontFamily": "{typography.fontFamilies.sans}",
+                "fontWeight": "{typography.weight.700}",
+                "lineHeight": "{typography.leading.sm}",
+                "fontSize": "{typography.size.xxxl}",
+                "letterSpacing": "{typography.tracking.tight}",
+                "paragraphSpacing": "{typography.paragraphSpacing.sm}"
+              },
+              "description": "Largest heading style in a bold weight",
+              "type": "typography"
+            },
+            "name": "typographyHeadingsH0Bold",
+            "attributes": {
+              "category": "typography",
+              "type": "headings",
+              "item": "h0",
+              "subitem": "bold"
+            },
+            "path": [
+              "typography",
+              "headings",
+              "h0",
+              "bold"
+            ]
+          }
+        },
+        "h1": {
+          "light": {
+            "value": {
+              "fontFamily": "Outfit",
+              "fontWeight": "Light",
+              "lineHeight": "120%",
+              "fontSize": 43.945,
+              "letterSpacing": "-1%",
+              "paragraphSpacing": 12
+            },
+            "description": "Largest heading style in a light weight",
+            "type": "typography",
+            "filePath": "src/typography/styles/headings/h1.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": {
+                "fontFamily": "{typography.fontFamilies.sans}",
+                "fontWeight": "{typography.weight.300}",
+                "lineHeight": "{typography.leading.sm}",
+                "fontSize": "{typography.size.xxl}",
+                "letterSpacing": "{typography.tracking.tight}",
+                "paragraphSpacing": "{typography.paragraphSpacing.sm}"
+              },
+              "description": "Largest heading style in a light weight",
+              "type": "typography"
+            },
+            "name": "typographyHeadingsH1Light",
+            "attributes": {
+              "category": "typography",
+              "type": "headings",
+              "item": "h1",
+              "subitem": "light"
+            },
+            "path": [
+              "typography",
+              "headings",
+              "h1",
+              "light"
+            ]
+          },
+          "regular": {
+            "value": {
+              "fontFamily": "Outfit",
+              "fontWeight": "Regular",
+              "lineHeight": "120%",
+              "fontSize": 43.945,
+              "letterSpacing": "-1%",
+              "paragraphSpacing": 12
+            },
+            "description": "Largest heading style in a regular weight",
+            "type": "typography",
+            "filePath": "src/typography/styles/headings/h1.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": {
+                "fontFamily": "{typography.fontFamilies.sans}",
+                "fontWeight": "{typography.weight.400}",
+                "lineHeight": "{typography.leading.sm}",
+                "fontSize": "{typography.size.xxl}",
+                "letterSpacing": "{typography.tracking.tight}",
+                "paragraphSpacing": "{typography.paragraphSpacing.sm}"
+              },
+              "description": "Largest heading style in a regular weight",
+              "type": "typography"
+            },
+            "name": "typographyHeadingsH1Regular",
+            "attributes": {
+              "category": "typography",
+              "type": "headings",
+              "item": "h1",
+              "subitem": "regular"
+            },
+            "path": [
+              "typography",
+              "headings",
+              "h1",
+              "regular"
+            ]
+          },
+          "bold": {
+            "value": {
+              "fontFamily": "Outfit",
+              "fontWeight": "Bold",
+              "lineHeight": "120%",
+              "fontSize": 43.945,
+              "letterSpacing": "-1%",
+              "paragraphSpacing": 12
+            },
+            "description": "Largest heading style in a bold weight",
+            "type": "typography",
+            "filePath": "src/typography/styles/headings/h1.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": {
+                "fontFamily": "{typography.fontFamilies.sans}",
+                "fontWeight": "{typography.weight.700}",
+                "lineHeight": "{typography.leading.sm}",
+                "fontSize": "{typography.size.xxl}",
+                "letterSpacing": "{typography.tracking.tight}",
+                "paragraphSpacing": "{typography.paragraphSpacing.sm}"
+              },
+              "description": "Largest heading style in a bold weight",
+              "type": "typography"
+            },
+            "name": "typographyHeadingsH1Bold",
+            "attributes": {
+              "category": "typography",
+              "type": "headings",
+              "item": "h1",
+              "subitem": "bold"
+            },
+            "path": [
+              "typography",
+              "headings",
+              "h1",
+              "bold"
+            ]
+          }
         }
       },
       "tracking": {
