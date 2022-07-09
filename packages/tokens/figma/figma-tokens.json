@@ -2791,261 +2791,6 @@
           ]
         }
       },
-      "opacity": {
-        "10": {
-          "value": "#000000",
-          "type": "opacity",
-          "description": "10% opacity",
-          "filePath": "src/colors/opacity.tokens.json",
-          "isSource": true,
-          "original": {
-            "value": 0.1,
-            "type": "opacity",
-            "description": "10% opacity"
-          },
-          "name": "colorOpacity10",
-          "attributes": {
-            "category": "color",
-            "type": "opacity",
-            "item": "10"
-          },
-          "path": [
-            "color",
-            "opacity",
-            "10"
-          ]
-        },
-        "20": {
-          "value": "#000000",
-          "type": "opacity",
-          "description": "20% opacity",
-          "filePath": "src/colors/opacity.tokens.json",
-          "isSource": true,
-          "original": {
-            "value": 0.2,
-            "type": "opacity",
-            "description": "20% opacity"
-          },
-          "name": "colorOpacity20",
-          "attributes": {
-            "category": "color",
-            "type": "opacity",
-            "item": "20"
-          },
-          "path": [
-            "color",
-            "opacity",
-            "20"
-          ]
-        },
-        "30": {
-          "value": "#000000",
-          "type": "opacity",
-          "description": "30% opacity",
-          "filePath": "src/colors/opacity.tokens.json",
-          "isSource": true,
-          "original": {
-            "value": 0.3,
-            "type": "opacity",
-            "description": "30% opacity"
-          },
-          "name": "colorOpacity30",
-          "attributes": {
-            "category": "color",
-            "type": "opacity",
-            "item": "30"
-          },
-          "path": [
-            "color",
-            "opacity",
-            "30"
-          ]
-        },
-        "40": {
-          "value": "#000000",
-          "type": "opacity",
-          "description": "40% opacity",
-          "filePath": "src/colors/opacity.tokens.json",
-          "isSource": true,
-          "original": {
-            "value": 0.4,
-            "type": "opacity",
-            "description": "40% opacity"
-          },
-          "name": "colorOpacity40",
-          "attributes": {
-            "category": "color",
-            "type": "opacity",
-            "item": "40"
-          },
-          "path": [
-            "color",
-            "opacity",
-            "40"
-          ]
-        },
-        "50": {
-          "value": "#000000",
-          "type": "opacity",
-          "description": "50% opacity",
-          "filePath": "src/colors/opacity.tokens.json",
-          "isSource": true,
-          "original": {
-            "value": 0.5,
-            "type": "opacity",
-            "description": "50% opacity"
-          },
-          "name": "colorOpacity50",
-          "attributes": {
-            "category": "color",
-            "type": "opacity",
-            "item": "50"
-          },
-          "path": [
-            "color",
-            "opacity",
-            "50"
-          ]
-        },
-        "60": {
-          "value": "#000000",
-          "type": "opacity",
-          "description": "60% opacity",
-          "filePath": "src/colors/opacity.tokens.json",
-          "isSource": true,
-          "original": {
-            "value": 0.6,
-            "type": "opacity",
-            "description": "60% opacity"
-          },
-          "name": "colorOpacity60",
-          "attributes": {
-            "category": "color",
-            "type": "opacity",
-            "item": "60"
-          },
-          "path": [
-            "color",
-            "opacity",
-            "60"
-          ]
-        },
-        "70": {
-          "value": "#000000",
-          "type": "opacity",
-          "description": "70% opacity",
-          "filePath": "src/colors/opacity.tokens.json",
-          "isSource": true,
-          "original": {
-            "value": 0.7,
-            "type": "opacity",
-            "description": "70% opacity"
-          },
-          "name": "colorOpacity70",
-          "attributes": {
-            "category": "color",
-            "type": "opacity",
-            "item": "70"
-          },
-          "path": [
-            "color",
-            "opacity",
-            "70"
-          ]
-        },
-        "80": {
-          "value": "#000000",
-          "type": "opacity",
-          "description": "80% opacity",
-          "filePath": "src/colors/opacity.tokens.json",
-          "isSource": true,
-          "original": {
-            "value": 0.8,
-            "type": "opacity",
-            "description": "80% opacity"
-          },
-          "name": "colorOpacity80",
-          "attributes": {
-            "category": "color",
-            "type": "opacity",
-            "item": "80"
-          },
-          "path": [
-            "color",
-            "opacity",
-            "80"
-          ]
-        },
-        "90": {
-          "value": "#000000",
-          "type": "opacity",
-          "description": "90% opacity",
-          "filePath": "src/colors/opacity.tokens.json",
-          "isSource": true,
-          "original": {
-            "value": 0.9,
-            "type": "opacity",
-            "description": "90% opacity"
-          },
-          "name": "colorOpacity90",
-          "attributes": {
-            "category": "color",
-            "type": "opacity",
-            "item": "90"
-          },
-          "path": [
-            "color",
-            "opacity",
-            "90"
-          ]
-        },
-        "none": {
-          "value": "#000000",
-          "type": "opacity",
-          "description": "No opacity",
-          "filePath": "src/colors/opacity.tokens.json",
-          "isSource": true,
-          "original": {
-            "value": 0,
-            "type": "opacity",
-            "description": "No opacity"
-          },
-          "name": "colorOpacityNone",
-          "attributes": {
-            "category": "color",
-            "type": "opacity",
-            "item": "none"
-          },
-          "path": [
-            "color",
-            "opacity",
-            "none"
-          ]
-        },
-        "full": {
-          "value": "#000000",
-          "type": "opacity",
-          "description": "Opaque",
-          "filePath": "src/colors/opacity.tokens.json",
-          "isSource": true,
-          "original": {
-            "value": 1,
-            "type": "opacity",
-            "description": "Opaque"
-          },
-          "name": "colorOpacityFull",
-          "attributes": {
-            "category": "color",
-            "type": "opacity",
-            "item": "full"
-          },
-          "path": [
-            "color",
-            "opacity",
-            "full"
-          ]
-        }
-      },
       "primary": {
         "100": {
           "value": "#e1e0fa",
@@ -6247,6 +5992,263 @@
             "typography",
             "weight",
             "700"
+          ]
+        }
+      }
+    },
+    "utility": {
+      "opacity": {
+        "10": {
+          "value": 0.1,
+          "type": "opacity",
+          "description": "10% opacity",
+          "filePath": "src/utility/opacity.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": 0.1,
+            "type": "opacity",
+            "description": "10% opacity"
+          },
+          "name": "utilityOpacity10",
+          "attributes": {
+            "category": "utility",
+            "type": "opacity",
+            "item": "10"
+          },
+          "path": [
+            "utility",
+            "opacity",
+            "10"
+          ]
+        },
+        "20": {
+          "value": 0.2,
+          "type": "opacity",
+          "description": "20% opacity",
+          "filePath": "src/utility/opacity.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": 0.2,
+            "type": "opacity",
+            "description": "20% opacity"
+          },
+          "name": "utilityOpacity20",
+          "attributes": {
+            "category": "utility",
+            "type": "opacity",
+            "item": "20"
+          },
+          "path": [
+            "utility",
+            "opacity",
+            "20"
+          ]
+        },
+        "30": {
+          "value": 0.3,
+          "type": "opacity",
+          "description": "30% opacity",
+          "filePath": "src/utility/opacity.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": 0.3,
+            "type": "opacity",
+            "description": "30% opacity"
+          },
+          "name": "utilityOpacity30",
+          "attributes": {
+            "category": "utility",
+            "type": "opacity",
+            "item": "30"
+          },
+          "path": [
+            "utility",
+            "opacity",
+            "30"
+          ]
+        },
+        "40": {
+          "value": 0.4,
+          "type": "opacity",
+          "description": "40% opacity",
+          "filePath": "src/utility/opacity.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": 0.4,
+            "type": "opacity",
+            "description": "40% opacity"
+          },
+          "name": "utilityOpacity40",
+          "attributes": {
+            "category": "utility",
+            "type": "opacity",
+            "item": "40"
+          },
+          "path": [
+            "utility",
+            "opacity",
+            "40"
+          ]
+        },
+        "50": {
+          "value": 0.5,
+          "type": "opacity",
+          "description": "50% opacity",
+          "filePath": "src/utility/opacity.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": 0.5,
+            "type": "opacity",
+            "description": "50% opacity"
+          },
+          "name": "utilityOpacity50",
+          "attributes": {
+            "category": "utility",
+            "type": "opacity",
+            "item": "50"
+          },
+          "path": [
+            "utility",
+            "opacity",
+            "50"
+          ]
+        },
+        "60": {
+          "value": 0.6,
+          "type": "opacity",
+          "description": "60% opacity",
+          "filePath": "src/utility/opacity.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": 0.6,
+            "type": "opacity",
+            "description": "60% opacity"
+          },
+          "name": "utilityOpacity60",
+          "attributes": {
+            "category": "utility",
+            "type": "opacity",
+            "item": "60"
+          },
+          "path": [
+            "utility",
+            "opacity",
+            "60"
+          ]
+        },
+        "70": {
+          "value": 0.7,
+          "type": "opacity",
+          "description": "70% opacity",
+          "filePath": "src/utility/opacity.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": 0.7,
+            "type": "opacity",
+            "description": "70% opacity"
+          },
+          "name": "utilityOpacity70",
+          "attributes": {
+            "category": "utility",
+            "type": "opacity",
+            "item": "70"
+          },
+          "path": [
+            "utility",
+            "opacity",
+            "70"
+          ]
+        },
+        "80": {
+          "value": 0.8,
+          "type": "opacity",
+          "description": "80% opacity",
+          "filePath": "src/utility/opacity.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": 0.8,
+            "type": "opacity",
+            "description": "80% opacity"
+          },
+          "name": "utilityOpacity80",
+          "attributes": {
+            "category": "utility",
+            "type": "opacity",
+            "item": "80"
+          },
+          "path": [
+            "utility",
+            "opacity",
+            "80"
+          ]
+        },
+        "90": {
+          "value": 0.9,
+          "type": "opacity",
+          "description": "90% opacity",
+          "filePath": "src/utility/opacity.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": 0.9,
+            "type": "opacity",
+            "description": "90% opacity"
+          },
+          "name": "utilityOpacity90",
+          "attributes": {
+            "category": "utility",
+            "type": "opacity",
+            "item": "90"
+          },
+          "path": [
+            "utility",
+            "opacity",
+            "90"
+          ]
+        },
+        "none": {
+          "value": 0,
+          "type": "opacity",
+          "description": "No opacity",
+          "filePath": "src/utility/opacity.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": 0,
+            "type": "opacity",
+            "description": "No opacity"
+          },
+          "name": "utilityOpacityNone",
+          "attributes": {
+            "category": "utility",
+            "type": "opacity",
+            "item": "none"
+          },
+          "path": [
+            "utility",
+            "opacity",
+            "none"
+          ]
+        },
+        "full": {
+          "value": 1,
+          "type": "opacity",
+          "description": "Opaque",
+          "filePath": "src/utility/opacity.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": 1,
+            "type": "opacity",
+            "description": "Opaque"
+          },
+          "name": "utilityOpacityFull",
+          "attributes": {
+            "category": "utility",
+            "type": "opacity",
+            "item": "full"
+          },
+          "path": [
+            "utility",
+            "opacity",
+            "full"
           ]
         }
       }
