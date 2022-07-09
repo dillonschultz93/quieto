@@ -46,13 +46,14 @@ StyleDictionary.extend({
         'spacing/css',
         'corners/css',
         'borderWidth/css',
-        'color/css',
+        'color/hsl',
       ],
       buildPath: 'lib/css/',
       files: [
         {
           destination: '_variables.css',
           format: 'css/variables',
+          filter: (token) => token.filePath.indexOf('typography/styles/') <= 0,
           options: {
             outputReferences: true,
           },
