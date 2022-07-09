@@ -6344,6 +6344,125 @@
           ]
         }
       },
+      "h1": {
+        "light": {
+          "value": {
+            "fontFamily": "{typography.fontFamilies.sans}",
+            "fontWeight": "{typography.weight.300}",
+            "lineHeight": "{typography.leading.sm}",
+            "fontSize": "{typography.size.xxl}",
+            "letterSpacing": "{typography.tracking.tight}",
+            "paragraphSpacing": "{typography.paragraphSpacing.sm}"
+          },
+          "description": "Heading level one size as a light weight",
+          "type": "typography",
+          "filePath": "src/typography/styles/headings/h1.tokens.json",
+          "isSource": false,
+          "original": {
+            "value": {
+              "fontFamily": "{typography.fontFamilies.sans}",
+              "fontWeight": "{typography.weight.300}",
+              "lineHeight": "{typography.leading.sm}",
+              "fontSize": "{typography.size.xxl}",
+              "letterSpacing": "{typography.tracking.tight}",
+              "paragraphSpacing": "{typography.paragraphSpacing.sm}"
+            },
+            "description": "Heading level one size as a light weight",
+            "type": "typography"
+          },
+          "name": "TypographyHeadingsH1Light",
+          "attributes": {
+            "category": "typography",
+            "type": "headings",
+            "item": "h1",
+            "subitem": "light"
+          },
+          "path": [
+            "typography",
+            "headings",
+            "h1",
+            "light"
+          ]
+        },
+        "regular": {
+          "value": {
+            "fontFamily": "{typography.fontFamilies.sans}",
+            "fontWeight": "{typography.weight.400}",
+            "lineHeight": "{typography.leading.sm}",
+            "fontSize": "{typography.size.xxl}",
+            "letterSpacing": "{typography.tracking.tight}",
+            "paragraphSpacing": "{typography.paragraphSpacing.sm}"
+          },
+          "description": "Heading level one size as a regular weight",
+          "type": "typography",
+          "filePath": "src/typography/styles/headings/h1.tokens.json",
+          "isSource": false,
+          "original": {
+            "value": {
+              "fontFamily": "{typography.fontFamilies.sans}",
+              "fontWeight": "{typography.weight.400}",
+              "lineHeight": "{typography.leading.sm}",
+              "fontSize": "{typography.size.xxl}",
+              "letterSpacing": "{typography.tracking.tight}",
+              "paragraphSpacing": "{typography.paragraphSpacing.sm}"
+            },
+            "description": "Heading level one size as a regular weight",
+            "type": "typography"
+          },
+          "name": "TypographyHeadingsH1Regular",
+          "attributes": {
+            "category": "typography",
+            "type": "headings",
+            "item": "h1",
+            "subitem": "regular"
+          },
+          "path": [
+            "typography",
+            "headings",
+            "h1",
+            "regular"
+          ]
+        },
+        "bold": {
+          "value": {
+            "fontFamily": "{typography.fontFamilies.sans}",
+            "fontWeight": "{typography.weight.700}",
+            "lineHeight": "{typography.leading.sm}",
+            "fontSize": "{typography.size.xxl}",
+            "letterSpacing": "{typography.tracking.tight}",
+            "paragraphSpacing": "{typography.paragraphSpacing.sm}"
+          },
+          "description": "Heading level one size as a bold weight",
+          "type": "typography",
+          "filePath": "src/typography/styles/headings/h1.tokens.json",
+          "isSource": false,
+          "original": {
+            "value": {
+              "fontFamily": "{typography.fontFamilies.sans}",
+              "fontWeight": "{typography.weight.700}",
+              "lineHeight": "{typography.leading.sm}",
+              "fontSize": "{typography.size.xxl}",
+              "letterSpacing": "{typography.tracking.tight}",
+              "paragraphSpacing": "{typography.paragraphSpacing.sm}"
+            },
+            "description": "Heading level one size as a bold weight",
+            "type": "typography"
+          },
+          "name": "TypographyHeadingsH1Bold",
+          "attributes": {
+            "category": "typography",
+            "type": "headings",
+            "item": "h1",
+            "subitem": "bold"
+          },
+          "path": [
+            "typography",
+            "headings",
+            "h1",
+            "bold"
+          ]
+        }
+      },
       "h2": {
         "light": {
           "value": {

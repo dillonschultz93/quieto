@@ -6345,6 +6345,125 @@
             ]
           }
         },
+        "h1": {
+          "light": {
+            "value": {
+              "fontFamily": "Outfit",
+              "fontWeight": "Light",
+              "lineHeight": "120%",
+              "fontSize": 43.945,
+              "letterSpacing": "-1%",
+              "paragraphSpacing": 12
+            },
+            "description": "Heading level one size as a light weight",
+            "type": "typography",
+            "filePath": "src/typography/styles/headings/h1.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": {
+                "fontFamily": "{typography.fontFamilies.sans}",
+                "fontWeight": "{typography.weight.300}",
+                "lineHeight": "{typography.leading.sm}",
+                "fontSize": "{typography.size.xxl}",
+                "letterSpacing": "{typography.tracking.tight}",
+                "paragraphSpacing": "{typography.paragraphSpacing.sm}"
+              },
+              "description": "Heading level one size as a light weight",
+              "type": "typography"
+            },
+            "name": "typographyHeadingsH1Light",
+            "attributes": {
+              "category": "typography",
+              "type": "headings",
+              "item": "h1",
+              "subitem": "light"
+            },
+            "path": [
+              "typography",
+              "headings",
+              "h1",
+              "light"
+            ]
+          },
+          "regular": {
+            "value": {
+              "fontFamily": "Outfit",
+              "fontWeight": "Regular",
+              "lineHeight": "120%",
+              "fontSize": 43.945,
+              "letterSpacing": "-1%",
+              "paragraphSpacing": 12
+            },
+            "description": "Heading level one size as a regular weight",
+            "type": "typography",
+            "filePath": "src/typography/styles/headings/h1.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": {
+                "fontFamily": "{typography.fontFamilies.sans}",
+                "fontWeight": "{typography.weight.400}",
+                "lineHeight": "{typography.leading.sm}",
+                "fontSize": "{typography.size.xxl}",
+                "letterSpacing": "{typography.tracking.tight}",
+                "paragraphSpacing": "{typography.paragraphSpacing.sm}"
+              },
+              "description": "Heading level one size as a regular weight",
+              "type": "typography"
+            },
+            "name": "typographyHeadingsH1Regular",
+            "attributes": {
+              "category": "typography",
+              "type": "headings",
+              "item": "h1",
+              "subitem": "regular"
+            },
+            "path": [
+              "typography",
+              "headings",
+              "h1",
+              "regular"
+            ]
+          },
+          "bold": {
+            "value": {
+              "fontFamily": "Outfit",
+              "fontWeight": "Bold",
+              "lineHeight": "120%",
+              "fontSize": 43.945,
+              "letterSpacing": "-1%",
+              "paragraphSpacing": 12
+            },
+            "description": "Heading level one size as a bold weight",
+            "type": "typography",
+            "filePath": "src/typography/styles/headings/h1.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": {
+                "fontFamily": "{typography.fontFamilies.sans}",
+                "fontWeight": "{typography.weight.700}",
+                "lineHeight": "{typography.leading.sm}",
+                "fontSize": "{typography.size.xxl}",
+                "letterSpacing": "{typography.tracking.tight}",
+                "paragraphSpacing": "{typography.paragraphSpacing.sm}"
+              },
+              "description": "Heading level one size as a bold weight",
+              "type": "typography"
+            },
+            "name": "typographyHeadingsH1Bold",
+            "attributes": {
+              "category": "typography",
+              "type": "headings",
+              "item": "h1",
+              "subitem": "bold"
+            },
+            "path": [
+              "typography",
+              "headings",
+              "h1",
+              "bold"
+            ]
+          }
+        },
         "h2": {
           "light": {
             "value": {
