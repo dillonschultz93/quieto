@@ -7,7 +7,7 @@
         "description": "Body text font family"
       },
       "mono": {
-        "value": "FiraCode",
+        "value": "Fira Code",
         "type": "fontFamilies",
         "description": "Code snippet text font family"
       }
