@@ -1,0 +1,47 @@
+{
+  "typography": {
+    "headings": {
+      "h5": {
+        "light": {
+          "value": {
+            "fontFamily": "{typography.fontFamilies.sans}",
+            "fontWeight": "{typography.weight.300}",
+            "lineHeight": "{typography.leading.md}",
+            "fontSize": "{typography.size.base}",
+            "letterSpacing": "{typography.tracking.loose}",
+            "paragraphSpacing": "{typography.paragraphSpacing.md}",
+            "textCase": "{typography.case.upper}"
+          },
+          "description": "Heading level five size as a light weight",
+          "type": "typography"
+        },
+        "regular": {
+          "value": {
+            "fontFamily": "{typography.fontFamilies.sans}",
+            "fontWeight": "{typography.weight.400}",
+            "lineHeight": "{typography.leading.md}",
+            "fontSize": "{typography.size.base}",
+            "letterSpacing": "{typography.tracking.loose}",
+            "paragraphSpacing": "{typography.paragraphSpacing.md}",
+            "textCase": "{typography.case.upper}"
+          },
+          "description": "Heading level five size as a regular weight",
+          "type": "typography"
+        },
+        "bold": {
+          "value": {
+            "fontFamily": "{typography.fontFamilies.sans}",
+            "fontWeight": "{typography.weight.700}",
+            "lineHeight": "{typography.leading.md}",
+            "fontSize": "{typography.size.base}",
+            "letterSpacing": "{typography.tracking.loose}",
+            "paragraphSpacing": "{typography.paragraphSpacing.md}",
+            "textCase": "{typography.case.upper}"
+          },
+          "description": "Heading level five size as a bold weight",
+          "type": "typography"
+        }
+      }
+    }
+  }
+}

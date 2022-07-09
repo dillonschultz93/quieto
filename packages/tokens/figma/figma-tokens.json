@@ -5350,13 +5350,13 @@
           ]
         },
         "mono": {
-          "value": "FiraCode",
+          "value": "Fira Code",
           "type": "fontFamilies",
           "description": "Code snippet text font family",
           "filePath": "src/typography/families.tokens.json",
           "isSource": true,
           "original": {
-            "value": "FiraCode",
+            "value": "Fira Code",
             "type": "fontFamilies",
             "description": "Code snippet text font family"
           },
@@ -5745,6 +5745,486 @@
           ]
         }
       },
+      "body": {
+        "base": {
+          "light": {
+            "value": {
+              "fontFamily": "Outfit",
+              "fontWeight": "Light",
+              "lineHeight": "150%",
+              "fontSize": 18,
+              "letterSpacing": "0%",
+              "paragraphSpacing": 24
+            },
+            "description": "Heading level five size as a light weight",
+            "type": "typography",
+            "filePath": "src/typography/styles/body/base.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": {
+                "fontFamily": "{typography.fontFamilies.sans}",
+                "fontWeight": "{typography.weight.300}",
+                "lineHeight": "{typography.leading.md}",
+                "fontSize": "{typography.size.base}",
+                "letterSpacing": "{typography.tracking.default}",
+                "paragraphSpacing": "{typography.paragraphSpacing.md}"
+              },
+              "description": "Heading level five size as a light weight",
+              "type": "typography"
+            },
+            "name": "typographyBodyBaseLight",
+            "attributes": {
+              "category": "typography",
+              "type": "body",
+              "item": "base",
+              "subitem": "light"
+            },
+            "path": [
+              "typography",
+              "body",
+              "base",
+              "light"
+            ]
+          },
+          "regular": {
+            "value": {
+              "fontFamily": "Outfit",
+              "fontWeight": "Regular",
+              "lineHeight": "150%",
+              "fontSize": 18,
+              "letterSpacing": "0%",
+              "paragraphSpacing": 24
+            },
+            "description": "Heading level five size as a regular weight",
+            "type": "typography",
+            "filePath": "src/typography/styles/body/base.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": {
+                "fontFamily": "{typography.fontFamilies.sans}",
+                "fontWeight": "{typography.weight.400}",
+                "lineHeight": "{typography.leading.md}",
+                "fontSize": "{typography.size.base}",
+                "letterSpacing": "{typography.tracking.default}",
+                "paragraphSpacing": "{typography.paragraphSpacing.md}"
+              },
+              "description": "Heading level five size as a regular weight",
+              "type": "typography"
+            },
+            "name": "typographyBodyBaseRegular",
+            "attributes": {
+              "category": "typography",
+              "type": "body",
+              "item": "base",
+              "subitem": "regular"
+            },
+            "path": [
+              "typography",
+              "body",
+              "base",
+              "regular"
+            ]
+          },
+          "bold": {
+            "value": {
+              "fontFamily": "Outfit",
+              "fontWeight": "Bold",
+              "lineHeight": "150%",
+              "fontSize": 18,
+              "letterSpacing": "0%",
+              "paragraphSpacing": 24
+            },
+            "description": "Heading level five size as a bold weight",
+            "type": "typography",
+            "filePath": "src/typography/styles/body/base.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": {
+                "fontFamily": "{typography.fontFamilies.sans}",
+                "fontWeight": "{typography.weight.700}",
+                "lineHeight": "{typography.leading.md}",
+                "fontSize": "{typography.size.base}",
+                "letterSpacing": "{typography.tracking.default}",
+                "paragraphSpacing": "{typography.paragraphSpacing.md}"
+              },
+              "description": "Heading level five size as a bold weight",
+              "type": "typography"
+            },
+            "name": "typographyBodyBaseBold",
+            "attributes": {
+              "category": "typography",
+              "type": "body",
+              "item": "base",
+              "subitem": "bold"
+            },
+            "path": [
+              "typography",
+              "body",
+              "base",
+              "bold"
+            ]
+          }
+        },
+        "small": {
+          "light": {
+            "value": {
+              "fontFamily": "Outfit",
+              "fontWeight": "Light",
+              "lineHeight": "150%",
+              "fontSize": 14.4,
+              "letterSpacing": "0%",
+              "paragraphSpacing": 24
+            },
+            "description": "Heading level five size as a light weight",
+            "type": "typography",
+            "filePath": "src/typography/styles/body/small.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": {
+                "fontFamily": "{typography.fontFamilies.sans}",
+                "fontWeight": "{typography.weight.300}",
+                "lineHeight": "{typography.leading.md}",
+                "fontSize": "{typography.size.sm}",
+                "letterSpacing": "{typography.tracking.default}",
+                "paragraphSpacing": "{typography.paragraphSpacing.md}"
+              },
+              "description": "Heading level five size as a light weight",
+              "type": "typography"
+            },
+            "name": "typographyBodySmallLight",
+            "attributes": {
+              "category": "typography",
+              "type": "body",
+              "item": "small",
+              "subitem": "light"
+            },
+            "path": [
+              "typography",
+              "body",
+              "small",
+              "light"
+            ]
+          },
+          "regular": {
+            "value": {
+              "fontFamily": "Outfit",
+              "fontWeight": "Regular",
+              "lineHeight": "150%",
+              "fontSize": 14.4,
+              "letterSpacing": "0%",
+              "paragraphSpacing": 24
+            },
+            "description": "Heading level five size as a regular weight",
+            "type": "typography",
+            "filePath": "src/typography/styles/body/small.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": {
+                "fontFamily": "{typography.fontFamilies.sans}",
+                "fontWeight": "{typography.weight.400}",
+                "lineHeight": "{typography.leading.md}",
+                "fontSize": "{typography.size.sm}",
+                "letterSpacing": "{typography.tracking.default}",
+                "paragraphSpacing": "{typography.paragraphSpacing.md}"
+              },
+              "description": "Heading level five size as a regular weight",
+              "type": "typography"
+            },
+            "name": "typographyBodySmallRegular",
+            "attributes": {
+              "category": "typography",
+              "type": "body",
+              "item": "small",
+              "subitem": "regular"
+            },
+            "path": [
+              "typography",
+              "body",
+              "small",
+              "regular"
+            ]
+          },
+          "bold": {
+            "value": {
+              "fontFamily": "Outfit",
+              "fontWeight": "Bold",
+              "lineHeight": "150%",
+              "fontSize": 14.4,
+              "letterSpacing": "0%",
+              "paragraphSpacing": 24
+            },
+            "description": "Heading level five size as a bold weight",
+            "type": "typography",
+            "filePath": "src/typography/styles/body/small.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": {
+                "fontFamily": "{typography.fontFamilies.sans}",
+                "fontWeight": "{typography.weight.700}",
+                "lineHeight": "{typography.leading.md}",
+                "fontSize": "{typography.size.sm}",
+                "letterSpacing": "{typography.tracking.default}",
+                "paragraphSpacing": "{typography.paragraphSpacing.md}"
+              },
+              "description": "Heading level five size as a bold weight",
+              "type": "typography"
+            },
+            "name": "typographyBodySmallBold",
+            "attributes": {
+              "category": "typography",
+              "type": "body",
+              "item": "small",
+              "subitem": "bold"
+            },
+            "path": [
+              "typography",
+              "body",
+              "small",
+              "bold"
+            ]
+          }
+        }
+      },
+      "captions": {
+        "base": {
+          "light": {
+            "value": {
+              "fontFamily": "Outfit",
+              "fontWeight": "Light",
+              "lineHeight": "150%",
+              "fontSize": 14.4,
+              "letterSpacing": "2%",
+              "paragraphSpacing": 12
+            },
+            "description": "Heading level five size as a light weight",
+            "type": "typography",
+            "filePath": "src/typography/styles/captions/base.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": {
+                "fontFamily": "{typography.fontFamilies.sans}",
+                "fontWeight": "{typography.weight.300}",
+                "lineHeight": "{typography.leading.md}",
+                "fontSize": "{typography.size.sm}",
+                "letterSpacing": "{typography.tracking.loose}",
+                "paragraphSpacing": "{typography.paragraphSpacing.sm}"
+              },
+              "description": "Heading level five size as a light weight",
+              "type": "typography"
+            },
+            "name": "typographyCaptionsBaseLight",
+            "attributes": {
+              "category": "typography",
+              "type": "captions",
+              "item": "base",
+              "subitem": "light"
+            },
+            "path": [
+              "typography",
+              "captions",
+              "base",
+              "light"
+            ]
+          },
+          "regular": {
+            "value": {
+              "fontFamily": "Outfit",
+              "fontWeight": "Regular",
+              "lineHeight": "150%",
+              "fontSize": 14.4,
+              "letterSpacing": "2%",
+              "paragraphSpacing": 12
+            },
+            "description": "Heading level five size as a regular weight",
+            "type": "typography",
+            "filePath": "src/typography/styles/captions/base.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": {
+                "fontFamily": "{typography.fontFamilies.sans}",
+                "fontWeight": "{typography.weight.400}",
+                "lineHeight": "{typography.leading.md}",
+                "fontSize": "{typography.size.sm}",
+                "letterSpacing": "{typography.tracking.loose}",
+                "paragraphSpacing": "{typography.paragraphSpacing.sm}"
+              },
+              "description": "Heading level five size as a regular weight",
+              "type": "typography"
+            },
+            "name": "typographyCaptionsBaseRegular",
+            "attributes": {
+              "category": "typography",
+              "type": "captions",
+              "item": "base",
+              "subitem": "regular"
+            },
+            "path": [
+              "typography",
+              "captions",
+              "base",
+              "regular"
+            ]
+          },
+          "bold": {
+            "value": {
+              "fontFamily": "Outfit",
+              "fontWeight": "Bold",
+              "lineHeight": "150%",
+              "fontSize": 14.4,
+              "letterSpacing": "2%",
+              "paragraphSpacing": 12
+            },
+            "description": "Heading level five size as a bold weight",
+            "type": "typography",
+            "filePath": "src/typography/styles/captions/base.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": {
+                "fontFamily": "{typography.fontFamilies.sans}",
+                "fontWeight": "{typography.weight.700}",
+                "lineHeight": "{typography.leading.md}",
+                "fontSize": "{typography.size.sm}",
+                "letterSpacing": "{typography.tracking.loose}",
+                "paragraphSpacing": "{typography.paragraphSpacing.sm}"
+              },
+              "description": "Heading level five size as a bold weight",
+              "type": "typography"
+            },
+            "name": "typographyCaptionsBaseBold",
+            "attributes": {
+              "category": "typography",
+              "type": "captions",
+              "item": "base",
+              "subitem": "bold"
+            },
+            "path": [
+              "typography",
+              "captions",
+              "base",
+              "bold"
+            ]
+          }
+        },
+        "small": {
+          "light": {
+            "value": {
+              "fontFamily": "Outfit",
+              "fontWeight": "Light",
+              "lineHeight": "150%",
+              "fontSize": 11.52,
+              "letterSpacing": "2%",
+              "paragraphSpacing": 12
+            },
+            "description": "Heading level five size as a light weight",
+            "type": "typography",
+            "filePath": "src/typography/styles/captions/small.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": {
+                "fontFamily": "{typography.fontFamilies.sans}",
+                "fontWeight": "{typography.weight.300}",
+                "lineHeight": "{typography.leading.md}",
+                "fontSize": "{typography.size.xs}",
+                "letterSpacing": "{typography.tracking.loose}",
+                "paragraphSpacing": "{typography.paragraphSpacing.sm}"
+              },
+              "description": "Heading level five size as a light weight",
+              "type": "typography"
+            },
+            "name": "typographyCaptionsSmallLight",
+            "attributes": {
+              "category": "typography",
+              "type": "captions",
+              "item": "small",
+              "subitem": "light"
+            },
+            "path": [
+              "typography",
+              "captions",
+              "small",
+              "light"
+            ]
+          },
+          "regular": {
+            "value": {
+              "fontFamily": "Outfit",
+              "fontWeight": "Regular",
+              "lineHeight": "150%",
+              "fontSize": 11.52,
+              "letterSpacing": "2%",
+              "paragraphSpacing": 12
+            },
+            "description": "Heading level five size as a regular weight",
+            "type": "typography",
+            "filePath": "src/typography/styles/captions/small.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": {
+                "fontFamily": "{typography.fontFamilies.sans}",
+                "fontWeight": "{typography.weight.400}",
+                "lineHeight": "{typography.leading.md}",
+                "fontSize": "{typography.size.xs}",
+                "letterSpacing": "{typography.tracking.loose}",
+                "paragraphSpacing": "{typography.paragraphSpacing.sm}"
+              },
+              "description": "Heading level five size as a regular weight",
+              "type": "typography"
+            },
+            "name": "typographyCaptionsSmallRegular",
+            "attributes": {
+              "category": "typography",
+              "type": "captions",
+              "item": "small",
+              "subitem": "regular"
+            },
+            "path": [
+              "typography",
+              "captions",
+              "small",
+              "regular"
+            ]
+          },
+          "bold": {
+            "value": {
+              "fontFamily": "Outfit",
+              "fontWeight": "Bold",
+              "lineHeight": "150%",
+              "fontSize": 11.52,
+              "letterSpacing": "2%",
+              "paragraphSpacing": 12
+            },
+            "description": "Heading level five size as a bold weight",
+            "type": "typography",
+            "filePath": "src/typography/styles/captions/small.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": {
+                "fontFamily": "{typography.fontFamilies.sans}",
+                "fontWeight": "{typography.weight.700}",
+                "lineHeight": "{typography.leading.md}",
+                "fontSize": "{typography.size.xs}",
+                "letterSpacing": "{typography.tracking.loose}",
+                "paragraphSpacing": "{typography.paragraphSpacing.sm}"
+              },
+              "description": "Heading level five size as a bold weight",
+              "type": "typography"
+            },
+            "name": "typographyCaptionsSmallBold",
+            "attributes": {
+              "category": "typography",
+              "type": "captions",
+              "item": "small",
+              "subitem": "bold"
+            },
+            "path": [
+              "typography",
+              "captions",
+              "small",
+              "bold"
+            ]
+          }
+        }
+      },
       "headings": {
         "h0": {
           "light": {
@@ -5756,7 +6236,7 @@
               "letterSpacing": "-1%",
               "paragraphSpacing": 12
             },
-            "description": "Largest heading style in a light weight",
+            "description": "Largest heading size as a light weight",
             "type": "typography",
             "filePath": "src/typography/styles/headings/h0.tokens.json",
             "isSource": true,
@@ -5769,7 +6249,7 @@
                 "letterSpacing": "{typography.tracking.tight}",
                 "paragraphSpacing": "{typography.paragraphSpacing.sm}"
               },
-              "description": "Largest heading style in a light weight",
+              "description": "Largest heading size as a light weight",
               "type": "typography"
             },
             "name": "typographyHeadingsH0Light",
@@ -5795,7 +6275,7 @@
               "letterSpacing": "-1%",
               "paragraphSpacing": 12
             },
-            "description": "Largest heading style in a regular weight",
+            "description": "Largest heading size as a regular weight",
             "type": "typography",
             "filePath": "src/typography/styles/headings/h0.tokens.json",
             "isSource": true,
@@ -5808,7 +6288,7 @@
                 "letterSpacing": "{typography.tracking.tight}",
                 "paragraphSpacing": "{typography.paragraphSpacing.sm}"
               },
-              "description": "Largest heading style in a regular weight",
+              "description": "Largest heading size as a regular weight",
               "type": "typography"
             },
             "name": "typographyHeadingsH0Regular",
@@ -5834,7 +6314,7 @@
               "letterSpacing": "-1%",
               "paragraphSpacing": 12
             },
-            "description": "Largest heading style in a bold weight",
+            "description": "Largest heading size as a bold weight",
             "type": "typography",
             "filePath": "src/typography/styles/headings/h0.tokens.json",
             "isSource": true,
@@ -5847,7 +6327,7 @@
                 "letterSpacing": "{typography.tracking.tight}",
                 "paragraphSpacing": "{typography.paragraphSpacing.sm}"
               },
-              "description": "Largest heading style in a bold weight",
+              "description": "Largest heading size as a bold weight",
               "type": "typography"
             },
             "name": "typographyHeadingsH0Bold",
@@ -5865,43 +6345,43 @@
             ]
           }
         },
-        "h1": {
+        "h2": {
           "light": {
             "value": {
               "fontFamily": "Outfit",
               "fontWeight": "Light",
               "lineHeight": "120%",
-              "fontSize": 43.945,
+              "fontSize": 35.156,
               "letterSpacing": "-1%",
               "paragraphSpacing": 12
             },
-            "description": "Largest heading style in a light weight",
+            "description": "Heading level two size as a light weight",
             "type": "typography",
-            "filePath": "src/typography/styles/headings/h1.tokens.json",
+            "filePath": "src/typography/styles/headings/h2.tokens.json",
             "isSource": true,
             "original": {
               "value": {
                 "fontFamily": "{typography.fontFamilies.sans}",
                 "fontWeight": "{typography.weight.300}",
                 "lineHeight": "{typography.leading.sm}",
-                "fontSize": "{typography.size.xxl}",
+                "fontSize": "{typography.size.xl}",
                 "letterSpacing": "{typography.tracking.tight}",
                 "paragraphSpacing": "{typography.paragraphSpacing.sm}"
               },
-              "description": "Largest heading style in a light weight",
+              "description": "Heading level two size as a light weight",
               "type": "typography"
             },
-            "name": "typographyHeadingsH1Light",
+            "name": "typographyHeadingsH2Light",
             "attributes": {
               "category": "typography",
               "type": "headings",
-              "item": "h1",
+              "item": "h2",
               "subitem": "light"
             },
             "path": [
               "typography",
               "headings",
-              "h1",
+              "h2",
               "light"
             ]
           },
@@ -5910,37 +6390,37 @@
               "fontFamily": "Outfit",
               "fontWeight": "Regular",
               "lineHeight": "120%",
-              "fontSize": 43.945,
+              "fontSize": 35.156,
               "letterSpacing": "-1%",
               "paragraphSpacing": 12
             },
-            "description": "Largest heading style in a regular weight",
+            "description": "Heading level two size as a regular weight",
             "type": "typography",
-            "filePath": "src/typography/styles/headings/h1.tokens.json",
+            "filePath": "src/typography/styles/headings/h2.tokens.json",
             "isSource": true,
             "original": {
               "value": {
                 "fontFamily": "{typography.fontFamilies.sans}",
                 "fontWeight": "{typography.weight.400}",
                 "lineHeight": "{typography.leading.sm}",
-                "fontSize": "{typography.size.xxl}",
+                "fontSize": "{typography.size.xl}",
                 "letterSpacing": "{typography.tracking.tight}",
                 "paragraphSpacing": "{typography.paragraphSpacing.sm}"
               },
-              "description": "Largest heading style in a regular weight",
+              "description": "Heading level two size as a regular weight",
               "type": "typography"
             },
-            "name": "typographyHeadingsH1Regular",
+            "name": "typographyHeadingsH2Regular",
             "attributes": {
               "category": "typography",
               "type": "headings",
-              "item": "h1",
+              "item": "h2",
               "subitem": "regular"
             },
             "path": [
               "typography",
               "headings",
-              "h1",
+              "h2",
               "regular"
             ]
           },
@@ -5949,37 +6429,400 @@
               "fontFamily": "Outfit",
               "fontWeight": "Bold",
               "lineHeight": "120%",
-              "fontSize": 43.945,
+              "fontSize": 35.156,
               "letterSpacing": "-1%",
               "paragraphSpacing": 12
             },
-            "description": "Largest heading style in a bold weight",
+            "description": "Heading level two size as a bold weight",
             "type": "typography",
-            "filePath": "src/typography/styles/headings/h1.tokens.json",
+            "filePath": "src/typography/styles/headings/h2.tokens.json",
             "isSource": true,
             "original": {
               "value": {
                 "fontFamily": "{typography.fontFamilies.sans}",
                 "fontWeight": "{typography.weight.700}",
                 "lineHeight": "{typography.leading.sm}",
-                "fontSize": "{typography.size.xxl}",
+                "fontSize": "{typography.size.xl}",
                 "letterSpacing": "{typography.tracking.tight}",
                 "paragraphSpacing": "{typography.paragraphSpacing.sm}"
               },
-              "description": "Largest heading style in a bold weight",
+              "description": "Heading level two size as a bold weight",
               "type": "typography"
             },
-            "name": "typographyHeadingsH1Bold",
+            "name": "typographyHeadingsH2Bold",
             "attributes": {
               "category": "typography",
               "type": "headings",
-              "item": "h1",
+              "item": "h2",
               "subitem": "bold"
             },
             "path": [
               "typography",
               "headings",
-              "h1",
+              "h2",
+              "bold"
+            ]
+          }
+        },
+        "h3": {
+          "light": {
+            "value": {
+              "fontFamily": "Outfit",
+              "fontWeight": "Light",
+              "lineHeight": "120%",
+              "fontSize": 28.125,
+              "letterSpacing": "-1%",
+              "paragraphSpacing": 24
+            },
+            "description": "Heading level three size as a light weight",
+            "type": "typography",
+            "filePath": "src/typography/styles/headings/h3.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": {
+                "fontFamily": "{typography.fontFamilies.sans}",
+                "fontWeight": "{typography.weight.300}",
+                "lineHeight": "{typography.leading.sm}",
+                "fontSize": "{typography.size.lg}",
+                "letterSpacing": "{typography.tracking.tight}",
+                "paragraphSpacing": "{typography.paragraphSpacing.md}"
+              },
+              "description": "Heading level three size as a light weight",
+              "type": "typography"
+            },
+            "name": "typographyHeadingsH3Light",
+            "attributes": {
+              "category": "typography",
+              "type": "headings",
+              "item": "h3",
+              "subitem": "light"
+            },
+            "path": [
+              "typography",
+              "headings",
+              "h3",
+              "light"
+            ]
+          },
+          "regular": {
+            "value": {
+              "fontFamily": "Outfit",
+              "fontWeight": "Regular",
+              "lineHeight": "120%",
+              "fontSize": 28.125,
+              "letterSpacing": "-1%",
+              "paragraphSpacing": 24
+            },
+            "description": "Heading level three size as a regular weight",
+            "type": "typography",
+            "filePath": "src/typography/styles/headings/h3.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": {
+                "fontFamily": "{typography.fontFamilies.sans}",
+                "fontWeight": "{typography.weight.400}",
+                "lineHeight": "{typography.leading.sm}",
+                "fontSize": "{typography.size.lg}",
+                "letterSpacing": "{typography.tracking.tight}",
+                "paragraphSpacing": "{typography.paragraphSpacing.md}"
+              },
+              "description": "Heading level three size as a regular weight",
+              "type": "typography"
+            },
+            "name": "typographyHeadingsH3Regular",
+            "attributes": {
+              "category": "typography",
+              "type": "headings",
+              "item": "h3",
+              "subitem": "regular"
+            },
+            "path": [
+              "typography",
+              "headings",
+              "h3",
+              "regular"
+            ]
+          },
+          "bold": {
+            "value": {
+              "fontFamily": "Outfit",
+              "fontWeight": "Bold",
+              "lineHeight": "120%",
+              "fontSize": 28.125,
+              "letterSpacing": "-1%",
+              "paragraphSpacing": 24
+            },
+            "description": "Heading level three size as a bold weight",
+            "type": "typography",
+            "filePath": "src/typography/styles/headings/h3.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": {
+                "fontFamily": "{typography.fontFamilies.sans}",
+                "fontWeight": "{typography.weight.700}",
+                "lineHeight": "{typography.leading.sm}",
+                "fontSize": "{typography.size.lg}",
+                "letterSpacing": "{typography.tracking.tight}",
+                "paragraphSpacing": "{typography.paragraphSpacing.md}"
+              },
+              "description": "Heading level three size as a bold weight",
+              "type": "typography"
+            },
+            "name": "typographyHeadingsH3Bold",
+            "attributes": {
+              "category": "typography",
+              "type": "headings",
+              "item": "h3",
+              "subitem": "bold"
+            },
+            "path": [
+              "typography",
+              "headings",
+              "h3",
+              "bold"
+            ]
+          }
+        },
+        "h4": {
+          "light": {
+            "value": {
+              "fontFamily": "Outfit",
+              "fontWeight": "Light",
+              "lineHeight": "150%",
+              "fontSize": 22.5,
+              "letterSpacing": "0%",
+              "paragraphSpacing": 24
+            },
+            "description": "Heading level four size as a light weight",
+            "type": "typography",
+            "filePath": "src/typography/styles/headings/h4.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": {
+                "fontFamily": "{typography.fontFamilies.sans}",
+                "fontWeight": "{typography.weight.300}",
+                "lineHeight": "{typography.leading.md}",
+                "fontSize": "{typography.size.md}",
+                "letterSpacing": "{typography.tracking.default}",
+                "paragraphSpacing": "{typography.paragraphSpacing.md}"
+              },
+              "description": "Heading level four size as a light weight",
+              "type": "typography"
+            },
+            "name": "typographyHeadingsH4Light",
+            "attributes": {
+              "category": "typography",
+              "type": "headings",
+              "item": "h4",
+              "subitem": "light"
+            },
+            "path": [
+              "typography",
+              "headings",
+              "h4",
+              "light"
+            ]
+          },
+          "regular": {
+            "value": {
+              "fontFamily": "Outfit",
+              "fontWeight": "Regular",
+              "lineHeight": "150%",
+              "fontSize": 22.5,
+              "letterSpacing": "0%",
+              "paragraphSpacing": 24
+            },
+            "description": "Heading level four size as a regular weight",
+            "type": "typography",
+            "filePath": "src/typography/styles/headings/h4.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": {
+                "fontFamily": "{typography.fontFamilies.sans}",
+                "fontWeight": "{typography.weight.400}",
+                "lineHeight": "{typography.leading.md}",
+                "fontSize": "{typography.size.md}",
+                "letterSpacing": "{typography.tracking.default}",
+                "paragraphSpacing": "{typography.paragraphSpacing.md}"
+              },
+              "description": "Heading level four size as a regular weight",
+              "type": "typography"
+            },
+            "name": "typographyHeadingsH4Regular",
+            "attributes": {
+              "category": "typography",
+              "type": "headings",
+              "item": "h4",
+              "subitem": "regular"
+            },
+            "path": [
+              "typography",
+              "headings",
+              "h4",
+              "regular"
+            ]
+          },
+          "bold": {
+            "value": {
+              "fontFamily": "Outfit",
+              "fontWeight": "Bold",
+              "lineHeight": "150%",
+              "fontSize": 22.5,
+              "letterSpacing": "0%",
+              "paragraphSpacing": 24
+            },
+            "description": "Heading level four size as a bold weight",
+            "type": "typography",
+            "filePath": "src/typography/styles/headings/h4.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": {
+                "fontFamily": "{typography.fontFamilies.sans}",
+                "fontWeight": "{typography.weight.700}",
+                "lineHeight": "{typography.leading.md}",
+                "fontSize": "{typography.size.md}",
+                "letterSpacing": "{typography.tracking.default}",
+                "paragraphSpacing": "{typography.paragraphSpacing.md}"
+              },
+              "description": "Heading level four size as a bold weight",
+              "type": "typography"
+            },
+            "name": "typographyHeadingsH4Bold",
+            "attributes": {
+              "category": "typography",
+              "type": "headings",
+              "item": "h4",
+              "subitem": "bold"
+            },
+            "path": [
+              "typography",
+              "headings",
+              "h4",
+              "bold"
+            ]
+          }
+        },
+        "h5": {
+          "light": {
+            "value": {
+              "fontFamily": "Outfit",
+              "fontWeight": "Light",
+              "lineHeight": "150%",
+              "fontSize": 18,
+              "letterSpacing": "2%",
+              "paragraphSpacing": 24,
+              "textCase": "uppercase"
+            },
+            "description": "Heading level five size as a light weight",
+            "type": "typography",
+            "filePath": "src/typography/styles/headings/h5.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": {
+                "fontFamily": "{typography.fontFamilies.sans}",
+                "fontWeight": "{typography.weight.300}",
+                "lineHeight": "{typography.leading.md}",
+                "fontSize": "{typography.size.base}",
+                "letterSpacing": "{typography.tracking.loose}",
+                "paragraphSpacing": "{typography.paragraphSpacing.md}",
+                "textCase": "{typography.case.upper}"
+              },
+              "description": "Heading level five size as a light weight",
+              "type": "typography"
+            },
+            "name": "typographyHeadingsH5Light",
+            "attributes": {
+              "category": "typography",
+              "type": "headings",
+              "item": "h5",
+              "subitem": "light"
+            },
+            "path": [
+              "typography",
+              "headings",
+              "h5",
+              "light"
+            ]
+          },
+          "regular": {
+            "value": {
+              "fontFamily": "Outfit",
+              "fontWeight": "Regular",
+              "lineHeight": "150%",
+              "fontSize": 18,
+              "letterSpacing": "2%",
+              "paragraphSpacing": 24,
+              "textCase": "uppercase"
+            },
+            "description": "Heading level five size as a regular weight",
+            "type": "typography",
+            "filePath": "src/typography/styles/headings/h5.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": {
+                "fontFamily": "{typography.fontFamilies.sans}",
+                "fontWeight": "{typography.weight.400}",
+                "lineHeight": "{typography.leading.md}",
+                "fontSize": "{typography.size.base}",
+                "letterSpacing": "{typography.tracking.loose}",
+                "paragraphSpacing": "{typography.paragraphSpacing.md}",
+                "textCase": "{typography.case.upper}"
+              },
+              "description": "Heading level five size as a regular weight",
+              "type": "typography"
+            },
+            "name": "typographyHeadingsH5Regular",
+            "attributes": {
+              "category": "typography",
+              "type": "headings",
+              "item": "h5",
+              "subitem": "regular"
+            },
+            "path": [
+              "typography",
+              "headings",
+              "h5",
+              "regular"
+            ]
+          },
+          "bold": {
+            "value": {
+              "fontFamily": "Outfit",
+              "fontWeight": "Bold",
+              "lineHeight": "150%",
+              "fontSize": 18,
+              "letterSpacing": "2%",
+              "paragraphSpacing": 24,
+              "textCase": "uppercase"
+            },
+            "description": "Heading level five size as a bold weight",
+            "type": "typography",
+            "filePath": "src/typography/styles/headings/h5.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": {
+                "fontFamily": "{typography.fontFamilies.sans}",
+                "fontWeight": "{typography.weight.700}",
+                "lineHeight": "{typography.leading.md}",
+                "fontSize": "{typography.size.base}",
+                "letterSpacing": "{typography.tracking.loose}",
+                "paragraphSpacing": "{typography.paragraphSpacing.md}",
+                "textCase": "{typography.case.upper}"
+              },
+              "description": "Heading level five size as a bold weight",
+              "type": "typography"
+            },
+            "name": "typographyHeadingsH5Bold",
+            "attributes": {
+              "category": "typography",
+              "type": "headings",
+              "item": "h5",
+              "subitem": "bold"
+            },
+            "path": [
+              "typography",
+              "headings",
+              "h5",
               "bold"
             ]
           }
