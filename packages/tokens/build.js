@@ -20,17 +20,6 @@ StyleDictionary.extend({
     'corners/css': require('./transformers/dimension/corner-css'),
     'borderWidth/css': require('./transformers/dimension/border-width-css'),
   },
-  format: {
-    figmaTokensPlugin: ({ dictionary }) => {
-      const figmaFormat = {
-        "core": {
-          ...dictionary.tokens
-        }
-      };
-
-      return JSON.stringify(figmaFormat, null, 2);
-    },
-  },
   source: [`src/**/!(*.${modes.join(`|*.`)}).tokens.json`],
   platforms: {
     css: {
@@ -90,11 +79,11 @@ StyleDictionary.extend({
         'weight/figma',
         'color/hex',
       ],
-      buildPath: 'figma/',
+      buildPath: 'src/',
       files: [
         {
-          destination: 'figma-tokens.json',
-          format: 'figmaTokensPlugin',
+          destination: '../tmp/figma-tokens.json',
+          format: 'json',
         },
       ],
     },
@@ -103,13 +92,6 @@ StyleDictionary.extend({
 
 // // Build dark mode tokens
 StyleDictionary.extend({
-  format: {
-    figmaTokensPlugin: ({ dictionary }) => {
-      const transformedTokens = useRefValue(dictionary.tokens);
-
-      return JSON.stringify(transformedTokens, null, 2);
-    },
-  },
   include: [`src/**/!(*.${modes.join(`|*.`)}).tokens.json`],
   source: ['src/**/*.dark.tokens.json'],
   platforms: {
@@ -140,11 +122,12 @@ StyleDictionary.extend({
     },
     dark_figma: {
       transformGroup: 'js',
-      buildPath: 'figma/',
+      buildPath: 'src/',
       files: [
         {
-          destination: 'dark-figma-tokens.json',
-          format: 'figmaTokensPlugin',
+          destination: '../tmp/dark-figma-tokens.json',
+          format: 'json',
+          filter: token => token.filePath.indexOf('.dark.') > -1,
         },
       ],
     },
@@ -184,4 +167,18 @@ Object.entries(darkTokens).forEach(([category, categoryValue]) => {
   }
 });
 
+// Merge figma tokens into token sets
+const figmaTokens = require('./tmp/figma-tokens.json');
+const darkFigmaTokens = require('./tmp/dark-figma-tokens.json');
+
+const mergedFigmaTokens = {
+  "core": {
+    ...figmaTokens
+  },
+  "dark": {
+    ...darkFigmaTokens
+  }
+};
+
 fs.writeFileSync('./src/tokens.json', JSON.stringify(transformedTokens, null, 2));
+fs.writeFileSync('./figma/figma-tokens.json', JSON.stringify(mergedFigmaTokens, null, 2));
