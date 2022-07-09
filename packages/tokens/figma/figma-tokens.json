@@ -7467,13 +7467,13 @@
           ]
         },
         "contrast": {
-          "value": "#191c20",
+          "value": "#e0e3e8",
           "type": "color",
           "description": "Inverted border",
           "filePath": "src/colors/border.dark.tokens.json",
           "isSource": true,
           "original": {
-            "value": "{color.core.gray.900}",
+            "value": "{color.core.gray.100}",
             "type": "color",
             "description": "Inverted border"
           },
@@ -7490,13 +7490,13 @@
           ]
         },
         "inverse": {
-          "value": "#ffffff",
+          "value": "#000000",
           "type": "color",
           "description": "Inverted border",
           "filePath": "src/colors/border.dark.tokens.json",
           "isSource": true,
           "original": {
-            "value": "{color.core.white}",
+            "value": "{color.core.black}",
             "type": "color",
             "description": "Inverted border"
           },
