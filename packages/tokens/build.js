@@ -19,6 +19,7 @@ StyleDictionary.extend({
     'spacing/css': require('./transformers/dimension/space-css'),
     'corners/css': require('./transformers/dimension/corner-css'),
     'borderWidth/css': require('./transformers/dimension/border-width-css'),
+    'elevation/css': require('./transformers/color/elevation-css'),
   },
   source: [`src/**/!(*.${modes.join(`|*.`)}).tokens.json`],
   platforms: {
@@ -35,6 +36,7 @@ StyleDictionary.extend({
         'spacing/css',
         'corners/css',
         'borderWidth/css',
+        'elevation/css',
         'color/hsl',
       ],
       buildPath: 'lib/css/',
@@ -60,6 +62,7 @@ StyleDictionary.extend({
         'spacing/css',
         'corners/css',
         'borderWidth/css',
+        'elevation/css',
         'color/css',
       ],
       buildPath: 'src/',
@@ -103,12 +106,27 @@ StyleDictionary.extend({
     'spacing/css': require('./transformers/dimension/space-css'),
     'corners/css': require('./transformers/dimension/corner-css'),
     'borderWidth/css': require('./transformers/dimension/border-width-css'),
+    'elevation/css': require('./transformers/color/elevation-css'),
   },
   include: [`src/**/!(*.${modes.join(`|*.`)}).tokens.json`],
   source: ['src/**/*.dark.tokens.json'],
   platforms: {
     dark_css: {
-      transformGroup: 'css',
+      transforms: [
+        'attribute/cti',
+        'name/cti/kebab',
+        'time/seconds',
+        'content/icon',
+        'fontSize/css',
+        'tracking/css',
+        'paragraphSpacing/css',
+        'sizing/css',
+        'spacing/css',
+        'corners/css',
+        'borderWidth/css',
+        'elevation/css',
+        'color/hsl',
+      ],
       buildPath: 'lib/css/',
       files: [
         {
@@ -132,6 +150,7 @@ StyleDictionary.extend({
         'spacing/css',
         'corners/css',
         'borderWidth/css',
+        'elevation/css',
         'color/css',
       ],
       buildPath: 'src/',
@@ -199,8 +218,6 @@ Object.entries(darkTokens).forEach(([category, categoryValue]) => {
     }
   }
 });
-
-console.log("💩", transformedTokens);
 
 // Merge figma tokens into token sets
 const figmaTokens = require('./tmp/figma-tokens.json');
