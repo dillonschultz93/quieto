@@ -2,24 +2,72 @@
   "color": {
     "surface": {
       "100": {
-        "value": "{color.core.black}",
-        "type": "color",
-        "description": "Lightest surface"
+        "idle": {
+          "value": "{color.core.black}",
+          "type": "color",
+          "description": "Lightest surface"
+        },
+        "hover": {
+          "value": "{color.secondary.900}",
+          "type": "color",
+          "description": "Lightest hover surface"
+        },
+        "active": {
+          "value": "{color.secondary.800}",
+          "type": "color",
+          "description": "Lightest active surface"
+        }
       },
       "200": {
-        "value": "{color.core.gray.900}",
-        "type": "color",
-        "description": "-"
+        "idle": {
+          "value": "{color.secondary.900}",
+          "type": "color",
+          "description": "-"
+        },
+        "hover": {
+          "value": "{color.secondary.800}",
+          "type": "color",
+          "description": "-"
+        },
+        "active": {
+          "value": "{color.secondary.700}",
+          "type": "color",
+          "description": "-"
+        }
       },
       "300": {
-        "value": "{color.core.gray.800}",
-        "type": "color",
-        "description": "-"
+        "idle": {
+          "value": "{color.secondary.800}",
+          "type": "color",
+          "description": "-"
+        },
+        "hover": {
+          "value": "{color.secondary.700}",
+          "type": "color",
+          "description": "-"
+        },
+        "active": {
+          "value": "{color.secondary.600}",
+          "type": "color",
+          "description": "-"
+        }
       },
       "400": {
-        "value": "{color.core.gray.700}",
-        "type": "color",
-        "description": "-"
+        "idle": {
+          "value": "{color.secondary.700}",
+          "type": "color",
+          "description": "-"
+        },
+        "hover": {
+          "value": "{color.secondary.600}",
+          "type": "color",
+          "description": "-"
+        },
+        "active": {
+          "value": "{color.secondary.500}",
+          "type": "color",
+          "description": "-"
+        }
       }
     }
   }
