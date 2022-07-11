@@ -29,6 +29,7 @@
   "dependencies": {
     "@divriots/style-dictionary-to-figma": "^0.2.0",
     "style-dictionary": "^3.7.0",
+    "tinycolor2": "^1.4.2",
     "token-transformer": "^0.0.20"
   },
   "gitHead": "874e68fd6b488cea2b1bd919de5cf76bdb0655a3"
