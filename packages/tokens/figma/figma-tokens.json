@@ -3,165 +3,718 @@
     "color": {
       "border": {
         "100": {
-          "value": "#c1c7d2",
-          "type": "color",
-          "description": "Lightest border",
-          "filePath": "src/colors/border.tokens.json",
-          "isSource": true,
-          "original": {
-            "value": "{color.core.gray.200}",
+          "idle": {
+            "value": "#c1c7d2",
             "type": "color",
-            "description": "Lightest border"
+            "description": "Lightest border",
+            "filePath": "src/colors/border.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.secondary.200}",
+              "type": "color",
+              "description": "Lightest border"
+            },
+            "name": "colorBorder100Idle",
+            "attributes": {
+              "category": "color",
+              "type": "border",
+              "item": "100",
+              "subitem": "idle"
+            },
+            "path": [
+              "color",
+              "border",
+              "100",
+              "idle"
+            ]
           },
-          "name": "colorBorder100",
-          "attributes": {
-            "category": "color",
-            "type": "border",
-            "item": "100"
+          "hover": {
+            "value": "#a2acbe",
+            "type": "color",
+            "description": "Lightest hover border",
+            "filePath": "src/colors/border.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.secondary.300}",
+              "type": "color",
+              "description": "Lightest hover border"
+            },
+            "name": "colorBorder100Hover",
+            "attributes": {
+              "category": "color",
+              "type": "border",
+              "item": "100",
+              "subitem": "hover"
+            },
+            "path": [
+              "color",
+              "border",
+              "100",
+              "hover"
+            ]
           },
-          "path": [
-            "color",
-            "border",
-            "100"
-          ]
+          "focus": {
+            "value": "#5243e1",
+            "type": "color",
+            "description": "Lightest focus border",
+            "filePath": "src/colors/border.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary.600}",
+              "type": "color",
+              "description": "Lightest focus border"
+            },
+            "name": "colorBorder100Focus",
+            "attributes": {
+              "category": "color",
+              "type": "border",
+              "item": "100",
+              "subitem": "focus"
+            },
+            "path": [
+              "color",
+              "border",
+              "100",
+              "focus"
+            ]
+          },
+          "selected": {
+            "value": "#5243e1",
+            "type": "color",
+            "description": "Lightest selected border",
+            "filePath": "src/colors/border.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary.600}",
+              "type": "color",
+              "description": "Lightest selected border"
+            },
+            "name": "colorBorder100Selected",
+            "attributes": {
+              "category": "color",
+              "type": "border",
+              "item": "100",
+              "subitem": "selected"
+            },
+            "path": [
+              "color",
+              "border",
+              "100",
+              "selected"
+            ]
+          }
         },
         "200": {
-          "value": "#a2acbe",
-          "type": "color",
-          "description": "-",
-          "filePath": "src/colors/border.tokens.json",
-          "isSource": true,
-          "original": {
-            "value": "{color.core.gray.300}",
+          "idle": {
+            "value": "#a2acbe",
             "type": "color",
-            "description": "-"
+            "description": "-",
+            "filePath": "src/colors/border.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.secondary.300}",
+              "type": "color",
+              "description": "-"
+            },
+            "name": "colorBorder200Idle",
+            "attributes": {
+              "category": "color",
+              "type": "border",
+              "item": "200",
+              "subitem": "idle"
+            },
+            "path": [
+              "color",
+              "border",
+              "200",
+              "idle"
+            ]
           },
-          "name": "colorBorder200",
-          "attributes": {
-            "category": "color",
-            "type": "border",
-            "item": "200"
+          "hover": {
+            "value": "#8591a8",
+            "type": "color",
+            "description": "-",
+            "filePath": "src/colors/border.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.secondary.400}",
+              "type": "color",
+              "description": "-"
+            },
+            "name": "colorBorder200Hover",
+            "attributes": {
+              "category": "color",
+              "type": "border",
+              "item": "200",
+              "subitem": "hover"
+            },
+            "path": [
+              "color",
+              "border",
+              "200",
+              "hover"
+            ]
           },
-          "path": [
-            "color",
-            "border",
-            "200"
-          ]
+          "focus": {
+            "value": "#5243e1",
+            "type": "color",
+            "description": "-",
+            "filePath": "src/colors/border.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary.600}",
+              "type": "color",
+              "description": "-"
+            },
+            "name": "colorBorder200Focus",
+            "attributes": {
+              "category": "color",
+              "type": "border",
+              "item": "200",
+              "subitem": "focus"
+            },
+            "path": [
+              "color",
+              "border",
+              "200",
+              "focus"
+            ]
+          },
+          "selected": {
+            "value": "#5243e1",
+            "type": "color",
+            "description": "-",
+            "filePath": "src/colors/border.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary.600}",
+              "type": "color",
+              "description": "-"
+            },
+            "name": "colorBorder200Selected",
+            "attributes": {
+              "category": "color",
+              "type": "border",
+              "item": "200",
+              "subitem": "selected"
+            },
+            "path": [
+              "color",
+              "border",
+              "200",
+              "selected"
+            ]
+          }
         },
         "300": {
-          "value": "#8591a8",
-          "type": "color",
-          "description": "-",
-          "filePath": "src/colors/border.tokens.json",
-          "isSource": true,
-          "original": {
-            "value": "{color.core.gray.400}",
+          "idle": {
+            "value": "#8591a8",
             "type": "color",
-            "description": "-"
+            "description": "-",
+            "filePath": "src/colors/border.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.secondary.400}",
+              "type": "color",
+              "description": "-"
+            },
+            "name": "colorBorder300Idle",
+            "attributes": {
+              "category": "color",
+              "type": "border",
+              "item": "300",
+              "subitem": "idle"
+            },
+            "path": [
+              "color",
+              "border",
+              "300",
+              "idle"
+            ]
           },
-          "name": "colorBorder300",
-          "attributes": {
-            "category": "color",
-            "type": "border",
-            "item": "300"
+          "hover": {
+            "value": "#6d778a",
+            "type": "color",
+            "description": "-",
+            "filePath": "src/colors/border.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.secondary.500}",
+              "type": "color",
+              "description": "-"
+            },
+            "name": "colorBorder300Hover",
+            "attributes": {
+              "category": "color",
+              "type": "border",
+              "item": "300",
+              "subitem": "hover"
+            },
+            "path": [
+              "color",
+              "border",
+              "300",
+              "hover"
+            ]
           },
-          "path": [
-            "color",
-            "border",
-            "300"
-          ]
+          "focus": {
+            "value": "#5243e1",
+            "type": "color",
+            "description": "-",
+            "filePath": "src/colors/border.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary.600}",
+              "type": "color",
+              "description": "-"
+            },
+            "name": "colorBorder300Focus",
+            "attributes": {
+              "category": "color",
+              "type": "border",
+              "item": "300",
+              "subitem": "focus"
+            },
+            "path": [
+              "color",
+              "border",
+              "300",
+              "focus"
+            ]
+          },
+          "selected": {
+            "value": "#5243e1",
+            "type": "color",
+            "description": "-",
+            "filePath": "src/colors/border.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary.600}",
+              "type": "color",
+              "description": "-"
+            },
+            "name": "colorBorder300Selected",
+            "attributes": {
+              "category": "color",
+              "type": "border",
+              "item": "300",
+              "subitem": "selected"
+            },
+            "path": [
+              "color",
+              "border",
+              "300",
+              "selected"
+            ]
+          }
         },
         "400": {
-          "value": "#6d778a",
-          "type": "color",
-          "description": "-",
-          "filePath": "src/colors/border.tokens.json",
-          "isSource": true,
-          "original": {
-            "value": "{color.core.gray.500}",
+          "idle": {
+            "value": "#6d778a",
             "type": "color",
-            "description": "-"
+            "description": "-",
+            "filePath": "src/colors/border.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.secondary.500}",
+              "type": "color",
+              "description": "-"
+            },
+            "name": "colorBorder400Idle",
+            "attributes": {
+              "category": "color",
+              "type": "border",
+              "item": "400",
+              "subitem": "idle"
+            },
+            "path": [
+              "color",
+              "border",
+              "400",
+              "idle"
+            ]
           },
-          "name": "colorBorder400",
-          "attributes": {
-            "category": "color",
-            "type": "border",
-            "item": "400"
+          "hover": {
+            "value": "#575f6e",
+            "type": "color",
+            "description": "-",
+            "filePath": "src/colors/border.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.secondary.600}",
+              "type": "color",
+              "description": "-"
+            },
+            "name": "colorBorder400Hover",
+            "attributes": {
+              "category": "color",
+              "type": "border",
+              "item": "400",
+              "subitem": "hover"
+            },
+            "path": [
+              "color",
+              "border",
+              "400",
+              "hover"
+            ]
           },
-          "path": [
-            "color",
-            "border",
-            "400"
-          ]
+          "focus": {
+            "value": "#5243e1",
+            "type": "color",
+            "description": "-",
+            "filePath": "src/colors/border.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary.600}",
+              "type": "color",
+              "description": "-"
+            },
+            "name": "colorBorder400Focus",
+            "attributes": {
+              "category": "color",
+              "type": "border",
+              "item": "400",
+              "subitem": "focus"
+            },
+            "path": [
+              "color",
+              "border",
+              "400",
+              "focus"
+            ]
+          },
+          "selected": {
+            "value": "#5243e1",
+            "type": "color",
+            "description": "-",
+            "filePath": "src/colors/border.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary.600}",
+              "type": "color",
+              "description": "-"
+            },
+            "name": "colorBorder400Selected",
+            "attributes": {
+              "category": "color",
+              "type": "border",
+              "item": "400",
+              "subitem": "selected"
+            },
+            "path": [
+              "color",
+              "border",
+              "400",
+              "selected"
+            ]
+          }
         },
         "500": {
-          "value": "#575f6e",
-          "type": "color",
-          "description": "-",
-          "filePath": "src/colors/border.tokens.json",
-          "isSource": true,
-          "original": {
-            "value": "{color.core.gray.600}",
+          "idle": {
+            "value": "#575f6e",
             "type": "color",
-            "description": "-"
+            "description": "-",
+            "filePath": "src/colors/border.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.secondary.600}",
+              "type": "color",
+              "description": "-"
+            },
+            "name": "colorBorder500Idle",
+            "attributes": {
+              "category": "color",
+              "type": "border",
+              "item": "500",
+              "subitem": "idle"
+            },
+            "path": [
+              "color",
+              "border",
+              "500",
+              "idle"
+            ]
           },
-          "name": "colorBorder500",
-          "attributes": {
-            "category": "color",
-            "type": "border",
-            "item": "500"
+          "hover": {
+            "value": "#414752",
+            "type": "color",
+            "description": "-",
+            "filePath": "src/colors/border.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.secondary.700}",
+              "type": "color",
+              "description": "-"
+            },
+            "name": "colorBorder500Hover",
+            "attributes": {
+              "category": "color",
+              "type": "border",
+              "item": "500",
+              "subitem": "hover"
+            },
+            "path": [
+              "color",
+              "border",
+              "500",
+              "hover"
+            ]
           },
-          "path": [
-            "color",
-            "border",
-            "500"
-          ]
+          "focus": {
+            "value": "#5243e1",
+            "type": "color",
+            "description": "-",
+            "filePath": "src/colors/border.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary.600}",
+              "type": "color",
+              "description": "-"
+            },
+            "name": "colorBorder500Focus",
+            "attributes": {
+              "category": "color",
+              "type": "border",
+              "item": "500",
+              "subitem": "focus"
+            },
+            "path": [
+              "color",
+              "border",
+              "500",
+              "focus"
+            ]
+          },
+          "selected": {
+            "value": "#5243e1",
+            "type": "color",
+            "description": "-",
+            "filePath": "src/colors/border.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary.600}",
+              "type": "color",
+              "description": "-"
+            },
+            "name": "colorBorder500Selected",
+            "attributes": {
+              "category": "color",
+              "type": "border",
+              "item": "500",
+              "subitem": "selected"
+            },
+            "path": [
+              "color",
+              "border",
+              "500",
+              "selected"
+            ]
+          }
         },
         "contrast": {
-          "value": "#191c20",
-          "type": "color",
-          "description": "Inverted border",
-          "filePath": "src/colors/border.tokens.json",
-          "isSource": true,
-          "original": {
-            "value": "{color.core.gray.900}",
+          "idle": {
+            "value": "#191c20",
             "type": "color",
-            "description": "Inverted border"
+            "description": "Inverted border",
+            "filePath": "src/colors/border.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.secondary.900}",
+              "type": "color",
+              "description": "Inverted border"
+            },
+            "name": "colorBorderContrastIdle",
+            "attributes": {
+              "category": "color",
+              "type": "border",
+              "item": "contrast",
+              "subitem": "idle"
+            },
+            "path": [
+              "color",
+              "border",
+              "contrast",
+              "idle"
+            ]
           },
-          "name": "colorBorderContrast",
-          "attributes": {
-            "category": "color",
-            "type": "border",
-            "item": "contrast"
+          "hover": {
+            "value": "#191c20",
+            "type": "color",
+            "description": "Inverted hover border",
+            "filePath": "src/colors/border.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.secondary.900}",
+              "type": "color",
+              "description": "Inverted hover border"
+            },
+            "name": "colorBorderContrastHover",
+            "attributes": {
+              "category": "color",
+              "type": "border",
+              "item": "contrast",
+              "subitem": "hover"
+            },
+            "path": [
+              "color",
+              "border",
+              "contrast",
+              "hover"
+            ]
           },
-          "path": [
-            "color",
-            "border",
-            "contrast"
-          ]
+          "focus": {
+            "value": "#5243e1",
+            "type": "color",
+            "description": "Inverted focus border",
+            "filePath": "src/colors/border.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary.600}",
+              "type": "color",
+              "description": "Inverted focus border"
+            },
+            "name": "colorBorderContrastFocus",
+            "attributes": {
+              "category": "color",
+              "type": "border",
+              "item": "contrast",
+              "subitem": "focus"
+            },
+            "path": [
+              "color",
+              "border",
+              "contrast",
+              "focus"
+            ]
+          },
+          "selected": {
+            "value": "#5243e1",
+            "type": "color",
+            "description": "Inverted selected border",
+            "filePath": "src/colors/border.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary.600}",
+              "type": "color",
+              "description": "Inverted selected border"
+            },
+            "name": "colorBorderContrastSelected",
+            "attributes": {
+              "category": "color",
+              "type": "border",
+              "item": "contrast",
+              "subitem": "selected"
+            },
+            "path": [
+              "color",
+              "border",
+              "contrast",
+              "selected"
+            ]
+          }
         },
         "inverse": {
-          "value": "#ffffff",
-          "type": "color",
-          "description": "Inverted border",
-          "filePath": "src/colors/border.tokens.json",
-          "isSource": true,
-          "original": {
-            "value": "{color.core.white}",
+          "idle": {
+            "value": "#ffffff",
             "type": "color",
-            "description": "Inverted border"
+            "description": "Inverted border",
+            "filePath": "src/colors/border.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.core.white}",
+              "type": "color",
+              "description": "Inverted border"
+            },
+            "name": "colorBorderInverseIdle",
+            "attributes": {
+              "category": "color",
+              "type": "border",
+              "item": "inverse",
+              "subitem": "idle"
+            },
+            "path": [
+              "color",
+              "border",
+              "inverse",
+              "idle"
+            ]
           },
-          "name": "colorBorderInverse",
-          "attributes": {
-            "category": "color",
-            "type": "border",
-            "item": "inverse"
+          "hover": {
+            "value": "#ffffff",
+            "type": "color",
+            "description": "Inverted hover border",
+            "filePath": "src/colors/border.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.core.white}",
+              "type": "color",
+              "description": "Inverted hover border"
+            },
+            "name": "colorBorderInverseHover",
+            "attributes": {
+              "category": "color",
+              "type": "border",
+              "item": "inverse",
+              "subitem": "hover"
+            },
+            "path": [
+              "color",
+              "border",
+              "inverse",
+              "hover"
+            ]
           },
-          "path": [
-            "color",
-            "border",
-            "inverse"
-          ]
+          "focus": {
+            "value": "#5243e1",
+            "type": "color",
+            "description": "Inverted focus border",
+            "filePath": "src/colors/border.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary.600}",
+              "type": "color",
+              "description": "Inverted focus border"
+            },
+            "name": "colorBorderInverseFocus",
+            "attributes": {
+              "category": "color",
+              "type": "border",
+              "item": "inverse",
+              "subitem": "focus"
+            },
+            "path": [
+              "color",
+              "border",
+              "inverse",
+              "focus"
+            ]
+          },
+          "selected": {
+            "value": "#5243e1",
+            "type": "color",
+            "description": "Inverted selected border",
+            "filePath": "src/colors/border.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary.600}",
+              "type": "color",
+              "description": "Inverted selected border"
+            },
+            "name": "colorBorderInverseSelected",
+            "attributes": {
+              "category": "color",
+              "type": "border",
+              "item": "inverse",
+              "subitem": "selected"
+            },
+            "path": [
+              "color",
+              "border",
+              "inverse",
+              "selected"
+            ]
+          }
         }
       },
       "core": {
@@ -3140,96 +3693,312 @@
       },
       "surface": {
         "100": {
-          "value": "#ffffff",
-          "type": "color",
-          "description": "Lightest surface",
-          "filePath": "src/colors/surface.tokens.json",
-          "isSource": true,
-          "original": {
-            "value": "{color.core.white}",
+          "idle": {
+            "value": "#ffffff",
             "type": "color",
-            "description": "Lightest surface"
+            "description": "Lightest surface",
+            "filePath": "src/colors/surface.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.core.white}",
+              "type": "color",
+              "description": "Lightest surface"
+            },
+            "name": "colorSurface100Idle",
+            "attributes": {
+              "category": "color",
+              "type": "surface",
+              "item": "100",
+              "subitem": "idle"
+            },
+            "path": [
+              "color",
+              "surface",
+              "100",
+              "idle"
+            ]
           },
-          "name": "colorSurface100",
-          "attributes": {
-            "category": "color",
-            "type": "surface",
-            "item": "100"
+          "hover": {
+            "value": "#e0e3e8",
+            "type": "color",
+            "description": "Lightest hover surface",
+            "filePath": "src/colors/surface.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.secondary.100}",
+              "type": "color",
+              "description": "Lightest hover surface"
+            },
+            "name": "colorSurface100Hover",
+            "attributes": {
+              "category": "color",
+              "type": "surface",
+              "item": "100",
+              "subitem": "hover"
+            },
+            "path": [
+              "color",
+              "surface",
+              "100",
+              "hover"
+            ]
           },
-          "path": [
-            "color",
-            "surface",
-            "100"
-          ]
+          "active": {
+            "value": "#c1c7d2",
+            "type": "color",
+            "description": "Lightest active surface",
+            "filePath": "src/colors/surface.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.secondary.200}",
+              "type": "color",
+              "description": "Lightest active surface"
+            },
+            "name": "colorSurface100Active",
+            "attributes": {
+              "category": "color",
+              "type": "surface",
+              "item": "100",
+              "subitem": "active"
+            },
+            "path": [
+              "color",
+              "surface",
+              "100",
+              "active"
+            ]
+          }
         },
         "200": {
-          "value": "#e0e3e8",
-          "type": "color",
-          "description": "-",
-          "filePath": "src/colors/surface.tokens.json",
-          "isSource": true,
-          "original": {
-            "value": "{color.core.gray.100}",
+          "idle": {
+            "value": "#e0e3e8",
             "type": "color",
-            "description": "-"
+            "description": "-",
+            "filePath": "src/colors/surface.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.secondary.100}",
+              "type": "color",
+              "description": "-"
+            },
+            "name": "colorSurface200Idle",
+            "attributes": {
+              "category": "color",
+              "type": "surface",
+              "item": "200",
+              "subitem": "idle"
+            },
+            "path": [
+              "color",
+              "surface",
+              "200",
+              "idle"
+            ]
           },
-          "name": "colorSurface200",
-          "attributes": {
-            "category": "color",
-            "type": "surface",
-            "item": "200"
+          "hover": {
+            "value": "#c1c7d2",
+            "type": "color",
+            "description": "-",
+            "filePath": "src/colors/surface.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.secondary.200}",
+              "type": "color",
+              "description": "-"
+            },
+            "name": "colorSurface200Hover",
+            "attributes": {
+              "category": "color",
+              "type": "surface",
+              "item": "200",
+              "subitem": "hover"
+            },
+            "path": [
+              "color",
+              "surface",
+              "200",
+              "hover"
+            ]
           },
-          "path": [
-            "color",
-            "surface",
-            "200"
-          ]
+          "active": {
+            "value": "#a2acbe",
+            "type": "color",
+            "description": "-",
+            "filePath": "src/colors/surface.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.secondary.300}",
+              "type": "color",
+              "description": "-"
+            },
+            "name": "colorSurface200Active",
+            "attributes": {
+              "category": "color",
+              "type": "surface",
+              "item": "200",
+              "subitem": "active"
+            },
+            "path": [
+              "color",
+              "surface",
+              "200",
+              "active"
+            ]
+          }
         },
         "300": {
-          "value": "#c1c7d2",
-          "type": "color",
-          "description": "-",
-          "filePath": "src/colors/surface.tokens.json",
-          "isSource": true,
-          "original": {
-            "value": "{color.core.gray.200}",
+          "idle": {
+            "value": "#c1c7d2",
             "type": "color",
-            "description": "-"
+            "description": "-",
+            "filePath": "src/colors/surface.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.secondary.200}",
+              "type": "color",
+              "description": "-"
+            },
+            "name": "colorSurface300Idle",
+            "attributes": {
+              "category": "color",
+              "type": "surface",
+              "item": "300",
+              "subitem": "idle"
+            },
+            "path": [
+              "color",
+              "surface",
+              "300",
+              "idle"
+            ]
           },
-          "name": "colorSurface300",
-          "attributes": {
-            "category": "color",
-            "type": "surface",
-            "item": "300"
+          "hover": {
+            "value": "#a2acbe",
+            "type": "color",
+            "description": "-",
+            "filePath": "src/colors/surface.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.secondary.300}",
+              "type": "color",
+              "description": "-"
+            },
+            "name": "colorSurface300Hover",
+            "attributes": {
+              "category": "color",
+              "type": "surface",
+              "item": "300",
+              "subitem": "hover"
+            },
+            "path": [
+              "color",
+              "surface",
+              "300",
+              "hover"
+            ]
           },
-          "path": [
-            "color",
-            "surface",
-            "300"
-          ]
+          "active": {
+            "value": "#8591a8",
+            "type": "color",
+            "description": "-",
+            "filePath": "src/colors/surface.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.secondary.400}",
+              "type": "color",
+              "description": "-"
+            },
+            "name": "colorSurface300Active",
+            "attributes": {
+              "category": "color",
+              "type": "surface",
+              "item": "300",
+              "subitem": "active"
+            },
+            "path": [
+              "color",
+              "surface",
+              "300",
+              "active"
+            ]
+          }
         },
         "400": {
-          "value": "#a2acbe",
-          "type": "color",
-          "description": "-",
-          "filePath": "src/colors/surface.tokens.json",
-          "isSource": true,
-          "original": {
-            "value": "{color.core.gray.300}",
+          "idle": {
+            "value": "#a2acbe",
             "type": "color",
-            "description": "-"
+            "description": "-",
+            "filePath": "src/colors/surface.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.secondary.300}",
+              "type": "color",
+              "description": "-"
+            },
+            "name": "colorSurface400Idle",
+            "attributes": {
+              "category": "color",
+              "type": "surface",
+              "item": "400",
+              "subitem": "idle"
+            },
+            "path": [
+              "color",
+              "surface",
+              "400",
+              "idle"
+            ]
           },
-          "name": "colorSurface400",
-          "attributes": {
-            "category": "color",
-            "type": "surface",
-            "item": "400"
+          "hover": {
+            "value": "#8591a8",
+            "type": "color",
+            "description": "-",
+            "filePath": "src/colors/surface.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.secondary.400}",
+              "type": "color",
+              "description": "-"
+            },
+            "name": "colorSurface400Hover",
+            "attributes": {
+              "category": "color",
+              "type": "surface",
+              "item": "400",
+              "subitem": "hover"
+            },
+            "path": [
+              "color",
+              "surface",
+              "400",
+              "hover"
+            ]
           },
-          "path": [
-            "color",
-            "surface",
-            "400"
-          ]
+          "active": {
+            "value": "#6d778a",
+            "type": "color",
+            "description": "-",
+            "filePath": "src/colors/surface.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.secondary.500}",
+              "type": "color",
+              "description": "-"
+            },
+            "name": "colorSurface400Active",
+            "attributes": {
+              "category": "color",
+              "type": "surface",
+              "item": "400",
+              "subitem": "active"
+            },
+            "path": [
+              "color",
+              "surface",
+              "400",
+              "active"
+            ]
+          }
         }
       },
       "textColor": {
@@ -7807,259 +8576,1028 @@
     "color": {
       "border": {
         "100": {
-          "value": "#414752",
-          "type": "color",
-          "description": "Lightest border",
-          "filePath": "src/colors/border.dark.tokens.json",
-          "isSource": true,
-          "original": {
-            "value": "{color.core.gray.700}",
+          "idle": {
+            "value": "#414752",
             "type": "color",
-            "description": "Lightest border"
+            "description": "Lightest border",
+            "filePath": "src/colors/border.dark.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.secondary.700}",
+              "type": "color",
+              "description": "Lightest border"
+            },
+            "name": "colorBorder100Idle",
+            "attributes": {
+              "category": "color",
+              "type": "border",
+              "item": "100",
+              "subitem": "idle"
+            },
+            "path": [
+              "color",
+              "border",
+              "100",
+              "idle"
+            ]
           },
-          "name": "colorBorder100",
-          "attributes": {
-            "category": "color",
-            "type": "border",
-            "item": "100"
+          "hover": {
+            "value": "#575f6e",
+            "type": "color",
+            "description": "Lightest hover border",
+            "filePath": "src/colors/border.dark.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.secondary.600}",
+              "type": "color",
+              "description": "Lightest hover border"
+            },
+            "name": "colorBorder100Hover",
+            "attributes": {
+              "category": "color",
+              "type": "border",
+              "item": "100",
+              "subitem": "hover"
+            },
+            "path": [
+              "color",
+              "border",
+              "100",
+              "hover"
+            ]
           },
-          "path": [
-            "color",
-            "border",
-            "100"
-          ]
+          "focus": {
+            "value": "#8b84ed",
+            "type": "color",
+            "description": "Lightest focus border",
+            "filePath": "src/colors/border.dark.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary.400}",
+              "type": "color",
+              "description": "Lightest focus border"
+            },
+            "name": "colorBorder100Focus",
+            "attributes": {
+              "category": "color",
+              "type": "border",
+              "item": "100",
+              "subitem": "focus"
+            },
+            "path": [
+              "color",
+              "border",
+              "100",
+              "focus"
+            ]
+          },
+          "selected": {
+            "value": "#8b84ed",
+            "type": "color",
+            "description": "Lightest selected border",
+            "filePath": "src/colors/border.dark.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary.400}",
+              "type": "color",
+              "description": "Lightest selected border"
+            },
+            "name": "colorBorder100Selected",
+            "attributes": {
+              "category": "color",
+              "type": "border",
+              "item": "100",
+              "subitem": "selected"
+            },
+            "path": [
+              "color",
+              "border",
+              "100",
+              "selected"
+            ]
+          }
         },
         "200": {
-          "value": "#575f6e",
-          "type": "color",
-          "description": "-",
-          "filePath": "src/colors/border.dark.tokens.json",
-          "isSource": true,
-          "original": {
-            "value": "{color.core.gray.600}",
+          "idle": {
+            "value": "#575f6e",
             "type": "color",
-            "description": "-"
+            "description": "-",
+            "filePath": "src/colors/border.dark.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.secondary.600}",
+              "type": "color",
+              "description": "-"
+            },
+            "name": "colorBorder200Idle",
+            "attributes": {
+              "category": "color",
+              "type": "border",
+              "item": "200",
+              "subitem": "idle"
+            },
+            "path": [
+              "color",
+              "border",
+              "200",
+              "idle"
+            ]
           },
-          "name": "colorBorder200",
-          "attributes": {
-            "category": "color",
-            "type": "border",
-            "item": "200"
+          "hover": {
+            "value": "#6d778a",
+            "type": "color",
+            "description": "-",
+            "filePath": "src/colors/border.dark.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.secondary.500}",
+              "type": "color",
+              "description": "-"
+            },
+            "name": "colorBorder200Hover",
+            "attributes": {
+              "category": "color",
+              "type": "border",
+              "item": "200",
+              "subitem": "hover"
+            },
+            "path": [
+              "color",
+              "border",
+              "200",
+              "hover"
+            ]
           },
-          "path": [
-            "color",
-            "border",
-            "200"
-          ]
+          "focus": {
+            "value": "#8b84ed",
+            "type": "color",
+            "description": "-",
+            "filePath": "src/colors/border.dark.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary.400}",
+              "type": "color",
+              "description": "-"
+            },
+            "name": "colorBorder200Focus",
+            "attributes": {
+              "category": "color",
+              "type": "border",
+              "item": "200",
+              "subitem": "focus"
+            },
+            "path": [
+              "color",
+              "border",
+              "200",
+              "focus"
+            ]
+          },
+          "selected": {
+            "value": "#8b84ed",
+            "type": "color",
+            "description": "-",
+            "filePath": "src/colors/border.dark.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary.400}",
+              "type": "color",
+              "description": "-"
+            },
+            "name": "colorBorder200Selected",
+            "attributes": {
+              "category": "color",
+              "type": "border",
+              "item": "200",
+              "subitem": "selected"
+            },
+            "path": [
+              "color",
+              "border",
+              "200",
+              "selected"
+            ]
+          }
         },
         "300": {
-          "value": "#6d778a",
-          "type": "color",
-          "description": "-",
-          "filePath": "src/colors/border.dark.tokens.json",
-          "isSource": true,
-          "original": {
-            "value": "{color.core.gray.500}",
+          "idle": {
+            "value": "#6d778a",
             "type": "color",
-            "description": "-"
+            "description": "-",
+            "filePath": "src/colors/border.dark.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.secondary.500}",
+              "type": "color",
+              "description": "-"
+            },
+            "name": "colorBorder300Idle",
+            "attributes": {
+              "category": "color",
+              "type": "border",
+              "item": "300",
+              "subitem": "idle"
+            },
+            "path": [
+              "color",
+              "border",
+              "300",
+              "idle"
+            ]
           },
-          "name": "colorBorder300",
-          "attributes": {
-            "category": "color",
-            "type": "border",
-            "item": "300"
+          "hover": {
+            "value": "#8591a8",
+            "type": "color",
+            "description": "-",
+            "filePath": "src/colors/border.dark.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.secondary.400}",
+              "type": "color",
+              "description": "-"
+            },
+            "name": "colorBorder300Hover",
+            "attributes": {
+              "category": "color",
+              "type": "border",
+              "item": "300",
+              "subitem": "hover"
+            },
+            "path": [
+              "color",
+              "border",
+              "300",
+              "hover"
+            ]
           },
-          "path": [
-            "color",
-            "border",
-            "300"
-          ]
+          "focus": {
+            "value": "#8b84ed",
+            "type": "color",
+            "description": "-",
+            "filePath": "src/colors/border.dark.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary.400}",
+              "type": "color",
+              "description": "-"
+            },
+            "name": "colorBorder300Focus",
+            "attributes": {
+              "category": "color",
+              "type": "border",
+              "item": "300",
+              "subitem": "focus"
+            },
+            "path": [
+              "color",
+              "border",
+              "300",
+              "focus"
+            ]
+          },
+          "selected": {
+            "value": "#8b84ed",
+            "type": "color",
+            "description": "-",
+            "filePath": "src/colors/border.dark.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary.400}",
+              "type": "color",
+              "description": "-"
+            },
+            "name": "colorBorder300Selected",
+            "attributes": {
+              "category": "color",
+              "type": "border",
+              "item": "300",
+              "subitem": "selected"
+            },
+            "path": [
+              "color",
+              "border",
+              "300",
+              "selected"
+            ]
+          }
         },
         "400": {
-          "value": "#8591a8",
-          "type": "color",
-          "description": "-",
-          "filePath": "src/colors/border.dark.tokens.json",
-          "isSource": true,
-          "original": {
-            "value": "{color.core.gray.400}",
+          "idle": {
+            "value": "#8591a8",
             "type": "color",
-            "description": "-"
+            "description": "-",
+            "filePath": "src/colors/border.dark.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.secondary.400}",
+              "type": "color",
+              "description": "-"
+            },
+            "name": "colorBorder400Idle",
+            "attributes": {
+              "category": "color",
+              "type": "border",
+              "item": "400",
+              "subitem": "idle"
+            },
+            "path": [
+              "color",
+              "border",
+              "400",
+              "idle"
+            ]
           },
-          "name": "colorBorder400",
-          "attributes": {
-            "category": "color",
-            "type": "border",
-            "item": "400"
+          "hover": {
+            "value": "#a2acbe",
+            "type": "color",
+            "description": "-",
+            "filePath": "src/colors/border.dark.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.secondary.300}",
+              "type": "color",
+              "description": "-"
+            },
+            "name": "colorBorder400Hover",
+            "attributes": {
+              "category": "color",
+              "type": "border",
+              "item": "400",
+              "subitem": "hover"
+            },
+            "path": [
+              "color",
+              "border",
+              "400",
+              "hover"
+            ]
           },
-          "path": [
-            "color",
-            "border",
-            "400"
-          ]
+          "focus": {
+            "value": "#8b84ed",
+            "type": "color",
+            "description": "-",
+            "filePath": "src/colors/border.dark.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary.400}",
+              "type": "color",
+              "description": "-"
+            },
+            "name": "colorBorder400Focus",
+            "attributes": {
+              "category": "color",
+              "type": "border",
+              "item": "400",
+              "subitem": "focus"
+            },
+            "path": [
+              "color",
+              "border",
+              "400",
+              "focus"
+            ]
+          },
+          "selected": {
+            "value": "#8b84ed",
+            "type": "color",
+            "description": "-",
+            "filePath": "src/colors/border.dark.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary.400}",
+              "type": "color",
+              "description": "-"
+            },
+            "name": "colorBorder400Selected",
+            "attributes": {
+              "category": "color",
+              "type": "border",
+              "item": "400",
+              "subitem": "selected"
+            },
+            "path": [
+              "color",
+              "border",
+              "400",
+              "selected"
+            ]
+          }
         },
         "500": {
-          "value": "#a2acbe",
-          "type": "color",
-          "description": "-",
-          "filePath": "src/colors/border.dark.tokens.json",
-          "isSource": true,
-          "original": {
-            "value": "{color.core.gray.300}",
+          "idle": {
+            "value": "#a2acbe",
             "type": "color",
-            "description": "-"
+            "description": "-",
+            "filePath": "src/colors/border.dark.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.secondary.300}",
+              "type": "color",
+              "description": "-"
+            },
+            "name": "colorBorder500Idle",
+            "attributes": {
+              "category": "color",
+              "type": "border",
+              "item": "500",
+              "subitem": "idle"
+            },
+            "path": [
+              "color",
+              "border",
+              "500",
+              "idle"
+            ]
           },
-          "name": "colorBorder500",
-          "attributes": {
-            "category": "color",
-            "type": "border",
-            "item": "500"
+          "hover": {
+            "value": "#c1c7d2",
+            "type": "color",
+            "description": "-",
+            "filePath": "src/colors/border.dark.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.secondary.200}",
+              "type": "color",
+              "description": "-"
+            },
+            "name": "colorBorder500Hover",
+            "attributes": {
+              "category": "color",
+              "type": "border",
+              "item": "500",
+              "subitem": "hover"
+            },
+            "path": [
+              "color",
+              "border",
+              "500",
+              "hover"
+            ]
           },
-          "path": [
-            "color",
-            "border",
-            "500"
-          ]
+          "focus": {
+            "value": "#8b84ed",
+            "type": "color",
+            "description": "-",
+            "filePath": "src/colors/border.dark.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary.400}",
+              "type": "color",
+              "description": "-"
+            },
+            "name": "colorBorder500Focus",
+            "attributes": {
+              "category": "color",
+              "type": "border",
+              "item": "500",
+              "subitem": "focus"
+            },
+            "path": [
+              "color",
+              "border",
+              "500",
+              "focus"
+            ]
+          },
+          "selected": {
+            "value": "#8b84ed",
+            "type": "color",
+            "description": "-",
+            "filePath": "src/colors/border.dark.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary.400}",
+              "type": "color",
+              "description": "-"
+            },
+            "name": "colorBorder500Selected",
+            "attributes": {
+              "category": "color",
+              "type": "border",
+              "item": "500",
+              "subitem": "selected"
+            },
+            "path": [
+              "color",
+              "border",
+              "500",
+              "selected"
+            ]
+          }
         },
         "contrast": {
-          "value": "#e0e3e8",
-          "type": "color",
-          "description": "Inverted border",
-          "filePath": "src/colors/border.dark.tokens.json",
-          "isSource": true,
-          "original": {
-            "value": "{color.core.gray.100}",
+          "idle": {
+            "value": "#e0e3e8",
             "type": "color",
-            "description": "Inverted border"
+            "description": "Inverted border",
+            "filePath": "src/colors/border.dark.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.secondary.100}",
+              "type": "color",
+              "description": "Inverted border"
+            },
+            "name": "colorBorderContrastIdle",
+            "attributes": {
+              "category": "color",
+              "type": "border",
+              "item": "contrast",
+              "subitem": "idle"
+            },
+            "path": [
+              "color",
+              "border",
+              "contrast",
+              "idle"
+            ]
           },
-          "name": "colorBorderContrast",
-          "attributes": {
-            "category": "color",
-            "type": "border",
-            "item": "contrast"
+          "hover": {
+            "value": "#e0e3e8",
+            "type": "color",
+            "description": "Inverted hover border",
+            "filePath": "src/colors/border.dark.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.secondary.100}",
+              "type": "color",
+              "description": "Inverted hover border"
+            },
+            "name": "colorBorderContrastHover",
+            "attributes": {
+              "category": "color",
+              "type": "border",
+              "item": "contrast",
+              "subitem": "hover"
+            },
+            "path": [
+              "color",
+              "border",
+              "contrast",
+              "hover"
+            ]
           },
-          "path": [
-            "color",
-            "border",
-            "contrast"
-          ]
+          "focus": {
+            "value": "#8b84ed",
+            "type": "color",
+            "description": "Inverted focus border",
+            "filePath": "src/colors/border.dark.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary.400}",
+              "type": "color",
+              "description": "Inverted focus border"
+            },
+            "name": "colorBorderContrastFocus",
+            "attributes": {
+              "category": "color",
+              "type": "border",
+              "item": "contrast",
+              "subitem": "focus"
+            },
+            "path": [
+              "color",
+              "border",
+              "contrast",
+              "focus"
+            ]
+          },
+          "selected": {
+            "value": "#8b84ed",
+            "type": "color",
+            "description": "Inverted selected border",
+            "filePath": "src/colors/border.dark.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary.400}",
+              "type": "color",
+              "description": "Inverted selected border"
+            },
+            "name": "colorBorderContrastSelected",
+            "attributes": {
+              "category": "color",
+              "type": "border",
+              "item": "contrast",
+              "subitem": "selected"
+            },
+            "path": [
+              "color",
+              "border",
+              "contrast",
+              "selected"
+            ]
+          }
         },
         "inverse": {
-          "value": "#000000",
-          "type": "color",
-          "description": "Inverted border",
-          "filePath": "src/colors/border.dark.tokens.json",
-          "isSource": true,
-          "original": {
-            "value": "{color.core.black}",
+          "idle": {
+            "value": "#000000",
             "type": "color",
-            "description": "Inverted border"
+            "description": "Inverted border",
+            "filePath": "src/colors/border.dark.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.core.black}",
+              "type": "color",
+              "description": "Inverted border"
+            },
+            "name": "colorBorderInverseIdle",
+            "attributes": {
+              "category": "color",
+              "type": "border",
+              "item": "inverse",
+              "subitem": "idle"
+            },
+            "path": [
+              "color",
+              "border",
+              "inverse",
+              "idle"
+            ]
           },
-          "name": "colorBorderInverse",
-          "attributes": {
-            "category": "color",
-            "type": "border",
-            "item": "inverse"
+          "hover": {
+            "value": "#000000",
+            "type": "color",
+            "description": "Inverted hover border",
+            "filePath": "src/colors/border.dark.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.core.black}",
+              "type": "color",
+              "description": "Inverted hover border"
+            },
+            "name": "colorBorderInverseHover",
+            "attributes": {
+              "category": "color",
+              "type": "border",
+              "item": "inverse",
+              "subitem": "hover"
+            },
+            "path": [
+              "color",
+              "border",
+              "inverse",
+              "hover"
+            ]
           },
-          "path": [
-            "color",
-            "border",
-            "inverse"
-          ]
+          "focus": {
+            "value": "#8b84ed",
+            "type": "color",
+            "description": "Inverted focus border",
+            "filePath": "src/colors/border.dark.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary.400}",
+              "type": "color",
+              "description": "Inverted focus border"
+            },
+            "name": "colorBorderInverseFocus",
+            "attributes": {
+              "category": "color",
+              "type": "border",
+              "item": "inverse",
+              "subitem": "focus"
+            },
+            "path": [
+              "color",
+              "border",
+              "inverse",
+              "focus"
+            ]
+          },
+          "selected": {
+            "value": "#8b84ed",
+            "type": "color",
+            "description": "Inverted selected border",
+            "filePath": "src/colors/border.dark.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary.400}",
+              "type": "color",
+              "description": "Inverted selected border"
+            },
+            "name": "colorBorderInverseSelected",
+            "attributes": {
+              "category": "color",
+              "type": "border",
+              "item": "inverse",
+              "subitem": "selected"
+            },
+            "path": [
+              "color",
+              "border",
+              "inverse",
+              "selected"
+            ]
+          }
         }
       },
       "surface": {
         "100": {
-          "value": "#000000",
-          "type": "color",
-          "description": "Lightest surface",
-          "filePath": "src/colors/surface.dark.tokens.json",
-          "isSource": true,
-          "original": {
-            "value": "{color.core.black}",
+          "idle": {
+            "value": "#000000",
             "type": "color",
-            "description": "Lightest surface"
+            "description": "Lightest surface",
+            "filePath": "src/colors/surface.dark.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.core.black}",
+              "type": "color",
+              "description": "Lightest surface"
+            },
+            "name": "colorSurface100Idle",
+            "attributes": {
+              "category": "color",
+              "type": "surface",
+              "item": "100",
+              "subitem": "idle"
+            },
+            "path": [
+              "color",
+              "surface",
+              "100",
+              "idle"
+            ]
           },
-          "name": "colorSurface100",
-          "attributes": {
-            "category": "color",
-            "type": "surface",
-            "item": "100"
+          "hover": {
+            "value": "#191c20",
+            "type": "color",
+            "description": "Lightest hover surface",
+            "filePath": "src/colors/surface.dark.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.secondary.900}",
+              "type": "color",
+              "description": "Lightest hover surface"
+            },
+            "name": "colorSurface100Hover",
+            "attributes": {
+              "category": "color",
+              "type": "surface",
+              "item": "100",
+              "subitem": "hover"
+            },
+            "path": [
+              "color",
+              "surface",
+              "100",
+              "hover"
+            ]
           },
-          "path": [
-            "color",
-            "surface",
-            "100"
-          ]
+          "active": {
+            "value": "#2c3138",
+            "type": "color",
+            "description": "Lightest active surface",
+            "filePath": "src/colors/surface.dark.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.secondary.800}",
+              "type": "color",
+              "description": "Lightest active surface"
+            },
+            "name": "colorSurface100Active",
+            "attributes": {
+              "category": "color",
+              "type": "surface",
+              "item": "100",
+              "subitem": "active"
+            },
+            "path": [
+              "color",
+              "surface",
+              "100",
+              "active"
+            ]
+          }
         },
         "200": {
-          "value": "#191c20",
-          "type": "color",
-          "description": "-",
-          "filePath": "src/colors/surface.dark.tokens.json",
-          "isSource": true,
-          "original": {
-            "value": "{color.core.gray.900}",
+          "idle": {
+            "value": "#191c20",
             "type": "color",
-            "description": "-"
+            "description": "-",
+            "filePath": "src/colors/surface.dark.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.secondary.900}",
+              "type": "color",
+              "description": "-"
+            },
+            "name": "colorSurface200Idle",
+            "attributes": {
+              "category": "color",
+              "type": "surface",
+              "item": "200",
+              "subitem": "idle"
+            },
+            "path": [
+              "color",
+              "surface",
+              "200",
+              "idle"
+            ]
           },
-          "name": "colorSurface200",
-          "attributes": {
-            "category": "color",
-            "type": "surface",
-            "item": "200"
+          "hover": {
+            "value": "#2c3138",
+            "type": "color",
+            "description": "-",
+            "filePath": "src/colors/surface.dark.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.secondary.800}",
+              "type": "color",
+              "description": "-"
+            },
+            "name": "colorSurface200Hover",
+            "attributes": {
+              "category": "color",
+              "type": "surface",
+              "item": "200",
+              "subitem": "hover"
+            },
+            "path": [
+              "color",
+              "surface",
+              "200",
+              "hover"
+            ]
           },
-          "path": [
-            "color",
-            "surface",
-            "200"
-          ]
+          "active": {
+            "value": "#414752",
+            "type": "color",
+            "description": "-",
+            "filePath": "src/colors/surface.dark.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.secondary.700}",
+              "type": "color",
+              "description": "-"
+            },
+            "name": "colorSurface200Active",
+            "attributes": {
+              "category": "color",
+              "type": "surface",
+              "item": "200",
+              "subitem": "active"
+            },
+            "path": [
+              "color",
+              "surface",
+              "200",
+              "active"
+            ]
+          }
         },
         "300": {
-          "value": "#2c3138",
-          "type": "color",
-          "description": "-",
-          "filePath": "src/colors/surface.dark.tokens.json",
-          "isSource": true,
-          "original": {
-            "value": "{color.core.gray.800}",
+          "idle": {
+            "value": "#2c3138",
             "type": "color",
-            "description": "-"
+            "description": "-",
+            "filePath": "src/colors/surface.dark.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.secondary.800}",
+              "type": "color",
+              "description": "-"
+            },
+            "name": "colorSurface300Idle",
+            "attributes": {
+              "category": "color",
+              "type": "surface",
+              "item": "300",
+              "subitem": "idle"
+            },
+            "path": [
+              "color",
+              "surface",
+              "300",
+              "idle"
+            ]
           },
-          "name": "colorSurface300",
-          "attributes": {
-            "category": "color",
-            "type": "surface",
-            "item": "300"
+          "hover": {
+            "value": "#414752",
+            "type": "color",
+            "description": "-",
+            "filePath": "src/colors/surface.dark.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.secondary.700}",
+              "type": "color",
+              "description": "-"
+            },
+            "name": "colorSurface300Hover",
+            "attributes": {
+              "category": "color",
+              "type": "surface",
+              "item": "300",
+              "subitem": "hover"
+            },
+            "path": [
+              "color",
+              "surface",
+              "300",
+              "hover"
+            ]
           },
-          "path": [
-            "color",
-            "surface",
-            "300"
-          ]
+          "active": {
+            "value": "#575f6e",
+            "type": "color",
+            "description": "-",
+            "filePath": "src/colors/surface.dark.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.secondary.600}",
+              "type": "color",
+              "description": "-"
+            },
+            "name": "colorSurface300Active",
+            "attributes": {
+              "category": "color",
+              "type": "surface",
+              "item": "300",
+              "subitem": "active"
+            },
+            "path": [
+              "color",
+              "surface",
+              "300",
+              "active"
+            ]
+          }
         },
         "400": {
-          "value": "#414752",
-          "type": "color",
-          "description": "-",
-          "filePath": "src/colors/surface.dark.tokens.json",
-          "isSource": true,
-          "original": {
-            "value": "{color.core.gray.700}",
+          "idle": {
+            "value": "#414752",
             "type": "color",
-            "description": "-"
+            "description": "-",
+            "filePath": "src/colors/surface.dark.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.secondary.700}",
+              "type": "color",
+              "description": "-"
+            },
+            "name": "colorSurface400Idle",
+            "attributes": {
+              "category": "color",
+              "type": "surface",
+              "item": "400",
+              "subitem": "idle"
+            },
+            "path": [
+              "color",
+              "surface",
+              "400",
+              "idle"
+            ]
           },
-          "name": "colorSurface400",
-          "attributes": {
-            "category": "color",
-            "type": "surface",
-            "item": "400"
+          "hover": {
+            "value": "#575f6e",
+            "type": "color",
+            "description": "-",
+            "filePath": "src/colors/surface.dark.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.secondary.600}",
+              "type": "color",
+              "description": "-"
+            },
+            "name": "colorSurface400Hover",
+            "attributes": {
+              "category": "color",
+              "type": "surface",
+              "item": "400",
+              "subitem": "hover"
+            },
+            "path": [
+              "color",
+              "surface",
+              "400",
+              "hover"
+            ]
           },
-          "path": [
-            "color",
-            "surface",
-            "400"
-          ]
+          "active": {
+            "value": "#6d778a",
+            "type": "color",
+            "description": "-",
+            "filePath": "src/colors/surface.dark.tokens.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.secondary.500}",
+              "type": "color",
+              "description": "-"
+            },
+            "name": "colorSurface400Active",
+            "attributes": {
+              "category": "color",
+              "type": "surface",
+              "item": "400",
+              "subitem": "active"
+            },
+            "path": [
+              "color",
+              "surface",
+              "400",
+              "active"
+            ]
+          }
         }
       },
       "textColor": {
